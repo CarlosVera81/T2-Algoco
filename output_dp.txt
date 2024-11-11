@@ -1,0 +1,1548 @@
+Strings: , unexploitation
+Distancia calculada: 14, Distancia esperada: 14
+Tiempo de ejecución: 0.073067 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar u (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar x (Costo: 1)
+ - Insertar p (Costo: 1)
+ - Insertar l (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar n (Costo: 1)
+----------------------------------------
+Strings: , synallagmatic
+Distancia calculada: 13, Distancia esperada: 13
+Tiempo de ejecución: 0.05388 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar s (Costo: 1)
+ - Insertar y (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar l (Costo: 1)
+ - Insertar l (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar g (Costo: 1)
+ - Insertar m (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar c (Costo: 1)
+----------------------------------------
+Strings: , unhealthiness
+Distancia calculada: 13, Distancia esperada: 13
+Tiempo de ejecución: 0.05878 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar u (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar h (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar l (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar h (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar s (Costo: 1)
+ - Insertar s (Costo: 1)
+----------------------------------------
+Strings: , scabby
+Distancia calculada: 6, Distancia esperada: 6
+Tiempo de ejecución: 0.041047 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar s (Costo: 1)
+ - Insertar c (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar b (Costo: 1)
+ - Insertar b (Costo: 1)
+ - Insertar y (Costo: 1)
+----------------------------------------
+Strings: , archsee
+Distancia calculada: 7, Distancia esperada: 7
+Tiempo de ejecución: 0.041698 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar a (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar c (Costo: 1)
+ - Insertar h (Costo: 1)
+ - Insertar s (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar e (Costo: 1)
+----------------------------------------
+Strings: , overluxuriant
+Distancia calculada: 13, Distancia esperada: 13
+Tiempo de ejecución: 0.048921 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar o (Costo: 1)
+ - Insertar v (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar l (Costo: 1)
+ - Insertar u (Costo: 1)
+ - Insertar x (Costo: 1)
+ - Insertar u (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar t (Costo: 1)
+----------------------------------------
+Strings: , perianth
+Distancia calculada: 8, Distancia esperada: 8
+Tiempo de ejecución: 0.042709 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar p (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar h (Costo: 1)
+----------------------------------------
+Strings: , viscontal
+Distancia calculada: 9, Distancia esperada: 9
+Tiempo de ejecución: 0.043822 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar v (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar s (Costo: 1)
+ - Insertar c (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar l (Costo: 1)
+----------------------------------------
+Strings: , bryozoum
+Distancia calculada: 8, Distancia esperada: 8
+Tiempo de ejecución: 0.04234 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar b (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar y (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar z (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar u (Costo: 1)
+ - Insertar m (Costo: 1)
+----------------------------------------
+Strings: , gainspeaker
+Distancia calculada: 11, Distancia esperada: 11
+Tiempo de ejecución: 0.04837 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar g (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar s (Costo: 1)
+ - Insertar p (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar k (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar r (Costo: 1)
+----------------------------------------
+Strings: , hilariousness
+Distancia calculada: 13, Distancia esperada: 13
+Tiempo de ejecución: 0.072536 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar h (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar l (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar u (Costo: 1)
+ - Insertar s (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar s (Costo: 1)
+ - Insertar s (Costo: 1)
+----------------------------------------
+Strings: , disreputably
+Distancia calculada: 12, Distancia esperada: 12
+Tiempo de ejecución: 0.047659 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar d (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar s (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar p (Costo: 1)
+ - Insertar u (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar b (Costo: 1)
+ - Insertar l (Costo: 1)
+ - Insertar y (Costo: 1)
+----------------------------------------
+Strings: , banco
+Distancia calculada: 5, Distancia esperada: 5
+Tiempo de ejecución: 0.039384 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar b (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar c (Costo: 1)
+ - Insertar o (Costo: 1)
+----------------------------------------
+Strings: , mastorrhagia
+Distancia calculada: 12, Distancia esperada: 12
+Tiempo de ejecución: 0.047338 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar m (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar s (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar h (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar g (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar a (Costo: 1)
+----------------------------------------
+Strings: , chrismation
+Distancia calculada: 11, Distancia esperada: 11
+Tiempo de ejecución: 0.045625 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar c (Costo: 1)
+ - Insertar h (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar s (Costo: 1)
+ - Insertar m (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar n (Costo: 1)
+----------------------------------------
+Strings: , estatesman
+Distancia calculada: 10, Distancia esperada: 10
+Tiempo de ejecución: 0.044553 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar e (Costo: 1)
+ - Insertar s (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar s (Costo: 1)
+ - Insertar m (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar n (Costo: 1)
+----------------------------------------
+Strings: , enrace
+Distancia calculada: 6, Distancia esperada: 6
+Tiempo de ejecución: 0.039684 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar e (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar c (Costo: 1)
+ - Insertar e (Costo: 1)
+----------------------------------------
+Strings: , urometer
+Distancia calculada: 8, Distancia esperada: 8
+Tiempo de ejecución: 0.041928 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar u (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar m (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar r (Costo: 1)
+----------------------------------------
+Strings: , pronotum
+Distancia calculada: 8, Distancia esperada: 8
+Tiempo de ejecución: 0.041888 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar p (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar u (Costo: 1)
+ - Insertar m (Costo: 1)
+----------------------------------------
+Strings: , rentrayeuse
+Distancia calculada: 11, Distancia esperada: 11
+Tiempo de ejecución: 0.045665 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar r (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar y (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar u (Costo: 1)
+ - Insertar s (Costo: 1)
+ - Insertar e (Costo: 1)
+----------------------------------------
+Strings: , gantries
+Distancia calculada: 8, Distancia esperada: 8
+Tiempo de ejecución: 0.041908 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar g (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar s (Costo: 1)
+----------------------------------------
+Strings: , salamandrian
+Distancia calculada: 12, Distancia esperada: 12
+Tiempo de ejecución: 0.046567 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar s (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar l (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar m (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar d (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar n (Costo: 1)
+----------------------------------------
+Strings: , codefendant
+Distancia calculada: 11, Distancia esperada: 11
+Tiempo de ejecución: 0.046026 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar c (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar d (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar f (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar d (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar t (Costo: 1)
+----------------------------------------
+Strings: , unbewritten
+Distancia calculada: 11, Distancia esperada: 11
+Tiempo de ejecución: 0.045585 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar u (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar b (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar w (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar n (Costo: 1)
+----------------------------------------
+Strings: , purler
+Distancia calculada: 6, Distancia esperada: 6
+Tiempo de ejecución: 0.039965 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar p (Costo: 1)
+ - Insertar u (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar l (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar r (Costo: 1)
+----------------------------------------
+Strings: , pneumatologist
+Distancia calculada: 14, Distancia esperada: 14
+Tiempo de ejecución: 0.049603 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar p (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar u (Costo: 1)
+ - Insertar m (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar l (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar g (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar s (Costo: 1)
+ - Insertar t (Costo: 1)
+----------------------------------------
+Strings: , main
+Distancia calculada: 4, Distancia esperada: 4
+Tiempo de ejecución: 0.037991 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar m (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar n (Costo: 1)
+----------------------------------------
+Strings: , intercrystallization
+Distancia calculada: 20, Distancia esperada: 20
+Tiempo de ejecución: 0.071944 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar i (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar c (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar y (Costo: 1)
+ - Insertar s (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar l (Costo: 1)
+ - Insertar l (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar z (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar n (Costo: 1)
+----------------------------------------
+Strings: , bioreaction
+Distancia calculada: 11, Distancia esperada: 11
+Tiempo de ejecución: 0.045845 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar b (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar c (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar n (Costo: 1)
+----------------------------------------
+Strings: , squatmore
+Distancia calculada: 9, Distancia esperada: 9
+Tiempo de ejecución: 0.043451 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar s (Costo: 1)
+ - Insertar q (Costo: 1)
+ - Insertar u (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar m (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar e (Costo: 1)
+----------------------------------------
+Strings: , antiperistatic
+Distancia calculada: 14, Distancia esperada: 14
+Tiempo de ejecución: 0.049803 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar a (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar p (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar s (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar c (Costo: 1)
+----------------------------------------
+Strings: , revivalize
+Distancia calculada: 10, Distancia esperada: 10
+Tiempo de ejecución: 0.044753 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar r (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar v (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar v (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar l (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar z (Costo: 1)
+ - Insertar e (Costo: 1)
+----------------------------------------
+Strings: , chiasmic
+Distancia calculada: 8, Distancia esperada: 8
+Tiempo de ejecución: 0.042239 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar c (Costo: 1)
+ - Insertar h (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar s (Costo: 1)
+ - Insertar m (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar c (Costo: 1)
+----------------------------------------
+Strings: , intraorbital
+Distancia calculada: 12, Distancia esperada: 12
+Tiempo de ejecución: 0.047269 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar i (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar b (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar l (Costo: 1)
+----------------------------------------
+Strings: , giveable
+Distancia calculada: 8, Distancia esperada: 8
+Tiempo de ejecución: 0.042169 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar g (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar v (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar b (Costo: 1)
+ - Insertar l (Costo: 1)
+ - Insertar e (Costo: 1)
+----------------------------------------
+Strings: , yellowlegs
+Distancia calculada: 10, Distancia esperada: 10
+Tiempo de ejecución: 0.044794 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar y (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar l (Costo: 1)
+ - Insertar l (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar w (Costo: 1)
+ - Insertar l (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar g (Costo: 1)
+ - Insertar s (Costo: 1)
+----------------------------------------
+Strings: , zoogeologist
+Distancia calculada: 12, Distancia esperada: 12
+Tiempo de ejecución: 0.046948 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar z (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar g (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar l (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar g (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar s (Costo: 1)
+ - Insertar t (Costo: 1)
+----------------------------------------
+Strings: , in
+Distancia calculada: 2, Distancia esperada: 2
+Tiempo de ejecución: 0.037671 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar i (Costo: 1)
+ - Insertar n (Costo: 1)
+----------------------------------------
+Strings: , apeiron
+Distancia calculada: 7, Distancia esperada: 7
+Tiempo de ejecución: 0.041438 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar a (Costo: 1)
+ - Insertar p (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar n (Costo: 1)
+----------------------------------------
+Strings: , roomthily
+Distancia calculada: 9, Distancia esperada: 9
+Tiempo de ejecución: 0.043721 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar r (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar m (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar h (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar l (Costo: 1)
+ - Insertar y (Costo: 1)
+----------------------------------------
+Strings: , apiarian
+Distancia calculada: 8, Distancia esperada: 8
+Tiempo de ejecución: 0.042309 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar a (Costo: 1)
+ - Insertar p (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar n (Costo: 1)
+----------------------------------------
+Strings: , overstaid
+Distancia calculada: 9, Distancia esperada: 9
+Tiempo de ejecución: 0.043441 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar o (Costo: 1)
+ - Insertar v (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar s (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar d (Costo: 1)
+----------------------------------------
+Strings: , tobaccoweed
+Distancia calculada: 11, Distancia esperada: 11
+Tiempo de ejecución: 0.045905 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar t (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar b (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar c (Costo: 1)
+ - Insertar c (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar w (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar d (Costo: 1)
+----------------------------------------
+Strings: , blastocyst
+Distancia calculada: 10, Distancia esperada: 10
+Tiempo de ejecución: 0.044323 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar b (Costo: 1)
+ - Insertar l (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar s (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar c (Costo: 1)
+ - Insertar y (Costo: 1)
+ - Insertar s (Costo: 1)
+ - Insertar t (Costo: 1)
+----------------------------------------
+Strings: , starflower
+Distancia calculada: 10, Distancia esperada: 10
+Tiempo de ejecución: 0.044413 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar s (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar f (Costo: 1)
+ - Insertar l (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar w (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar r (Costo: 1)
+----------------------------------------
+Strings: , intemporally
+Distancia calculada: 12, Distancia esperada: 12
+Tiempo de ejecución: 0.046587 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar i (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar m (Costo: 1)
+ - Insertar p (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar l (Costo: 1)
+ - Insertar l (Costo: 1)
+ - Insertar y (Costo: 1)
+----------------------------------------
+Strings: , rodding
+Distancia calculada: 7, Distancia esperada: 7
+Tiempo de ejecución: 0.040897 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar r (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar d (Costo: 1)
+ - Insertar d (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar g (Costo: 1)
+----------------------------------------
+Strings: , amotus
+Distancia calculada: 6, Distancia esperada: 6
+Tiempo de ejecución: 0.059792 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar a (Costo: 1)
+ - Insertar m (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar u (Costo: 1)
+ - Insertar s (Costo: 1)
+----------------------------------------
+Strings: , hepatolysis
+Distancia calculada: 11, Distancia esperada: 11
+Tiempo de ejecución: 0.055263 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar h (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar p (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar l (Costo: 1)
+ - Insertar y (Costo: 1)
+ - Insertar s (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar s (Costo: 1)
+----------------------------------------
+Strings: , tersely
+Distancia calculada: 7, Distancia esperada: 7
+Tiempo de ejecución: 0.056826 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar t (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar s (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar l (Costo: 1)
+ - Insertar y (Costo: 1)
+----------------------------------------
+Strings: , calibration
+Distancia calculada: 11, Distancia esperada: 11
+Tiempo de ejecución: 0.046828 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar c (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar l (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar b (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar n (Costo: 1)
+----------------------------------------
+Strings: , annexion
+Distancia calculada: 8, Distancia esperada: 8
+Tiempo de ejecución: 0.070132 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar a (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar x (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar n (Costo: 1)
+----------------------------------------
+Strings: , argyrodite
+Distancia calculada: 10, Distancia esperada: 10
+Tiempo de ejecución: 0.067065 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar a (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar g (Costo: 1)
+ - Insertar y (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar d (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar e (Costo: 1)
+----------------------------------------
+Strings: , unpurchased
+Distancia calculada: 11, Distancia esperada: 11
+Tiempo de ejecución: 0.045865 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar u (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar p (Costo: 1)
+ - Insertar u (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar c (Costo: 1)
+ - Insertar h (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar s (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar d (Costo: 1)
+----------------------------------------
+Strings: , sluttishness
+Distancia calculada: 12, Distancia esperada: 12
+Tiempo de ejecución: 0.047269 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar s (Costo: 1)
+ - Insertar l (Costo: 1)
+ - Insertar u (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar s (Costo: 1)
+ - Insertar h (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar s (Costo: 1)
+ - Insertar s (Costo: 1)
+----------------------------------------
+Strings: , bilateralness
+Distancia calculada: 13, Distancia esperada: 13
+Tiempo de ejecución: 0.07516 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar b (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar l (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar l (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar s (Costo: 1)
+ - Insertar s (Costo: 1)
+----------------------------------------
+Strings: , micropetrography
+Distancia calculada: 16, Distancia esperada: 16
+Tiempo de ejecución: 0.069299 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar m (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar c (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar p (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar g (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar p (Costo: 1)
+ - Insertar h (Costo: 1)
+ - Insertar y (Costo: 1)
+----------------------------------------
+Strings: , semiforeign
+Distancia calculada: 11, Distancia esperada: 11
+Tiempo de ejecución: 0.045986 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar s (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar m (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar f (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar g (Costo: 1)
+ - Insertar n (Costo: 1)
+----------------------------------------
+Strings: , overexquisite
+Distancia calculada: 13, Distancia esperada: 13
+Tiempo de ejecución: 0.048271 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar o (Costo: 1)
+ - Insertar v (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar x (Costo: 1)
+ - Insertar q (Costo: 1)
+ - Insertar u (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar s (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar e (Costo: 1)
+----------------------------------------
+Strings: , serobiological
+Distancia calculada: 14, Distancia esperada: 14
+Tiempo de ejecución: 0.049472 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar s (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar b (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar l (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar g (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar c (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar l (Costo: 1)
+----------------------------------------
+Strings: , facioplegia
+Distancia calculada: 11, Distancia esperada: 11
+Tiempo de ejecución: 0.045395 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar f (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar c (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar p (Costo: 1)
+ - Insertar l (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar g (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar a (Costo: 1)
+----------------------------------------
+Strings: , saccharify
+Distancia calculada: 10, Distancia esperada: 10
+Tiempo de ejecución: 0.044703 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar s (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar c (Costo: 1)
+ - Insertar c (Costo: 1)
+ - Insertar h (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar f (Costo: 1)
+ - Insertar y (Costo: 1)
+----------------------------------------
+Strings: , strome
+Distancia calculada: 6, Distancia esperada: 6
+Tiempo de ejecución: 0.040245 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar s (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar m (Costo: 1)
+ - Insertar e (Costo: 1)
+----------------------------------------
+Strings: , versipel
+Distancia calculada: 8, Distancia esperada: 8
+Tiempo de ejecución: 0.064271 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar v (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar s (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar p (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar l (Costo: 1)
+----------------------------------------
+Strings: , dispendious
+Distancia calculada: 11, Distancia esperada: 11
+Tiempo de ejecución: 0.045816 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar d (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar s (Costo: 1)
+ - Insertar p (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar d (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar u (Costo: 1)
+ - Insertar s (Costo: 1)
+----------------------------------------
+Strings: , cloy
+Distancia calculada: 4, Distancia esperada: 4
+Tiempo de ejecución: 0.038693 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar c (Costo: 1)
+ - Insertar l (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar y (Costo: 1)
+----------------------------------------
+Strings: , psychorhythmically
+Distancia calculada: 18, Distancia esperada: 18
+Tiempo de ejecución: 0.057007 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar p (Costo: 1)
+ - Insertar s (Costo: 1)
+ - Insertar y (Costo: 1)
+ - Insertar c (Costo: 1)
+ - Insertar h (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar h (Costo: 1)
+ - Insertar y (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar h (Costo: 1)
+ - Insertar m (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar c (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar l (Costo: 1)
+ - Insertar l (Costo: 1)
+ - Insertar y (Costo: 1)
+----------------------------------------
+Strings: , penury
+Distancia calculada: 6, Distancia esperada: 6
+Tiempo de ejecución: 0.040706 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar p (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar u (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar y (Costo: 1)
+----------------------------------------
+Strings: , excentral
+Distancia calculada: 9, Distancia esperada: 9
+Tiempo de ejecución: 0.043201 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar e (Costo: 1)
+ - Insertar x (Costo: 1)
+ - Insertar c (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar l (Costo: 1)
+----------------------------------------
+Strings: , praecornu
+Distancia calculada: 9, Distancia esperada: 9
+Tiempo de ejecución: 0.04293 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar p (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar c (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar u (Costo: 1)
+----------------------------------------
+Strings: , partinium
+Distancia calculada: 9, Distancia esperada: 9
+Tiempo de ejecución: 0.063288 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar p (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar u (Costo: 1)
+ - Insertar m (Costo: 1)
+----------------------------------------
+Strings: , guaiaconic
+Distancia calculada: 10, Distancia esperada: 10
+Tiempo de ejecución: 0.04795 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar g (Costo: 1)
+ - Insertar u (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar c (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar c (Costo: 1)
+----------------------------------------
+Strings: , unfearful
+Distancia calculada: 9, Distancia esperada: 9
+Tiempo de ejecución: 0.065973 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar u (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar f (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar f (Costo: 1)
+ - Insertar u (Costo: 1)
+ - Insertar l (Costo: 1)
+----------------------------------------
+Strings: , sachamaker
+Distancia calculada: 10, Distancia esperada: 10
+Tiempo de ejecución: 0.057448 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar s (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar c (Costo: 1)
+ - Insertar h (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar m (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar k (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar r (Costo: 1)
+----------------------------------------
+Strings: , phlebolitic
+Distancia calculada: 11, Distancia esperada: 11
+Tiempo de ejecución: 0.070171 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar p (Costo: 1)
+ - Insertar h (Costo: 1)
+ - Insertar l (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar b (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar l (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar c (Costo: 1)
+----------------------------------------
+Strings: , spriggy
+Distancia calculada: 7, Distancia esperada: 7
+Tiempo de ejecución: 0.046336 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar s (Costo: 1)
+ - Insertar p (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar g (Costo: 1)
+ - Insertar g (Costo: 1)
+ - Insertar y (Costo: 1)
+----------------------------------------
+Strings: , bauson
+Distancia calculada: 6, Distancia esperada: 6
+Tiempo de ejecución: 0.040065 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar b (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar u (Costo: 1)
+ - Insertar s (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar n (Costo: 1)
+----------------------------------------
+Strings: , associated
+Distancia calculada: 10, Distancia esperada: 10
+Tiempo de ejecución: 0.044153 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar a (Costo: 1)
+ - Insertar s (Costo: 1)
+ - Insertar s (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar c (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar d (Costo: 1)
+----------------------------------------
+Strings: , cacao
+Distancia calculada: 5, Distancia esperada: 5
+Tiempo de ejecución: 0.039514 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar c (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar c (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar o (Costo: 1)
+----------------------------------------
+Strings: , tribrachic
+Distancia calculada: 10, Distancia esperada: 10
+Tiempo de ejecución: 0.044353 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar t (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar b (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar c (Costo: 1)
+ - Insertar h (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar c (Costo: 1)
+----------------------------------------
+Strings: , footwear
+Distancia calculada: 8, Distancia esperada: 8
+Tiempo de ejecución: 0.041838 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar f (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar w (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar r (Costo: 1)
+----------------------------------------
+Strings: , clarain
+Distancia calculada: 7, Distancia esperada: 7
+Tiempo de ejecución: 0.040676 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar c (Costo: 1)
+ - Insertar l (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar n (Costo: 1)
+----------------------------------------
+Strings: , unrimpled
+Distancia calculada: 9, Distancia esperada: 9
+Tiempo de ejecución: 0.04292 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar u (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar m (Costo: 1)
+ - Insertar p (Costo: 1)
+ - Insertar l (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar d (Costo: 1)
+----------------------------------------
+Strings: , quiescency
+Distancia calculada: 10, Distancia esperada: 10
+Tiempo de ejecución: 0.044033 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar q (Costo: 1)
+ - Insertar u (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar s (Costo: 1)
+ - Insertar c (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar c (Costo: 1)
+ - Insertar y (Costo: 1)
+----------------------------------------
+Strings: , granulose
+Distancia calculada: 9, Distancia esperada: 9
+Tiempo de ejecución: 0.04318 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar g (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar u (Costo: 1)
+ - Insertar l (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar s (Costo: 1)
+ - Insertar e (Costo: 1)
+----------------------------------------
+Strings: , context
+Distancia calculada: 7, Distancia esperada: 7
+Tiempo de ejecución: 0.040796 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar c (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar x (Costo: 1)
+ - Insertar t (Costo: 1)
+----------------------------------------
+Strings: , saurel
+Distancia calculada: 6, Distancia esperada: 6
+Tiempo de ejecución: 0.040135 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar s (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar u (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar l (Costo: 1)
+----------------------------------------
+Strings: , preadamitic
+Distancia calculada: 11, Distancia esperada: 11
+Tiempo de ejecución: 0.045345 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar p (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar d (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar m (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar c (Costo: 1)
+----------------------------------------
+Strings: , humbugger
+Distancia calculada: 9, Distancia esperada: 9
+Tiempo de ejecución: 0.042981 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar h (Costo: 1)
+ - Insertar u (Costo: 1)
+ - Insertar m (Costo: 1)
+ - Insertar b (Costo: 1)
+ - Insertar u (Costo: 1)
+ - Insertar g (Costo: 1)
+ - Insertar g (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar r (Costo: 1)
+----------------------------------------
+Strings: , eaten
+Distancia calculada: 5, Distancia esperada: 5
+Tiempo de ejecución: 0.038723 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar e (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar n (Costo: 1)
+----------------------------------------
+Strings: , disilicate
+Distancia calculada: 10, Distancia esperada: 10
+Tiempo de ejecución: 0.050033 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar d (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar s (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar l (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar c (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar e (Costo: 1)
+----------------------------------------
+Strings: , mung
+Distancia calculada: 4, Distancia esperada: 4
+Tiempo de ejecución: 0.039835 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar m (Costo: 1)
+ - Insertar u (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar g (Costo: 1)
+----------------------------------------
+Strings: , pedipalpous
+Distancia calculada: 11, Distancia esperada: 11
+Tiempo de ejecución: 0.046677 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar p (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar d (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar p (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar l (Costo: 1)
+ - Insertar p (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar u (Costo: 1)
+ - Insertar s (Costo: 1)
+----------------------------------------
+Strings: , satrapy
+Distancia calculada: 7, Distancia esperada: 7
+Tiempo de ejecución: 0.041457 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar s (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar p (Costo: 1)
+ - Insertar y (Costo: 1)
+----------------------------------------
+Strings: , tungstenite
+Distancia calculada: 11, Distancia esperada: 11
+Tiempo de ejecución: 0.046046 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar t (Costo: 1)
+ - Insertar u (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar g (Costo: 1)
+ - Insertar s (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar e (Costo: 1)
+----------------------------------------
+Strings: , thrown
+Distancia calculada: 6, Distancia esperada: 6
+Tiempo de ejecución: 0.040285 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar t (Costo: 1)
+ - Insertar h (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar w (Costo: 1)
+ - Insertar n (Costo: 1)
+----------------------------------------
+Strings: , zirconyl
+Distancia calculada: 8, Distancia esperada: 8
+Tiempo de ejecución: 0.041939 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar z (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar c (Costo: 1)
+ - Insertar o (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar y (Costo: 1)
+ - Insertar l (Costo: 1)
+----------------------------------------
+Strings: , artifice
+Distancia calculada: 8, Distancia esperada: 8
+Tiempo de ejecución: 0.041808 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar a (Costo: 1)
+ - Insertar r (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar f (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar c (Costo: 1)
+ - Insertar e (Costo: 1)
+----------------------------------------
+Strings: , eulysite
+Distancia calculada: 8, Distancia esperada: 8
+Tiempo de ejecución: 0.041738 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar e (Costo: 1)
+ - Insertar u (Costo: 1)
+ - Insertar l (Costo: 1)
+ - Insertar y (Costo: 1)
+ - Insertar s (Costo: 1)
+ - Insertar i (Costo: 1)
+ - Insertar t (Costo: 1)
+ - Insertar e (Costo: 1)
+----------------------------------------
+Strings: , bungmaker
+Distancia calculada: 9, Distancia esperada: 9
+Tiempo de ejecución: 0.04307 ms
+Uso máximo de memoria: 0 KB
+Operaciones óptimas:
+ - Insertar b (Costo: 1)
+ - Insertar u (Costo: 1)
+ - Insertar n (Costo: 1)
+ - Insertar g (Costo: 1)
+ - Insertar m (Costo: 1)
+ - Insertar a (Costo: 1)
+ - Insertar k (Costo: 1)
+ - Insertar e (Costo: 1)
+ - Insertar r (Costo: 1)
+----------------------------------------

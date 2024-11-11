@@ -1,0 +1,86 @@
+
+\begin{comment}
+\begin{mdframed}
+    \textbf{La extensión máxima para esta sección es de 2 páginas.}
+\end{mdframed}
+
+La introducción de este tipo de informes o reportes, tiene como objetivo principal \textbf{contextualizar el problema que se va a analizar}, proporcionando al lector la información necesaria para entender la relevancia del mismo. 
+
+Es fundamental que en esta sección se presenten los antecedentes del problema, destacando investigaciones previas o principios teóricos que sirvan como base para los análisis posteriores. Además, deben explicarse los objetivos del informe, que pueden incluir la evaluación de un algoritmo, la comparación de métodos o la validación de resultados experimentales.
+
+Aunque la estructura y el enfoque siguen principios de trabajos académicos, se debe recordar que estos informes no son publicaciones científicas formales, sino trabajos de pregrado. Por lo tanto, se busca un enfoque claro y directo, que permita al lector comprender la naturaleza del problema y los objetivos del análisis, sin entrar en detalles excesivos. 
+
+
+Introduction Checklist de \citetitle{GoodScientificPaper} \cite{GoodScientificPaper}, adaptada a nuestro contexto:
+
+\begin{itemize}
+\item Indique el \textbf{campo del trabajo} (Análisis y Diseño de algoritmos en Ciencias de la Computación), por qué este campo es importante y qué se ha hecho ya en este área, con las \textbf{citas} adecuadas de la literatura académica o fuentes relevantes.
+\item Identifique una \textbf{brecha} en el conocimiento, un desafío práctico, o plantee una \textbf{pregunta} relacionada con la eficiencia, complejidad o aplicabilidad de un algoritmo particular.
+\item Resuma el propósito del informe e introduzca el análisis o experimento, dejando claro qué se está investigando o comparando, e indique \textbf{qué es novedoso} o por qué es significativo en el contexto de un curso de pregrado.
+\item Evite; repetir el resumen; proporcionar información innecesaria o fuera del alcance de la materia (limítese al análisis de algoritmos o conceptos de complejidad); exagerar la importancia del trabajo (recuerde que se trata de un informe de pregrado); afirmar novedad sin una comparación adecuada con lo enseñado en clase o la bibliografía recomendada.
+\end{itemize}
+
+
+
+\begin{mdframed}
+Recuerde que este es su trabajo, y sólo usted puede expresar con precisión lo que ha aprendido y quiere transmitir. Si lo hace bien, su introducción será más significativa y valiosa que cualquier texto automatizado. ¡Confíe en sus habilidades, y verá que puede hacer un mejor trabajo que cualquier herramienta que automatiza la generación de texto!
+\end{mdframed}
+\end{comment}
+
+\begin{quote}
+"La algoritmia es una de las
+bases fundamentales de ciencias de la computación. Aunque otras areas
+han ganado terreno últimamente e.g., ciencia de datos, inteligencia
+artificial y deep learning , la algoritmia sigue siendo fundamental para
+proveer soluciones eficientes a muchos de los problemas que aparecen
+en esas areas. Es, de alguna manera, un area transversal a ciencias de
+la computación."
+\end{quote}\citetitle{algoritmos_discretos} \cite{algoritmos_discretos}
+
+
+En este informe se estudiará la distancia de edición 
+extendida o también conocida como
+\textbf{Damerau-Levenshtein Distance}, este algoritmo nos permite
+calcular el numero mínimo de operaciones para transformar una cadena
+de caracteres en otra. Las operaciones corresponden a \textbf{Sustitución,
+Inserción, Eliminación y Transposición.} Donde cada una tiene un costo
+asociado y el cual se busca minimizar.
+
+El algoritmo tiene diversas aplicaciones, dentro de ellas esta
+la búsqueda sobre documentos mediante escaneo, búsqueda en textos antiguos,
+búsqueda en bases de datos biológicas y corrección ortográfica. Lo cual
+hace que este algoritmo sea igual de importante para la ciencia que para
+la vida cotidiana. Ademas, es importante mencionar que debido a la cantidad
+de datos a analizar en los distintos campos, la eficiencia del algoritmo
+es algo que se ha ganado importancia a traves del tiempo.
+\cite{algoritmos_discretos}
+
+Con este informe se busca implementar el algoritmo mediante dos metodologías
+de diseño distintas, fuerza bruta y programación dinámica. Las cuales en la
+teoría, poseen distintas complejidades temporales y espaciales. Esto se hará
+con el fin de comparar empíricamente las dos implementaciones y 
+contrastarlo con la teoría, para asi determinar cual de las dos es mejor.
+
+Teóricamente, la implementación del algoritmo mediante fuerza bruta 
+posee una complejidad temporal perteneciente a \( O(4^n) \), donde el 4 proviene
+de la cantidad de operaciones a probar y el n corresponde al tamaño de la cadena mas larga, la complejidad
+espacial del algoritmo pertenece a \( O(m) \) (Que corresponde a la profundidad de la pila
+de recursion). Por otra parte, la implementación mediante programación dinámica
+posee una complejidad temporal y espacial perteneciente a \( O(n*m) \) donde n y m corresponden
+al largo de las cadenas.
+
+Sobre el papel, a medida que crece el tamaño de la entrada, el algoritmo bajo programación
+dinámica debería ser mucho mejor, por otra parte, el algoritmo de fuerza bruta debería
+utilizar menor cantidad de espacio adicional, por lo cual dependiendo del escenario, uno
+podría ser mejor que el otro. Es significativo 
+realizar estas comparaciones ya que puede ocurrir 
+que en asintóticamente una implementación sea mejor que otra
+pero en la practica, por ejemplo, solo se cumpla para entradas muy grandes.
+Por lo cual, nos podemos preguntar ¿Esto se refleja en escenarios reales?
+
+
+Para realizar las comparaciones
+se medirá el tiempo de ejecución de cada implementación
+al igual que el consumo de memoria RAM para las mismas entradas, con 
+el fin de reducir desvíos en las mediciones, se usara el promedio
+de varias ejecuciones para dar un resultado mas significativo.

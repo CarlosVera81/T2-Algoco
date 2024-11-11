@@ -1,0 +1,1880 @@
+Strings: "ccchhkkkk" y "kkkkhhccc"
+Distancia esperada: 10, Distancia calculada: 10
+Tiempo de ejecución: 1079 ms
+Secuencia de operaciones óptima:
+  - Insertar 'h' (costo: 1)
+  - Insertar 'h' (costo: 1)
+  - Insertar 'c' (costo: 1)
+  - Insertar 'c' (costo: 1)
+  - Insertar 'c' (costo: 1)
+  - Sustituir 'k' por 'k' (costo: 0)
+  - Sustituir 'k' por 'k' (costo: 0)
+  - Sustituir 'k' por 'k' (costo: 0)
+  - Sustituir 'k' por 'k' (costo: 0)
+  - Eliminar 'h' (costo: 1)
+  - Eliminar 'h' (costo: 1)
+  - Eliminar 'c' (costo: 1)
+  - Eliminar 'c' (costo: 1)
+  - Eliminar 'c' (costo: 1)
+--------------------------
+Strings: "ssssyyyee" y "eeyyyssss"
+Distancia esperada: 10, Distancia calculada: 10
+Tiempo de ejecución: 1095 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'y' (costo: 1)
+  - Eliminar 'y' (costo: 1)
+  - Eliminar 'y' (costo: 1)
+  - Eliminar 'e' (costo: 1)
+  - Eliminar 'e' (costo: 1)
+  - Sustituir 's' por 's' (costo: 0)
+  - Sustituir 's' por 's' (costo: 0)
+  - Sustituir 's' por 's' (costo: 0)
+  - Sustituir 's' por 's' (costo: 0)
+  - Insertar 'y' (costo: 1)
+  - Insertar 'y' (costo: 1)
+  - Insertar 'y' (costo: 1)
+  - Insertar 'e' (costo: 1)
+  - Insertar 'e' (costo: 1)
+--------------------------
+Strings: "iiinnnnpppp" y "ppppnnnniii"
+Distancia esperada: 14, Distancia calculada: 14
+Tiempo de ejecución: 35450 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'p' (costo: 1)
+  - Eliminar 'p' (costo: 1)
+  - Eliminar 'p' (costo: 1)
+  - Eliminar 'p' (costo: 1)
+  - Insertar 'i' (costo: 1)
+  - Insertar 'i' (costo: 1)
+  - Insertar 'i' (costo: 1)
+  - Sustituir 'n' por 'n' (costo: 0)
+  - Sustituir 'n' por 'n' (costo: 0)
+  - Sustituir 'n' por 'n' (costo: 0)
+  - Sustituir 'n' por 'n' (costo: 0)
+  - Eliminar 'i' (costo: 1)
+  - Eliminar 'i' (costo: 1)
+  - Eliminar 'i' (costo: 1)
+  - Insertar 'p' (costo: 1)
+  - Insertar 'p' (costo: 1)
+  - Insertar 'p' (costo: 1)
+  - Insertar 'p' (costo: 1)
+--------------------------
+Strings: "wwaaallll" y "llllaaaww"
+Distancia esperada: 10, Distancia calculada: 10
+Tiempo de ejecución: 1074 ms
+Secuencia de operaciones óptima:
+  - Insertar 'a' (costo: 1)
+  - Insertar 'a' (costo: 1)
+  - Insertar 'a' (costo: 1)
+  - Insertar 'w' (costo: 1)
+  - Insertar 'w' (costo: 1)
+  - Sustituir 'l' por 'l' (costo: 0)
+  - Sustituir 'l' por 'l' (costo: 0)
+  - Sustituir 'l' por 'l' (costo: 0)
+  - Sustituir 'l' por 'l' (costo: 0)
+  - Eliminar 'a' (costo: 1)
+  - Eliminar 'a' (costo: 1)
+  - Eliminar 'a' (costo: 1)
+  - Eliminar 'w' (costo: 1)
+  - Eliminar 'w' (costo: 1)
+--------------------------
+Strings: "rrbbuuu" y "uuubbrr"
+Distancia esperada: 8, Distancia calculada: 8
+Tiempo de ejecución: 37 ms
+Secuencia de operaciones óptima:
+  - Insertar 'b' (costo: 1)
+  - Insertar 'b' (costo: 1)
+  - Insertar 'r' (costo: 1)
+  - Insertar 'r' (costo: 1)
+  - Sustituir 'u' por 'u' (costo: 0)
+  - Sustituir 'u' por 'u' (costo: 0)
+  - Sustituir 'u' por 'u' (costo: 0)
+  - Eliminar 'b' (costo: 1)
+  - Eliminar 'b' (costo: 1)
+  - Eliminar 'r' (costo: 1)
+  - Eliminar 'r' (costo: 1)
+--------------------------
+Strings: "yymmmuuuu" y "uuuummmyy"
+Distancia esperada: 10, Distancia calculada: 10
+Tiempo de ejecución: 1089 ms
+Secuencia de operaciones óptima:
+  - Insertar 'm' (costo: 1)
+  - Insertar 'm' (costo: 1)
+  - Insertar 'm' (costo: 1)
+  - Insertar 'y' (costo: 1)
+  - Insertar 'y' (costo: 1)
+  - Sustituir 'u' por 'u' (costo: 0)
+  - Sustituir 'u' por 'u' (costo: 0)
+  - Sustituir 'u' por 'u' (costo: 0)
+  - Sustituir 'u' por 'u' (costo: 0)
+  - Eliminar 'm' (costo: 1)
+  - Eliminar 'm' (costo: 1)
+  - Eliminar 'm' (costo: 1)
+  - Eliminar 'y' (costo: 1)
+  - Eliminar 'y' (costo: 1)
+--------------------------
+Strings: "dddhhhhjj" y "jjhhhhddd"
+Distancia esperada: 10, Distancia calculada: 10
+Tiempo de ejecución: 1123 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'j' (costo: 1)
+  - Eliminar 'j' (costo: 1)
+  - Insertar 'd' (costo: 1)
+  - Insertar 'd' (costo: 1)
+  - Insertar 'd' (costo: 1)
+  - Sustituir 'h' por 'h' (costo: 0)
+  - Sustituir 'h' por 'h' (costo: 0)
+  - Sustituir 'h' por 'h' (costo: 0)
+  - Sustituir 'h' por 'h' (costo: 0)
+  - Eliminar 'd' (costo: 1)
+  - Eliminar 'd' (costo: 1)
+  - Eliminar 'd' (costo: 1)
+  - Insertar 'j' (costo: 1)
+  - Insertar 'j' (costo: 1)
+--------------------------
+Strings: "xxxqqqqsss" y "sssqqqqxxx"
+Distancia esperada: 12, Distancia calculada: 12
+Tiempo de ejecución: 6327 ms
+Secuencia de operaciones óptima:
+  - Eliminar 's' (costo: 1)
+  - Eliminar 's' (costo: 1)
+  - Eliminar 's' (costo: 1)
+  - Insertar 'x' (costo: 1)
+  - Insertar 'x' (costo: 1)
+  - Insertar 'x' (costo: 1)
+  - Sustituir 'q' por 'q' (costo: 0)
+  - Sustituir 'q' por 'q' (costo: 0)
+  - Sustituir 'q' por 'q' (costo: 0)
+  - Sustituir 'q' por 'q' (costo: 0)
+  - Eliminar 'x' (costo: 1)
+  - Eliminar 'x' (costo: 1)
+  - Eliminar 'x' (costo: 1)
+  - Insertar 's' (costo: 1)
+  - Insertar 's' (costo: 1)
+  - Insertar 's' (costo: 1)
+--------------------------
+Strings: "wwrruuuu" y "uuuurrww"
+Distancia esperada: 8, Distancia calculada: 8
+Tiempo de ejecución: 199 ms
+Secuencia de operaciones óptima:
+  - Insertar 'r' (costo: 1)
+  - Insertar 'r' (costo: 1)
+  - Insertar 'w' (costo: 1)
+  - Insertar 'w' (costo: 1)
+  - Sustituir 'u' por 'u' (costo: 0)
+  - Sustituir 'u' por 'u' (costo: 0)
+  - Sustituir 'u' por 'u' (costo: 0)
+  - Sustituir 'u' por 'u' (costo: 0)
+  - Eliminar 'r' (costo: 1)
+  - Eliminar 'r' (costo: 1)
+  - Eliminar 'w' (costo: 1)
+  - Eliminar 'w' (costo: 1)
+--------------------------
+Strings: "yyyyuuuubb" y "bbuuuuyyyy"
+Distancia esperada: 12, Distancia calculada: 12
+Tiempo de ejecución: 6292 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'u' (costo: 1)
+  - Eliminar 'u' (costo: 1)
+  - Eliminar 'u' (costo: 1)
+  - Eliminar 'u' (costo: 1)
+  - Eliminar 'b' (costo: 1)
+  - Eliminar 'b' (costo: 1)
+  - Sustituir 'y' por 'y' (costo: 0)
+  - Sustituir 'y' por 'y' (costo: 0)
+  - Sustituir 'y' por 'y' (costo: 0)
+  - Sustituir 'y' por 'y' (costo: 0)
+  - Insertar 'u' (costo: 1)
+  - Insertar 'u' (costo: 1)
+  - Insertar 'u' (costo: 1)
+  - Insertar 'u' (costo: 1)
+  - Insertar 'b' (costo: 1)
+  - Insertar 'b' (costo: 1)
+--------------------------
+Strings: "cccciiimmm" y "mmmiiicccc"
+Distancia esperada: 12, Distancia calculada: 12
+Tiempo de ejecución: 6109 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'i' (costo: 1)
+  - Eliminar 'i' (costo: 1)
+  - Eliminar 'i' (costo: 1)
+  - Eliminar 'm' (costo: 1)
+  - Eliminar 'm' (costo: 1)
+  - Eliminar 'm' (costo: 1)
+  - Sustituir 'c' por 'c' (costo: 0)
+  - Sustituir 'c' por 'c' (costo: 0)
+  - Sustituir 'c' por 'c' (costo: 0)
+  - Sustituir 'c' por 'c' (costo: 0)
+  - Insertar 'i' (costo: 1)
+  - Insertar 'i' (costo: 1)
+  - Insertar 'i' (costo: 1)
+  - Insertar 'm' (costo: 1)
+  - Insertar 'm' (costo: 1)
+  - Insertar 'm' (costo: 1)
+--------------------------
+Strings: "oooooohhh" y "hhhoooooo"
+Distancia esperada: 6, Distancia calculada: 6
+Tiempo de ejecución: 1156 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'h' (costo: 1)
+  - Eliminar 'h' (costo: 1)
+  - Eliminar 'h' (costo: 1)
+  - Sustituir 'o' por 'o' (costo: 0)
+  - Sustituir 'o' por 'o' (costo: 0)
+  - Sustituir 'o' por 'o' (costo: 0)
+  - Sustituir 'o' por 'o' (costo: 0)
+  - Sustituir 'o' por 'o' (costo: 0)
+  - Sustituir 'o' por 'o' (costo: 0)
+  - Insertar 'h' (costo: 1)
+  - Insertar 'h' (costo: 1)
+  - Insertar 'h' (costo: 1)
+--------------------------
+Strings: "rrrrxxiii" y "iiixxrrrr"
+Distancia esperada: 10, Distancia calculada: 10
+Tiempo de ejecución: 1059 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'x' (costo: 1)
+  - Eliminar 'x' (costo: 1)
+  - Eliminar 'i' (costo: 1)
+  - Eliminar 'i' (costo: 1)
+  - Eliminar 'i' (costo: 1)
+  - Sustituir 'r' por 'r' (costo: 0)
+  - Sustituir 'r' por 'r' (costo: 0)
+  - Sustituir 'r' por 'r' (costo: 0)
+  - Sustituir 'r' por 'r' (costo: 0)
+  - Insertar 'x' (costo: 1)
+  - Insertar 'x' (costo: 1)
+  - Insertar 'i' (costo: 1)
+  - Insertar 'i' (costo: 1)
+  - Insertar 'i' (costo: 1)
+--------------------------
+Strings: "nnmmmmddd" y "dddmmmmnn"
+Distancia esperada: 10, Distancia calculada: 10
+Tiempo de ejecución: 1124 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'd' (costo: 1)
+  - Eliminar 'd' (costo: 1)
+  - Eliminar 'd' (costo: 1)
+  - Insertar 'n' (costo: 1)
+  - Insertar 'n' (costo: 1)
+  - Sustituir 'm' por 'm' (costo: 0)
+  - Sustituir 'm' por 'm' (costo: 0)
+  - Sustituir 'm' por 'm' (costo: 0)
+  - Sustituir 'm' por 'm' (costo: 0)
+  - Eliminar 'n' (costo: 1)
+  - Eliminar 'n' (costo: 1)
+  - Insertar 'd' (costo: 1)
+  - Insertar 'd' (costo: 1)
+  - Insertar 'd' (costo: 1)
+--------------------------
+Strings: "ssrrbbb" y "bbbrrss"
+Distancia esperada: 8, Distancia calculada: 8
+Tiempo de ejecución: 36 ms
+Secuencia de operaciones óptima:
+  - Insertar 'r' (costo: 1)
+  - Insertar 'r' (costo: 1)
+  - Insertar 's' (costo: 1)
+  - Insertar 's' (costo: 1)
+  - Sustituir 'b' por 'b' (costo: 0)
+  - Sustituir 'b' por 'b' (costo: 0)
+  - Sustituir 'b' por 'b' (costo: 0)
+  - Eliminar 'r' (costo: 1)
+  - Eliminar 'r' (costo: 1)
+  - Eliminar 's' (costo: 1)
+  - Eliminar 's' (costo: 1)
+--------------------------
+Strings: "kkkkkkkbb" y "bbkkkkkkk"
+Distancia esperada: 4, Distancia calculada: 4
+Tiempo de ejecución: 1242 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'b' (costo: 1)
+  - Eliminar 'b' (costo: 1)
+  - Sustituir 'k' por 'k' (costo: 0)
+  - Sustituir 'k' por 'k' (costo: 0)
+  - Sustituir 'k' por 'k' (costo: 0)
+  - Sustituir 'k' por 'k' (costo: 0)
+  - Sustituir 'k' por 'k' (costo: 0)
+  - Sustituir 'k' por 'k' (costo: 0)
+  - Sustituir 'k' por 'k' (costo: 0)
+  - Insertar 'b' (costo: 1)
+  - Insertar 'b' (costo: 1)
+--------------------------
+Strings: "hhhhqqqqaaa" y "aaaqqqqhhhh"
+Distancia esperada: 14, Distancia calculada: 14
+Tiempo de ejecución: 35143 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'q' (costo: 1)
+  - Eliminar 'q' (costo: 1)
+  - Eliminar 'q' (costo: 1)
+  - Eliminar 'q' (costo: 1)
+  - Eliminar 'a' (costo: 1)
+  - Eliminar 'a' (costo: 1)
+  - Eliminar 'a' (costo: 1)
+  - Sustituir 'h' por 'h' (costo: 0)
+  - Sustituir 'h' por 'h' (costo: 0)
+  - Sustituir 'h' por 'h' (costo: 0)
+  - Sustituir 'h' por 'h' (costo: 0)
+  - Insertar 'q' (costo: 1)
+  - Insertar 'q' (costo: 1)
+  - Insertar 'q' (costo: 1)
+  - Insertar 'q' (costo: 1)
+  - Insertar 'a' (costo: 1)
+  - Insertar 'a' (costo: 1)
+  - Insertar 'a' (costo: 1)
+--------------------------
+Strings: "tttkkrr" y "rrkkttt"
+Distancia esperada: 8, Distancia calculada: 8
+Tiempo de ejecución: 34 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'k' (costo: 1)
+  - Eliminar 'k' (costo: 1)
+  - Eliminar 'r' (costo: 1)
+  - Eliminar 'r' (costo: 1)
+  - Sustituir 't' por 't' (costo: 0)
+  - Sustituir 't' por 't' (costo: 0)
+  - Sustituir 't' por 't' (costo: 0)
+  - Insertar 'k' (costo: 1)
+  - Insertar 'k' (costo: 1)
+  - Insertar 'r' (costo: 1)
+  - Insertar 'r' (costo: 1)
+--------------------------
+Strings: "hhhheeezzz" y "zzzeeehhhh"
+Distancia esperada: 12, Distancia calculada: 12
+Tiempo de ejecución: 6166 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'e' (costo: 1)
+  - Eliminar 'e' (costo: 1)
+  - Eliminar 'e' (costo: 1)
+  - Eliminar 'z' (costo: 1)
+  - Eliminar 'z' (costo: 1)
+  - Eliminar 'z' (costo: 1)
+  - Sustituir 'h' por 'h' (costo: 0)
+  - Sustituir 'h' por 'h' (costo: 0)
+  - Sustituir 'h' por 'h' (costo: 0)
+  - Sustituir 'h' por 'h' (costo: 0)
+  - Insertar 'e' (costo: 1)
+  - Insertar 'e' (costo: 1)
+  - Insertar 'e' (costo: 1)
+  - Insertar 'z' (costo: 1)
+  - Insertar 'z' (costo: 1)
+  - Insertar 'z' (costo: 1)
+--------------------------
+Strings: "uuuccbbb" y "bbbccuuu"
+Distancia esperada: 10, Distancia calculada: 10
+Tiempo de ejecución: 193 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'c' (costo: 1)
+  - Eliminar 'c' (costo: 1)
+  - Eliminar 'b' (costo: 1)
+  - Eliminar 'b' (costo: 1)
+  - Eliminar 'b' (costo: 1)
+  - Sustituir 'u' por 'u' (costo: 0)
+  - Sustituir 'u' por 'u' (costo: 0)
+  - Sustituir 'u' por 'u' (costo: 0)
+  - Insertar 'c' (costo: 1)
+  - Insertar 'c' (costo: 1)
+  - Insertar 'b' (costo: 1)
+  - Insertar 'b' (costo: 1)
+  - Insertar 'b' (costo: 1)
+--------------------------
+Strings: "ttppppggg" y "gggpppptt"
+Distancia esperada: 10, Distancia calculada: 10
+Tiempo de ejecución: 1128 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'g' (costo: 1)
+  - Eliminar 'g' (costo: 1)
+  - Eliminar 'g' (costo: 1)
+  - Insertar 't' (costo: 1)
+  - Insertar 't' (costo: 1)
+  - Sustituir 'p' por 'p' (costo: 0)
+  - Sustituir 'p' por 'p' (costo: 0)
+  - Sustituir 'p' por 'p' (costo: 0)
+  - Sustituir 'p' por 'p' (costo: 0)
+  - Eliminar 't' (costo: 1)
+  - Eliminar 't' (costo: 1)
+  - Insertar 'g' (costo: 1)
+  - Insertar 'g' (costo: 1)
+  - Insertar 'g' (costo: 1)
+--------------------------
+Strings: "iiihhnn" y "nnhhiii"
+Distancia esperada: 8, Distancia calculada: 8
+Tiempo de ejecución: 35 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'h' (costo: 1)
+  - Eliminar 'h' (costo: 1)
+  - Eliminar 'n' (costo: 1)
+  - Eliminar 'n' (costo: 1)
+  - Sustituir 'i' por 'i' (costo: 0)
+  - Sustituir 'i' por 'i' (costo: 0)
+  - Sustituir 'i' por 'i' (costo: 0)
+  - Insertar 'h' (costo: 1)
+  - Insertar 'h' (costo: 1)
+  - Insertar 'n' (costo: 1)
+  - Insertar 'n' (costo: 1)
+--------------------------
+Strings: "yyzzbbbb" y "bbbbzzyy"
+Distancia esperada: 8, Distancia calculada: 8
+Tiempo de ejecución: 194 ms
+Secuencia de operaciones óptima:
+  - Insertar 'z' (costo: 1)
+  - Insertar 'z' (costo: 1)
+  - Insertar 'y' (costo: 1)
+  - Insertar 'y' (costo: 1)
+  - Sustituir 'b' por 'b' (costo: 0)
+  - Sustituir 'b' por 'b' (costo: 0)
+  - Sustituir 'b' por 'b' (costo: 0)
+  - Sustituir 'b' por 'b' (costo: 0)
+  - Eliminar 'z' (costo: 1)
+  - Eliminar 'z' (costo: 1)
+  - Eliminar 'y' (costo: 1)
+  - Eliminar 'y' (costo: 1)
+--------------------------
+Strings: "aaiijj" y "jjiiaa"
+Distancia esperada: 8, Distancia calculada: 8
+Tiempo de ejecución: 6 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'i' (costo: 1)
+  - Eliminar 'i' (costo: 1)
+  - Eliminar 'j' (costo: 1)
+  - Eliminar 'j' (costo: 1)
+  - Sustituir 'a' por 'a' (costo: 0)
+  - Sustituir 'a' por 'a' (costo: 0)
+  - Insertar 'i' (costo: 1)
+  - Insertar 'i' (costo: 1)
+  - Insertar 'j' (costo: 1)
+  - Insertar 'j' (costo: 1)
+--------------------------
+Strings: "xxxbbbqqq" y "qqqbbbxxx"
+Distancia esperada: 12, Distancia calculada: 12
+Tiempo de ejecución: 1093 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'b' (costo: 1)
+  - Eliminar 'b' (costo: 1)
+  - Eliminar 'b' (costo: 1)
+  - Eliminar 'q' (costo: 1)
+  - Eliminar 'q' (costo: 1)
+  - Eliminar 'q' (costo: 1)
+  - Sustituir 'x' por 'x' (costo: 0)
+  - Sustituir 'x' por 'x' (costo: 0)
+  - Sustituir 'x' por 'x' (costo: 0)
+  - Insertar 'b' (costo: 1)
+  - Insertar 'b' (costo: 1)
+  - Insertar 'b' (costo: 1)
+  - Insertar 'q' (costo: 1)
+  - Insertar 'q' (costo: 1)
+  - Insertar 'q' (costo: 1)
+--------------------------
+Strings: "aaaaeegg" y "ggeeaaaa"
+Distancia esperada: 8, Distancia calculada: 8
+Tiempo de ejecución: 196 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'e' (costo: 1)
+  - Eliminar 'e' (costo: 1)
+  - Eliminar 'g' (costo: 1)
+  - Eliminar 'g' (costo: 1)
+  - Sustituir 'a' por 'a' (costo: 0)
+  - Sustituir 'a' por 'a' (costo: 0)
+  - Sustituir 'a' por 'a' (costo: 0)
+  - Sustituir 'a' por 'a' (costo: 0)
+  - Insertar 'e' (costo: 1)
+  - Insertar 'e' (costo: 1)
+  - Insertar 'g' (costo: 1)
+  - Insertar 'g' (costo: 1)
+--------------------------
+Strings: "gggjjjkk" y "kkjjjggg"
+Distancia esperada: 10, Distancia calculada: 10
+Tiempo de ejecución: 195 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'j' (costo: 1)
+  - Eliminar 'j' (costo: 1)
+  - Eliminar 'j' (costo: 1)
+  - Eliminar 'k' (costo: 1)
+  - Eliminar 'k' (costo: 1)
+  - Sustituir 'g' por 'g' (costo: 0)
+  - Sustituir 'g' por 'g' (costo: 0)
+  - Sustituir 'g' por 'g' (costo: 0)
+  - Insertar 'j' (costo: 1)
+  - Insertar 'j' (costo: 1)
+  - Insertar 'j' (costo: 1)
+  - Insertar 'k' (costo: 1)
+  - Insertar 'k' (costo: 1)
+--------------------------
+Strings: "cccciiiieee" y "eeeiiiicccc"
+Distancia esperada: 14, Distancia calculada: 14
+Tiempo de ejecución: 35671 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'i' (costo: 1)
+  - Eliminar 'i' (costo: 1)
+  - Eliminar 'i' (costo: 1)
+  - Eliminar 'i' (costo: 1)
+  - Eliminar 'e' (costo: 1)
+  - Eliminar 'e' (costo: 1)
+  - Eliminar 'e' (costo: 1)
+  - Sustituir 'c' por 'c' (costo: 0)
+  - Sustituir 'c' por 'c' (costo: 0)
+  - Sustituir 'c' por 'c' (costo: 0)
+  - Sustituir 'c' por 'c' (costo: 0)
+  - Insertar 'i' (costo: 1)
+  - Insertar 'i' (costo: 1)
+  - Insertar 'i' (costo: 1)
+  - Insertar 'i' (costo: 1)
+  - Insertar 'e' (costo: 1)
+  - Insertar 'e' (costo: 1)
+  - Insertar 'e' (costo: 1)
+--------------------------
+Strings: "iiioookkkk" y "kkkkoooiii"
+Distancia esperada: 12, Distancia calculada: 12
+Tiempo de ejecución: 6005 ms
+Secuencia de operaciones óptima:
+  - Insertar 'o' (costo: 1)
+  - Insertar 'o' (costo: 1)
+  - Insertar 'o' (costo: 1)
+  - Insertar 'i' (costo: 1)
+  - Insertar 'i' (costo: 1)
+  - Insertar 'i' (costo: 1)
+  - Sustituir 'k' por 'k' (costo: 0)
+  - Sustituir 'k' por 'k' (costo: 0)
+  - Sustituir 'k' por 'k' (costo: 0)
+  - Sustituir 'k' por 'k' (costo: 0)
+  - Eliminar 'o' (costo: 1)
+  - Eliminar 'o' (costo: 1)
+  - Eliminar 'o' (costo: 1)
+  - Eliminar 'i' (costo: 1)
+  - Eliminar 'i' (costo: 1)
+  - Eliminar 'i' (costo: 1)
+--------------------------
+Strings: "bblllnn" y "nnlllbb"
+Distancia esperada: 8, Distancia calculada: 8
+Tiempo de ejecución: 36 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'n' (costo: 1)
+  - Eliminar 'n' (costo: 1)
+  - Insertar 'b' (costo: 1)
+  - Insertar 'b' (costo: 1)
+  - Sustituir 'l' por 'l' (costo: 0)
+  - Sustituir 'l' por 'l' (costo: 0)
+  - Sustituir 'l' por 'l' (costo: 0)
+  - Eliminar 'b' (costo: 1)
+  - Eliminar 'b' (costo: 1)
+  - Insertar 'n' (costo: 1)
+  - Insertar 'n' (costo: 1)
+--------------------------
+Strings: "kkkffvv" y "vvffkkk"
+Distancia esperada: 8, Distancia calculada: 8
+Tiempo de ejecución: 35 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'f' (costo: 1)
+  - Eliminar 'f' (costo: 1)
+  - Eliminar 'v' (costo: 1)
+  - Eliminar 'v' (costo: 1)
+  - Sustituir 'k' por 'k' (costo: 0)
+  - Sustituir 'k' por 'k' (costo: 0)
+  - Sustituir 'k' por 'k' (costo: 0)
+  - Insertar 'f' (costo: 1)
+  - Insertar 'f' (costo: 1)
+  - Insertar 'v' (costo: 1)
+  - Insertar 'v' (costo: 1)
+--------------------------
+Strings: "iiiiggggg" y "gggggiiii"
+Distancia esperada: 8, Distancia calculada: 8
+Tiempo de ejecución: 1078 ms
+Secuencia de operaciones óptima:
+  - Insertar 'i' (costo: 1)
+  - Insertar 'i' (costo: 1)
+  - Insertar 'i' (costo: 1)
+  - Insertar 'i' (costo: 1)
+  - Sustituir 'g' por 'g' (costo: 0)
+  - Sustituir 'g' por 'g' (costo: 0)
+  - Sustituir 'g' por 'g' (costo: 0)
+  - Sustituir 'g' por 'g' (costo: 0)
+  - Sustituir 'g' por 'g' (costo: 0)
+  - Eliminar 'i' (costo: 1)
+  - Eliminar 'i' (costo: 1)
+  - Eliminar 'i' (costo: 1)
+  - Eliminar 'i' (costo: 1)
+--------------------------
+Strings: "ttttnnngg" y "ggnnntttt"
+Distancia esperada: 10, Distancia calculada: 10
+Tiempo de ejecución: 1077 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'n' (costo: 1)
+  - Eliminar 'n' (costo: 1)
+  - Eliminar 'n' (costo: 1)
+  - Eliminar 'g' (costo: 1)
+  - Eliminar 'g' (costo: 1)
+  - Sustituir 't' por 't' (costo: 0)
+  - Sustituir 't' por 't' (costo: 0)
+  - Sustituir 't' por 't' (costo: 0)
+  - Sustituir 't' por 't' (costo: 0)
+  - Insertar 'n' (costo: 1)
+  - Insertar 'n' (costo: 1)
+  - Insertar 'n' (costo: 1)
+  - Insertar 'g' (costo: 1)
+  - Insertar 'g' (costo: 1)
+--------------------------
+Strings: "ddxxnnnn" y "nnnnxxdd"
+Distancia esperada: 8, Distancia calculada: 8
+Tiempo de ejecución: 201 ms
+Secuencia de operaciones óptima:
+  - Insertar 'x' (costo: 1)
+  - Insertar 'x' (costo: 1)
+  - Insertar 'd' (costo: 1)
+  - Insertar 'd' (costo: 1)
+  - Sustituir 'n' por 'n' (costo: 0)
+  - Sustituir 'n' por 'n' (costo: 0)
+  - Sustituir 'n' por 'n' (costo: 0)
+  - Sustituir 'n' por 'n' (costo: 0)
+  - Eliminar 'x' (costo: 1)
+  - Eliminar 'x' (costo: 1)
+  - Eliminar 'd' (costo: 1)
+  - Eliminar 'd' (costo: 1)
+--------------------------
+Strings: "ooonnnnaa" y "aannnnooo"
+Distancia esperada: 10, Distancia calculada: 10
+Tiempo de ejecución: 1181 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'a' (costo: 1)
+  - Eliminar 'a' (costo: 1)
+  - Insertar 'o' (costo: 1)
+  - Insertar 'o' (costo: 1)
+  - Insertar 'o' (costo: 1)
+  - Sustituir 'n' por 'n' (costo: 0)
+  - Sustituir 'n' por 'n' (costo: 0)
+  - Sustituir 'n' por 'n' (costo: 0)
+  - Sustituir 'n' por 'n' (costo: 0)
+  - Eliminar 'o' (costo: 1)
+  - Eliminar 'o' (costo: 1)
+  - Eliminar 'o' (costo: 1)
+  - Insertar 'a' (costo: 1)
+  - Insertar 'a' (costo: 1)
+--------------------------
+Strings: "kkiiixxxx" y "xxxxiiikk"
+Distancia esperada: 10, Distancia calculada: 10
+Tiempo de ejecución: 1116 ms
+Secuencia de operaciones óptima:
+  - Insertar 'i' (costo: 1)
+  - Insertar 'i' (costo: 1)
+  - Insertar 'i' (costo: 1)
+  - Insertar 'k' (costo: 1)
+  - Insertar 'k' (costo: 1)
+  - Sustituir 'x' por 'x' (costo: 0)
+  - Sustituir 'x' por 'x' (costo: 0)
+  - Sustituir 'x' por 'x' (costo: 0)
+  - Sustituir 'x' por 'x' (costo: 0)
+  - Eliminar 'i' (costo: 1)
+  - Eliminar 'i' (costo: 1)
+  - Eliminar 'i' (costo: 1)
+  - Eliminar 'k' (costo: 1)
+  - Eliminar 'k' (costo: 1)
+--------------------------
+Strings: "ccssssll" y "llsssscc"
+Distancia esperada: 8, Distancia calculada: 8
+Tiempo de ejecución: 218 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'l' (costo: 1)
+  - Eliminar 'l' (costo: 1)
+  - Insertar 'c' (costo: 1)
+  - Insertar 'c' (costo: 1)
+  - Sustituir 's' por 's' (costo: 0)
+  - Sustituir 's' por 's' (costo: 0)
+  - Sustituir 's' por 's' (costo: 0)
+  - Sustituir 's' por 's' (costo: 0)
+  - Eliminar 'c' (costo: 1)
+  - Eliminar 'c' (costo: 1)
+  - Insertar 'l' (costo: 1)
+  - Insertar 'l' (costo: 1)
+--------------------------
+Strings: "eettnn" y "nnttee"
+Distancia esperada: 8, Distancia calculada: 8
+Tiempo de ejecución: 6 ms
+Secuencia de operaciones óptima:
+  - Eliminar 't' (costo: 1)
+  - Eliminar 't' (costo: 1)
+  - Eliminar 'n' (costo: 1)
+  - Eliminar 'n' (costo: 1)
+  - Sustituir 'e' por 'e' (costo: 0)
+  - Sustituir 'e' por 'e' (costo: 0)
+  - Insertar 't' (costo: 1)
+  - Insertar 't' (costo: 1)
+  - Insertar 'n' (costo: 1)
+  - Insertar 'n' (costo: 1)
+--------------------------
+Strings: "rrrppptttt" y "ttttppprrr"
+Distancia esperada: 12, Distancia calculada: 12
+Tiempo de ejecución: 6125 ms
+Secuencia de operaciones óptima:
+  - Insertar 'p' (costo: 1)
+  - Insertar 'p' (costo: 1)
+  - Insertar 'p' (costo: 1)
+  - Insertar 'r' (costo: 1)
+  - Insertar 'r' (costo: 1)
+  - Insertar 'r' (costo: 1)
+  - Sustituir 't' por 't' (costo: 0)
+  - Sustituir 't' por 't' (costo: 0)
+  - Sustituir 't' por 't' (costo: 0)
+  - Sustituir 't' por 't' (costo: 0)
+  - Eliminar 'p' (costo: 1)
+  - Eliminar 'p' (costo: 1)
+  - Eliminar 'p' (costo: 1)
+  - Eliminar 'r' (costo: 1)
+  - Eliminar 'r' (costo: 1)
+  - Eliminar 'r' (costo: 1)
+--------------------------
+Strings: "zzxxxxhh" y "hhxxxxzz"
+Distancia esperada: 8, Distancia calculada: 8
+Tiempo de ejecución: 217 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'h' (costo: 1)
+  - Eliminar 'h' (costo: 1)
+  - Insertar 'z' (costo: 1)
+  - Insertar 'z' (costo: 1)
+  - Sustituir 'x' por 'x' (costo: 0)
+  - Sustituir 'x' por 'x' (costo: 0)
+  - Sustituir 'x' por 'x' (costo: 0)
+  - Sustituir 'x' por 'x' (costo: 0)
+  - Eliminar 'z' (costo: 1)
+  - Eliminar 'z' (costo: 1)
+  - Insertar 'h' (costo: 1)
+  - Insertar 'h' (costo: 1)
+--------------------------
+Strings: "bbooooqqqq" y "qqqqoooobb"
+Distancia esperada: 12, Distancia calculada: 12
+Tiempo de ejecución: 6171 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'q' (costo: 1)
+  - Eliminar 'q' (costo: 1)
+  - Eliminar 'q' (costo: 1)
+  - Eliminar 'q' (costo: 1)
+  - Insertar 'b' (costo: 1)
+  - Insertar 'b' (costo: 1)
+  - Sustituir 'o' por 'o' (costo: 0)
+  - Sustituir 'o' por 'o' (costo: 0)
+  - Sustituir 'o' por 'o' (costo: 0)
+  - Sustituir 'o' por 'o' (costo: 0)
+  - Eliminar 'b' (costo: 1)
+  - Eliminar 'b' (costo: 1)
+  - Insertar 'q' (costo: 1)
+  - Insertar 'q' (costo: 1)
+  - Insertar 'q' (costo: 1)
+  - Insertar 'q' (costo: 1)
+--------------------------
+Strings: "rrrwwwwqqq" y "qqqwwwwrrr"
+Distancia esperada: 12, Distancia calculada: 12
+Tiempo de ejecución: 6340 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'q' (costo: 1)
+  - Eliminar 'q' (costo: 1)
+  - Eliminar 'q' (costo: 1)
+  - Insertar 'r' (costo: 1)
+  - Insertar 'r' (costo: 1)
+  - Insertar 'r' (costo: 1)
+  - Sustituir 'w' por 'w' (costo: 0)
+  - Sustituir 'w' por 'w' (costo: 0)
+  - Sustituir 'w' por 'w' (costo: 0)
+  - Sustituir 'w' por 'w' (costo: 0)
+  - Eliminar 'r' (costo: 1)
+  - Eliminar 'r' (costo: 1)
+  - Eliminar 'r' (costo: 1)
+  - Insertar 'q' (costo: 1)
+  - Insertar 'q' (costo: 1)
+  - Insertar 'q' (costo: 1)
+--------------------------
+Strings: "oogggnn" y "nngggoo"
+Distancia esperada: 8, Distancia calculada: 8
+Tiempo de ejecución: 35 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'n' (costo: 1)
+  - Eliminar 'n' (costo: 1)
+  - Insertar 'o' (costo: 1)
+  - Insertar 'o' (costo: 1)
+  - Sustituir 'g' por 'g' (costo: 0)
+  - Sustituir 'g' por 'g' (costo: 0)
+  - Sustituir 'g' por 'g' (costo: 0)
+  - Eliminar 'o' (costo: 1)
+  - Eliminar 'o' (costo: 1)
+  - Insertar 'n' (costo: 1)
+  - Insertar 'n' (costo: 1)
+--------------------------
+Strings: "llvvffff" y "ffffvvll"
+Distancia esperada: 8, Distancia calculada: 8
+Tiempo de ejecución: 193 ms
+Secuencia de operaciones óptima:
+  - Insertar 'v' (costo: 1)
+  - Insertar 'v' (costo: 1)
+  - Insertar 'l' (costo: 1)
+  - Insertar 'l' (costo: 1)
+  - Sustituir 'f' por 'f' (costo: 0)
+  - Sustituir 'f' por 'f' (costo: 0)
+  - Sustituir 'f' por 'f' (costo: 0)
+  - Sustituir 'f' por 'f' (costo: 0)
+  - Eliminar 'v' (costo: 1)
+  - Eliminar 'v' (costo: 1)
+  - Eliminar 'l' (costo: 1)
+  - Eliminar 'l' (costo: 1)
+--------------------------
+Strings: "mmmeeetttt" y "tttteeemmm"
+Distancia esperada: 12, Distancia calculada: 12
+Tiempo de ejecución: 6168 ms
+Secuencia de operaciones óptima:
+  - Insertar 'e' (costo: 1)
+  - Insertar 'e' (costo: 1)
+  - Insertar 'e' (costo: 1)
+  - Insertar 'm' (costo: 1)
+  - Insertar 'm' (costo: 1)
+  - Insertar 'm' (costo: 1)
+  - Sustituir 't' por 't' (costo: 0)
+  - Sustituir 't' por 't' (costo: 0)
+  - Sustituir 't' por 't' (costo: 0)
+  - Sustituir 't' por 't' (costo: 0)
+  - Eliminar 'e' (costo: 1)
+  - Eliminar 'e' (costo: 1)
+  - Eliminar 'e' (costo: 1)
+  - Eliminar 'm' (costo: 1)
+  - Eliminar 'm' (costo: 1)
+  - Eliminar 'm' (costo: 1)
+--------------------------
+Strings: "eeemmll" y "llmmeee"
+Distancia esperada: 8, Distancia calculada: 8
+Tiempo de ejecución: 36 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'm' (costo: 1)
+  - Eliminar 'm' (costo: 1)
+  - Eliminar 'l' (costo: 1)
+  - Eliminar 'l' (costo: 1)
+  - Sustituir 'e' por 'e' (costo: 0)
+  - Sustituir 'e' por 'e' (costo: 0)
+  - Sustituir 'e' por 'e' (costo: 0)
+  - Insertar 'm' (costo: 1)
+  - Insertar 'm' (costo: 1)
+  - Insertar 'l' (costo: 1)
+  - Insertar 'l' (costo: 1)
+--------------------------
+Strings: "jjjjffffff" y "ffffffjjjj"
+Distancia esperada: 8, Distancia calculada: 8
+Tiempo de ejecución: 6225 ms
+Secuencia de operaciones óptima:
+  - Insertar 'j' (costo: 1)
+  - Insertar 'j' (costo: 1)
+  - Insertar 'j' (costo: 1)
+  - Insertar 'j' (costo: 1)
+  - Sustituir 'f' por 'f' (costo: 0)
+  - Sustituir 'f' por 'f' (costo: 0)
+  - Sustituir 'f' por 'f' (costo: 0)
+  - Sustituir 'f' por 'f' (costo: 0)
+  - Sustituir 'f' por 'f' (costo: 0)
+  - Sustituir 'f' por 'f' (costo: 0)
+  - Eliminar 'j' (costo: 1)
+  - Eliminar 'j' (costo: 1)
+  - Eliminar 'j' (costo: 1)
+  - Eliminar 'j' (costo: 1)
+--------------------------
+Strings: "zzzzccciiii" y "iiiiccczzzz"
+Distancia esperada: 14, Distancia calculada: 14
+Tiempo de ejecución: 34473 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'c' (costo: 1)
+  - Eliminar 'c' (costo: 1)
+  - Eliminar 'c' (costo: 1)
+  - Eliminar 'i' (costo: 1)
+  - Eliminar 'i' (costo: 1)
+  - Eliminar 'i' (costo: 1)
+  - Eliminar 'i' (costo: 1)
+  - Sustituir 'z' por 'z' (costo: 0)
+  - Sustituir 'z' por 'z' (costo: 0)
+  - Sustituir 'z' por 'z' (costo: 0)
+  - Sustituir 'z' por 'z' (costo: 0)
+  - Insertar 'c' (costo: 1)
+  - Insertar 'c' (costo: 1)
+  - Insertar 'c' (costo: 1)
+  - Insertar 'i' (costo: 1)
+  - Insertar 'i' (costo: 1)
+  - Insertar 'i' (costo: 1)
+  - Insertar 'i' (costo: 1)
+--------------------------
+Strings: "uuqqrr" y "rrqquu"
+Distancia esperada: 8, Distancia calculada: 8
+Tiempo de ejecución: 7 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'q' (costo: 1)
+  - Eliminar 'q' (costo: 1)
+  - Eliminar 'r' (costo: 1)
+  - Eliminar 'r' (costo: 1)
+  - Sustituir 'u' por 'u' (costo: 0)
+  - Sustituir 'u' por 'u' (costo: 0)
+  - Insertar 'q' (costo: 1)
+  - Insertar 'q' (costo: 1)
+  - Insertar 'r' (costo: 1)
+  - Insertar 'r' (costo: 1)
+--------------------------
+Strings: "ssppprr" y "rrpppss"
+Distancia esperada: 8, Distancia calculada: 8
+Tiempo de ejecución: 36 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'r' (costo: 1)
+  - Eliminar 'r' (costo: 1)
+  - Insertar 's' (costo: 1)
+  - Insertar 's' (costo: 1)
+  - Sustituir 'p' por 'p' (costo: 0)
+  - Sustituir 'p' por 'p' (costo: 0)
+  - Sustituir 'p' por 'p' (costo: 0)
+  - Eliminar 's' (costo: 1)
+  - Eliminar 's' (costo: 1)
+  - Insertar 'r' (costo: 1)
+  - Insertar 'r' (costo: 1)
+--------------------------
+Strings: "kkyyyyjj" y "jjyyyykk"
+Distancia esperada: 8, Distancia calculada: 8
+Tiempo de ejecución: 204 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'j' (costo: 1)
+  - Eliminar 'j' (costo: 1)
+  - Insertar 'k' (costo: 1)
+  - Insertar 'k' (costo: 1)
+  - Sustituir 'y' por 'y' (costo: 0)
+  - Sustituir 'y' por 'y' (costo: 0)
+  - Sustituir 'y' por 'y' (costo: 0)
+  - Sustituir 'y' por 'y' (costo: 0)
+  - Eliminar 'k' (costo: 1)
+  - Eliminar 'k' (costo: 1)
+  - Insertar 'j' (costo: 1)
+  - Insertar 'j' (costo: 1)
+--------------------------
+Strings: "jjjeeeeffff" y "ffffeeeejjj"
+Distancia esperada: 14, Distancia calculada: 14
+Tiempo de ejecución: 35992 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'f' (costo: 1)
+  - Eliminar 'f' (costo: 1)
+  - Eliminar 'f' (costo: 1)
+  - Eliminar 'f' (costo: 1)
+  - Insertar 'j' (costo: 1)
+  - Insertar 'j' (costo: 1)
+  - Insertar 'j' (costo: 1)
+  - Sustituir 'e' por 'e' (costo: 0)
+  - Sustituir 'e' por 'e' (costo: 0)
+  - Sustituir 'e' por 'e' (costo: 0)
+  - Sustituir 'e' por 'e' (costo: 0)
+  - Eliminar 'j' (costo: 1)
+  - Eliminar 'j' (costo: 1)
+  - Eliminar 'j' (costo: 1)
+  - Insertar 'f' (costo: 1)
+  - Insertar 'f' (costo: 1)
+  - Insertar 'f' (costo: 1)
+  - Insertar 'f' (costo: 1)
+--------------------------
+Strings: "eeeuuummmm" y "mmmmuuueee"
+Distancia esperada: 12, Distancia calculada: 12
+Tiempo de ejecución: 6074 ms
+Secuencia de operaciones óptima:
+  - Insertar 'u' (costo: 1)
+  - Insertar 'u' (costo: 1)
+  - Insertar 'u' (costo: 1)
+  - Insertar 'e' (costo: 1)
+  - Insertar 'e' (costo: 1)
+  - Insertar 'e' (costo: 1)
+  - Sustituir 'm' por 'm' (costo: 0)
+  - Sustituir 'm' por 'm' (costo: 0)
+  - Sustituir 'm' por 'm' (costo: 0)
+  - Sustituir 'm' por 'm' (costo: 0)
+  - Eliminar 'u' (costo: 1)
+  - Eliminar 'u' (costo: 1)
+  - Eliminar 'u' (costo: 1)
+  - Eliminar 'e' (costo: 1)
+  - Eliminar 'e' (costo: 1)
+  - Eliminar 'e' (costo: 1)
+--------------------------
+Strings: "eeyyyccc" y "cccyyyee"
+Distancia esperada: 10, Distancia calculada: 10
+Tiempo de ejecución: 198 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'c' (costo: 1)
+  - Eliminar 'c' (costo: 1)
+  - Eliminar 'c' (costo: 1)
+  - Insertar 'e' (costo: 1)
+  - Insertar 'e' (costo: 1)
+  - Sustituir 'y' por 'y' (costo: 0)
+  - Sustituir 'y' por 'y' (costo: 0)
+  - Sustituir 'y' por 'y' (costo: 0)
+  - Eliminar 'e' (costo: 1)
+  - Eliminar 'e' (costo: 1)
+  - Insertar 'c' (costo: 1)
+  - Insertar 'c' (costo: 1)
+  - Insertar 'c' (costo: 1)
+--------------------------
+Strings: "iiaaaxx" y "xxaaaii"
+Distancia esperada: 8, Distancia calculada: 8
+Tiempo de ejecución: 37 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'x' (costo: 1)
+  - Eliminar 'x' (costo: 1)
+  - Insertar 'i' (costo: 1)
+  - Insertar 'i' (costo: 1)
+  - Sustituir 'a' por 'a' (costo: 0)
+  - Sustituir 'a' por 'a' (costo: 0)
+  - Sustituir 'a' por 'a' (costo: 0)
+  - Eliminar 'i' (costo: 1)
+  - Eliminar 'i' (costo: 1)
+  - Insertar 'x' (costo: 1)
+  - Insertar 'x' (costo: 1)
+--------------------------
+Strings: "bbbzzzxxx" y "xxxzzzbbb"
+Distancia esperada: 12, Distancia calculada: 12
+Tiempo de ejecución: 1091 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'z' (costo: 1)
+  - Eliminar 'z' (costo: 1)
+  - Eliminar 'z' (costo: 1)
+  - Eliminar 'x' (costo: 1)
+  - Eliminar 'x' (costo: 1)
+  - Eliminar 'x' (costo: 1)
+  - Sustituir 'b' por 'b' (costo: 0)
+  - Sustituir 'b' por 'b' (costo: 0)
+  - Sustituir 'b' por 'b' (costo: 0)
+  - Insertar 'z' (costo: 1)
+  - Insertar 'z' (costo: 1)
+  - Insertar 'z' (costo: 1)
+  - Insertar 'x' (costo: 1)
+  - Insertar 'x' (costo: 1)
+  - Insertar 'x' (costo: 1)
+--------------------------
+Strings: "yyyyyyyyjjj" y "jjjyyyyyyyy"
+Distancia esperada: 6, Distancia calculada: 6
+Tiempo de ejecución: 39422 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'j' (costo: 1)
+  - Eliminar 'j' (costo: 1)
+  - Eliminar 'j' (costo: 1)
+  - Sustituir 'y' por 'y' (costo: 0)
+  - Sustituir 'y' por 'y' (costo: 0)
+  - Sustituir 'y' por 'y' (costo: 0)
+  - Sustituir 'y' por 'y' (costo: 0)
+  - Sustituir 'y' por 'y' (costo: 0)
+  - Sustituir 'y' por 'y' (costo: 0)
+  - Sustituir 'y' por 'y' (costo: 0)
+  - Sustituir 'y' por 'y' (costo: 0)
+  - Insertar 'j' (costo: 1)
+  - Insertar 'j' (costo: 1)
+  - Insertar 'j' (costo: 1)
+--------------------------
+Strings: "ggjjjbbbb" y "bbbbjjjgg"
+Distancia esperada: 10, Distancia calculada: 10
+Tiempo de ejecución: 1092 ms
+Secuencia de operaciones óptima:
+  - Insertar 'j' (costo: 1)
+  - Insertar 'j' (costo: 1)
+  - Insertar 'j' (costo: 1)
+  - Insertar 'g' (costo: 1)
+  - Insertar 'g' (costo: 1)
+  - Sustituir 'b' por 'b' (costo: 0)
+  - Sustituir 'b' por 'b' (costo: 0)
+  - Sustituir 'b' por 'b' (costo: 0)
+  - Sustituir 'b' por 'b' (costo: 0)
+  - Eliminar 'j' (costo: 1)
+  - Eliminar 'j' (costo: 1)
+  - Eliminar 'j' (costo: 1)
+  - Eliminar 'g' (costo: 1)
+  - Eliminar 'g' (costo: 1)
+--------------------------
+Strings: "ppmmmqq" y "qqmmmpp"
+Distancia esperada: 8, Distancia calculada: 8
+Tiempo de ejecución: 35 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'q' (costo: 1)
+  - Eliminar 'q' (costo: 1)
+  - Insertar 'p' (costo: 1)
+  - Insertar 'p' (costo: 1)
+  - Sustituir 'm' por 'm' (costo: 0)
+  - Sustituir 'm' por 'm' (costo: 0)
+  - Sustituir 'm' por 'm' (costo: 0)
+  - Eliminar 'p' (costo: 1)
+  - Eliminar 'p' (costo: 1)
+  - Insertar 'q' (costo: 1)
+  - Insertar 'q' (costo: 1)
+--------------------------
+Strings: "ttssssnnn" y "nnnsssstt"
+Distancia esperada: 10, Distancia calculada: 10
+Tiempo de ejecución: 1136 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'n' (costo: 1)
+  - Eliminar 'n' (costo: 1)
+  - Eliminar 'n' (costo: 1)
+  - Insertar 't' (costo: 1)
+  - Insertar 't' (costo: 1)
+  - Sustituir 's' por 's' (costo: 0)
+  - Sustituir 's' por 's' (costo: 0)
+  - Sustituir 's' por 's' (costo: 0)
+  - Sustituir 's' por 's' (costo: 0)
+  - Eliminar 't' (costo: 1)
+  - Eliminar 't' (costo: 1)
+  - Insertar 'n' (costo: 1)
+  - Insertar 'n' (costo: 1)
+  - Insertar 'n' (costo: 1)
+--------------------------
+Strings: "ddkkknnnn" y "nnnnkkkdd"
+Distancia esperada: 10, Distancia calculada: 10
+Tiempo de ejecución: 1091 ms
+Secuencia de operaciones óptima:
+  - Insertar 'k' (costo: 1)
+  - Insertar 'k' (costo: 1)
+  - Insertar 'k' (costo: 1)
+  - Insertar 'd' (costo: 1)
+  - Insertar 'd' (costo: 1)
+  - Sustituir 'n' por 'n' (costo: 0)
+  - Sustituir 'n' por 'n' (costo: 0)
+  - Sustituir 'n' por 'n' (costo: 0)
+  - Sustituir 'n' por 'n' (costo: 0)
+  - Eliminar 'k' (costo: 1)
+  - Eliminar 'k' (costo: 1)
+  - Eliminar 'k' (costo: 1)
+  - Eliminar 'd' (costo: 1)
+  - Eliminar 'd' (costo: 1)
+--------------------------
+Strings: "jjjjrrrrdddd" y "ddddrrrrjjjj"
+Distancia esperada: 16, Distancia calculada: 16
+Tiempo de ejecución: 197534 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'r' (costo: 1)
+  - Eliminar 'r' (costo: 1)
+  - Eliminar 'r' (costo: 1)
+  - Eliminar 'r' (costo: 1)
+  - Eliminar 'd' (costo: 1)
+  - Eliminar 'd' (costo: 1)
+  - Eliminar 'd' (costo: 1)
+  - Eliminar 'd' (costo: 1)
+  - Sustituir 'j' por 'j' (costo: 0)
+  - Sustituir 'j' por 'j' (costo: 0)
+  - Sustituir 'j' por 'j' (costo: 0)
+  - Sustituir 'j' por 'j' (costo: 0)
+  - Insertar 'r' (costo: 1)
+  - Insertar 'r' (costo: 1)
+  - Insertar 'r' (costo: 1)
+  - Insertar 'r' (costo: 1)
+  - Insertar 'd' (costo: 1)
+  - Insertar 'd' (costo: 1)
+  - Insertar 'd' (costo: 1)
+  - Insertar 'd' (costo: 1)
+--------------------------
+Strings: "dddyybbb" y "bbbyyddd"
+Distancia esperada: 10, Distancia calculada: 10
+Tiempo de ejecución: 191 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'y' (costo: 1)
+  - Eliminar 'y' (costo: 1)
+  - Eliminar 'b' (costo: 1)
+  - Eliminar 'b' (costo: 1)
+  - Eliminar 'b' (costo: 1)
+  - Sustituir 'd' por 'd' (costo: 0)
+  - Sustituir 'd' por 'd' (costo: 0)
+  - Sustituir 'd' por 'd' (costo: 0)
+  - Insertar 'y' (costo: 1)
+  - Insertar 'y' (costo: 1)
+  - Insertar 'b' (costo: 1)
+  - Insertar 'b' (costo: 1)
+  - Insertar 'b' (costo: 1)
+--------------------------
+Strings: "aaadddaaa" y "aaadddaaa"
+Distancia esperada: 0, Distancia calculada: 0
+Tiempo de ejecución: 1169 ms
+Secuencia de operaciones óptima:
+  - Sustituir 'a' por 'a' (costo: 0)
+  - Sustituir 'a' por 'a' (costo: 0)
+  - Sustituir 'a' por 'a' (costo: 0)
+  - Sustituir 'd' por 'd' (costo: 0)
+  - Sustituir 'd' por 'd' (costo: 0)
+  - Sustituir 'd' por 'd' (costo: 0)
+  - Sustituir 'a' por 'a' (costo: 0)
+  - Sustituir 'a' por 'a' (costo: 0)
+  - Sustituir 'a' por 'a' (costo: 0)
+--------------------------
+Strings: "kkkkllyy" y "yyllkkkk"
+Distancia esperada: 8, Distancia calculada: 8
+Tiempo de ejecución: 190 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'l' (costo: 1)
+  - Eliminar 'l' (costo: 1)
+  - Eliminar 'y' (costo: 1)
+  - Eliminar 'y' (costo: 1)
+  - Sustituir 'k' por 'k' (costo: 0)
+  - Sustituir 'k' por 'k' (costo: 0)
+  - Sustituir 'k' por 'k' (costo: 0)
+  - Sustituir 'k' por 'k' (costo: 0)
+  - Insertar 'l' (costo: 1)
+  - Insertar 'l' (costo: 1)
+  - Insertar 'y' (costo: 1)
+  - Insertar 'y' (costo: 1)
+--------------------------
+Strings: "jjjaaazzzz" y "zzzzaaajjj"
+Distancia esperada: 12, Distancia calculada: 12
+Tiempo de ejecución: 6145 ms
+Secuencia de operaciones óptima:
+  - Insertar 'a' (costo: 1)
+  - Insertar 'a' (costo: 1)
+  - Insertar 'a' (costo: 1)
+  - Insertar 'j' (costo: 1)
+  - Insertar 'j' (costo: 1)
+  - Insertar 'j' (costo: 1)
+  - Sustituir 'z' por 'z' (costo: 0)
+  - Sustituir 'z' por 'z' (costo: 0)
+  - Sustituir 'z' por 'z' (costo: 0)
+  - Sustituir 'z' por 'z' (costo: 0)
+  - Eliminar 'a' (costo: 1)
+  - Eliminar 'a' (costo: 1)
+  - Eliminar 'a' (costo: 1)
+  - Eliminar 'j' (costo: 1)
+  - Eliminar 'j' (costo: 1)
+  - Eliminar 'j' (costo: 1)
+--------------------------
+Strings: "yyybbbbssss" y "ssssbbbbyyy"
+Distancia esperada: 14, Distancia calculada: 14
+Tiempo de ejecución: 35043 ms
+Secuencia de operaciones óptima:
+  - Eliminar 's' (costo: 1)
+  - Eliminar 's' (costo: 1)
+  - Eliminar 's' (costo: 1)
+  - Eliminar 's' (costo: 1)
+  - Insertar 'y' (costo: 1)
+  - Insertar 'y' (costo: 1)
+  - Insertar 'y' (costo: 1)
+  - Sustituir 'b' por 'b' (costo: 0)
+  - Sustituir 'b' por 'b' (costo: 0)
+  - Sustituir 'b' por 'b' (costo: 0)
+  - Sustituir 'b' por 'b' (costo: 0)
+  - Eliminar 'y' (costo: 1)
+  - Eliminar 'y' (costo: 1)
+  - Eliminar 'y' (costo: 1)
+  - Insertar 's' (costo: 1)
+  - Insertar 's' (costo: 1)
+  - Insertar 's' (costo: 1)
+  - Insertar 's' (costo: 1)
+--------------------------
+Strings: "zzzzuuurrrr" y "rrrruuuzzzz"
+Distancia esperada: 14, Distancia calculada: 14
+Tiempo de ejecución: 33960 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'u' (costo: 1)
+  - Eliminar 'u' (costo: 1)
+  - Eliminar 'u' (costo: 1)
+  - Eliminar 'r' (costo: 1)
+  - Eliminar 'r' (costo: 1)
+  - Eliminar 'r' (costo: 1)
+  - Eliminar 'r' (costo: 1)
+  - Sustituir 'z' por 'z' (costo: 0)
+  - Sustituir 'z' por 'z' (costo: 0)
+  - Sustituir 'z' por 'z' (costo: 0)
+  - Sustituir 'z' por 'z' (costo: 0)
+  - Insertar 'u' (costo: 1)
+  - Insertar 'u' (costo: 1)
+  - Insertar 'u' (costo: 1)
+  - Insertar 'r' (costo: 1)
+  - Insertar 'r' (costo: 1)
+  - Insertar 'r' (costo: 1)
+  - Insertar 'r' (costo: 1)
+--------------------------
+Strings: "pppqqqqrrr" y "rrrqqqqppp"
+Distancia esperada: 12, Distancia calculada: 12
+Tiempo de ejecución: 6356 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'r' (costo: 1)
+  - Eliminar 'r' (costo: 1)
+  - Eliminar 'r' (costo: 1)
+  - Insertar 'p' (costo: 1)
+  - Insertar 'p' (costo: 1)
+  - Insertar 'p' (costo: 1)
+  - Sustituir 'q' por 'q' (costo: 0)
+  - Sustituir 'q' por 'q' (costo: 0)
+  - Sustituir 'q' por 'q' (costo: 0)
+  - Sustituir 'q' por 'q' (costo: 0)
+  - Eliminar 'p' (costo: 1)
+  - Eliminar 'p' (costo: 1)
+  - Eliminar 'p' (costo: 1)
+  - Insertar 'r' (costo: 1)
+  - Insertar 'r' (costo: 1)
+  - Insertar 'r' (costo: 1)
+--------------------------
+Strings: "pppphhhhhh" y "hhhhhhpppp"
+Distancia esperada: 8, Distancia calculada: 8
+Tiempo de ejecución: 6362 ms
+Secuencia de operaciones óptima:
+  - Insertar 'p' (costo: 1)
+  - Insertar 'p' (costo: 1)
+  - Insertar 'p' (costo: 1)
+  - Insertar 'p' (costo: 1)
+  - Sustituir 'h' por 'h' (costo: 0)
+  - Sustituir 'h' por 'h' (costo: 0)
+  - Sustituir 'h' por 'h' (costo: 0)
+  - Sustituir 'h' por 'h' (costo: 0)
+  - Sustituir 'h' por 'h' (costo: 0)
+  - Sustituir 'h' por 'h' (costo: 0)
+  - Eliminar 'p' (costo: 1)
+  - Eliminar 'p' (costo: 1)
+  - Eliminar 'p' (costo: 1)
+  - Eliminar 'p' (costo: 1)
+--------------------------
+Strings: "jjjjvvvjj" y "jjvvvjjjj"
+Distancia esperada: 4, Distancia calculada: 4
+Tiempo de ejecución: 1138 ms
+Secuencia de operaciones óptima:
+  - Sustituir 'j' por 'j' (costo: 0)
+  - Sustituir 'j' por 'j' (costo: 0)
+  - Insertar 'j' (costo: 1)
+  - Insertar 'j' (costo: 1)
+  - Sustituir 'v' por 'v' (costo: 0)
+  - Sustituir 'v' por 'v' (costo: 0)
+  - Sustituir 'v' por 'v' (costo: 0)
+  - Sustituir 'j' por 'j' (costo: 0)
+  - Sustituir 'j' por 'j' (costo: 0)
+  - Eliminar 'j' (costo: 1)
+  - Eliminar 'j' (costo: 1)
+--------------------------
+Strings: "oooohhhwwww" y "wwwwhhhoooo"
+Distancia esperada: 14, Distancia calculada: 14
+Tiempo de ejecución: 34126 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'h' (costo: 1)
+  - Eliminar 'h' (costo: 1)
+  - Eliminar 'h' (costo: 1)
+  - Eliminar 'w' (costo: 1)
+  - Eliminar 'w' (costo: 1)
+  - Eliminar 'w' (costo: 1)
+  - Eliminar 'w' (costo: 1)
+  - Sustituir 'o' por 'o' (costo: 0)
+  - Sustituir 'o' por 'o' (costo: 0)
+  - Sustituir 'o' por 'o' (costo: 0)
+  - Sustituir 'o' por 'o' (costo: 0)
+  - Insertar 'h' (costo: 1)
+  - Insertar 'h' (costo: 1)
+  - Insertar 'h' (costo: 1)
+  - Insertar 'w' (costo: 1)
+  - Insertar 'w' (costo: 1)
+  - Insertar 'w' (costo: 1)
+  - Insertar 'w' (costo: 1)
+--------------------------
+Strings: "uuppssss" y "ssssppuu"
+Distancia esperada: 8, Distancia calculada: 8
+Tiempo de ejecución: 192 ms
+Secuencia de operaciones óptima:
+  - Insertar 'p' (costo: 1)
+  - Insertar 'p' (costo: 1)
+  - Insertar 'u' (costo: 1)
+  - Insertar 'u' (costo: 1)
+  - Sustituir 's' por 's' (costo: 0)
+  - Sustituir 's' por 's' (costo: 0)
+  - Sustituir 's' por 's' (costo: 0)
+  - Sustituir 's' por 's' (costo: 0)
+  - Eliminar 'p' (costo: 1)
+  - Eliminar 'p' (costo: 1)
+  - Eliminar 'u' (costo: 1)
+  - Eliminar 'u' (costo: 1)
+--------------------------
+Strings: "zzzwwjjjj" y "jjjjwwzzz"
+Distancia esperada: 10, Distancia calculada: 10
+Tiempo de ejecución: 1061 ms
+Secuencia de operaciones óptima:
+  - Insertar 'w' (costo: 1)
+  - Insertar 'w' (costo: 1)
+  - Insertar 'z' (costo: 1)
+  - Insertar 'z' (costo: 1)
+  - Insertar 'z' (costo: 1)
+  - Sustituir 'j' por 'j' (costo: 0)
+  - Sustituir 'j' por 'j' (costo: 0)
+  - Sustituir 'j' por 'j' (costo: 0)
+  - Sustituir 'j' por 'j' (costo: 0)
+  - Eliminar 'w' (costo: 1)
+  - Eliminar 'w' (costo: 1)
+  - Eliminar 'z' (costo: 1)
+  - Eliminar 'z' (costo: 1)
+  - Eliminar 'z' (costo: 1)
+--------------------------
+Strings: "bbbbiiiijjjj" y "jjjjiiiibbbb"
+Distancia esperada: 16, Distancia calculada: 16
+Tiempo de ejecución: 194737 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'i' (costo: 1)
+  - Eliminar 'i' (costo: 1)
+  - Eliminar 'i' (costo: 1)
+  - Eliminar 'i' (costo: 1)
+  - Eliminar 'j' (costo: 1)
+  - Eliminar 'j' (costo: 1)
+  - Eliminar 'j' (costo: 1)
+  - Eliminar 'j' (costo: 1)
+  - Sustituir 'b' por 'b' (costo: 0)
+  - Sustituir 'b' por 'b' (costo: 0)
+  - Sustituir 'b' por 'b' (costo: 0)
+  - Sustituir 'b' por 'b' (costo: 0)
+  - Insertar 'i' (costo: 1)
+  - Insertar 'i' (costo: 1)
+  - Insertar 'i' (costo: 1)
+  - Insertar 'i' (costo: 1)
+  - Insertar 'j' (costo: 1)
+  - Insertar 'j' (costo: 1)
+  - Insertar 'j' (costo: 1)
+  - Insertar 'j' (costo: 1)
+--------------------------
+Strings: "aaaauuttt" y "tttuuaaaa"
+Distancia esperada: 10, Distancia calculada: 10
+Tiempo de ejecución: 1042 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'u' (costo: 1)
+  - Eliminar 'u' (costo: 1)
+  - Eliminar 't' (costo: 1)
+  - Eliminar 't' (costo: 1)
+  - Eliminar 't' (costo: 1)
+  - Sustituir 'a' por 'a' (costo: 0)
+  - Sustituir 'a' por 'a' (costo: 0)
+  - Sustituir 'a' por 'a' (costo: 0)
+  - Sustituir 'a' por 'a' (costo: 0)
+  - Insertar 'u' (costo: 1)
+  - Insertar 'u' (costo: 1)
+  - Insertar 't' (costo: 1)
+  - Insertar 't' (costo: 1)
+  - Insertar 't' (costo: 1)
+--------------------------
+Strings: "ccaaaqq" y "qqaaacc"
+Distancia esperada: 8, Distancia calculada: 8
+Tiempo de ejecución: 35 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'q' (costo: 1)
+  - Eliminar 'q' (costo: 1)
+  - Insertar 'c' (costo: 1)
+  - Insertar 'c' (costo: 1)
+  - Sustituir 'a' por 'a' (costo: 0)
+  - Sustituir 'a' por 'a' (costo: 0)
+  - Sustituir 'a' por 'a' (costo: 0)
+  - Eliminar 'c' (costo: 1)
+  - Eliminar 'c' (costo: 1)
+  - Insertar 'q' (costo: 1)
+  - Insertar 'q' (costo: 1)
+--------------------------
+Strings: "wwwqqqqoo" y "ooqqqqwww"
+Distancia esperada: 10, Distancia calculada: 10
+Tiempo de ejecución: 1098 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'o' (costo: 1)
+  - Eliminar 'o' (costo: 1)
+  - Insertar 'w' (costo: 1)
+  - Insertar 'w' (costo: 1)
+  - Insertar 'w' (costo: 1)
+  - Sustituir 'q' por 'q' (costo: 0)
+  - Sustituir 'q' por 'q' (costo: 0)
+  - Sustituir 'q' por 'q' (costo: 0)
+  - Sustituir 'q' por 'q' (costo: 0)
+  - Eliminar 'w' (costo: 1)
+  - Eliminar 'w' (costo: 1)
+  - Eliminar 'w' (costo: 1)
+  - Insertar 'o' (costo: 1)
+  - Insertar 'o' (costo: 1)
+--------------------------
+Strings: "uuhhiiii" y "iiiihhuu"
+Distancia esperada: 8, Distancia calculada: 8
+Tiempo de ejecución: 189 ms
+Secuencia de operaciones óptima:
+  - Insertar 'h' (costo: 1)
+  - Insertar 'h' (costo: 1)
+  - Insertar 'u' (costo: 1)
+  - Insertar 'u' (costo: 1)
+  - Sustituir 'i' por 'i' (costo: 0)
+  - Sustituir 'i' por 'i' (costo: 0)
+  - Sustituir 'i' por 'i' (costo: 0)
+  - Sustituir 'i' por 'i' (costo: 0)
+  - Eliminar 'h' (costo: 1)
+  - Eliminar 'h' (costo: 1)
+  - Eliminar 'u' (costo: 1)
+  - Eliminar 'u' (costo: 1)
+--------------------------
+Strings: "nnnnooggg" y "gggoonnnn"
+Distancia esperada: 10, Distancia calculada: 10
+Tiempo de ejecución: 1038 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'o' (costo: 1)
+  - Eliminar 'o' (costo: 1)
+  - Eliminar 'g' (costo: 1)
+  - Eliminar 'g' (costo: 1)
+  - Eliminar 'g' (costo: 1)
+  - Sustituir 'n' por 'n' (costo: 0)
+  - Sustituir 'n' por 'n' (costo: 0)
+  - Sustituir 'n' por 'n' (costo: 0)
+  - Sustituir 'n' por 'n' (costo: 0)
+  - Insertar 'o' (costo: 1)
+  - Insertar 'o' (costo: 1)
+  - Insertar 'g' (costo: 1)
+  - Insertar 'g' (costo: 1)
+  - Insertar 'g' (costo: 1)
+--------------------------
+Strings: "zzzzqqii" y "iiqqzzzz"
+Distancia esperada: 8, Distancia calculada: 8
+Tiempo de ejecución: 191 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'q' (costo: 1)
+  - Eliminar 'q' (costo: 1)
+  - Eliminar 'i' (costo: 1)
+  - Eliminar 'i' (costo: 1)
+  - Sustituir 'z' por 'z' (costo: 0)
+  - Sustituir 'z' por 'z' (costo: 0)
+  - Sustituir 'z' por 'z' (costo: 0)
+  - Sustituir 'z' por 'z' (costo: 0)
+  - Insertar 'q' (costo: 1)
+  - Insertar 'q' (costo: 1)
+  - Insertar 'i' (costo: 1)
+  - Insertar 'i' (costo: 1)
+--------------------------
+Strings: "eeeqqqqaaaa" y "aaaaqqqqeee"
+Distancia esperada: 14, Distancia calculada: 14
+Tiempo de ejecución: 33982 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'a' (costo: 1)
+  - Eliminar 'a' (costo: 1)
+  - Eliminar 'a' (costo: 1)
+  - Eliminar 'a' (costo: 1)
+  - Insertar 'e' (costo: 1)
+  - Insertar 'e' (costo: 1)
+  - Insertar 'e' (costo: 1)
+  - Sustituir 'q' por 'q' (costo: 0)
+  - Sustituir 'q' por 'q' (costo: 0)
+  - Sustituir 'q' por 'q' (costo: 0)
+  - Sustituir 'q' por 'q' (costo: 0)
+  - Eliminar 'e' (costo: 1)
+  - Eliminar 'e' (costo: 1)
+  - Eliminar 'e' (costo: 1)
+  - Insertar 'a' (costo: 1)
+  - Insertar 'a' (costo: 1)
+  - Insertar 'a' (costo: 1)
+  - Insertar 'a' (costo: 1)
+--------------------------
+Strings: "ffffjjppp" y "pppjjffff"
+Distancia esperada: 10, Distancia calculada: 10
+Tiempo de ejecución: 1042 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'j' (costo: 1)
+  - Eliminar 'j' (costo: 1)
+  - Eliminar 'p' (costo: 1)
+  - Eliminar 'p' (costo: 1)
+  - Eliminar 'p' (costo: 1)
+  - Sustituir 'f' por 'f' (costo: 0)
+  - Sustituir 'f' por 'f' (costo: 0)
+  - Sustituir 'f' por 'f' (costo: 0)
+  - Sustituir 'f' por 'f' (costo: 0)
+  - Insertar 'j' (costo: 1)
+  - Insertar 'j' (costo: 1)
+  - Insertar 'p' (costo: 1)
+  - Insertar 'p' (costo: 1)
+  - Insertar 'p' (costo: 1)
+--------------------------
+Strings: "mmmvvvvnnn" y "nnnvvvvmmm"
+Distancia esperada: 12, Distancia calculada: 12
+Tiempo de ejecución: 6152 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'n' (costo: 1)
+  - Eliminar 'n' (costo: 1)
+  - Eliminar 'n' (costo: 1)
+  - Insertar 'm' (costo: 1)
+  - Insertar 'm' (costo: 1)
+  - Insertar 'm' (costo: 1)
+  - Sustituir 'v' por 'v' (costo: 0)
+  - Sustituir 'v' por 'v' (costo: 0)
+  - Sustituir 'v' por 'v' (costo: 0)
+  - Sustituir 'v' por 'v' (costo: 0)
+  - Eliminar 'm' (costo: 1)
+  - Eliminar 'm' (costo: 1)
+  - Eliminar 'm' (costo: 1)
+  - Insertar 'n' (costo: 1)
+  - Insertar 'n' (costo: 1)
+  - Insertar 'n' (costo: 1)
+--------------------------
+Strings: "kkkyyyykk" y "kkyyyykkk"
+Distancia esperada: 2, Distancia calculada: 2
+Tiempo de ejecución: 1136 ms
+Secuencia de operaciones óptima:
+  - Sustituir 'k' por 'k' (costo: 0)
+  - Sustituir 'k' por 'k' (costo: 0)
+  - Insertar 'k' (costo: 1)
+  - Sustituir 'y' por 'y' (costo: 0)
+  - Sustituir 'y' por 'y' (costo: 0)
+  - Sustituir 'y' por 'y' (costo: 0)
+  - Sustituir 'y' por 'y' (costo: 0)
+  - Sustituir 'k' por 'k' (costo: 0)
+  - Sustituir 'k' por 'k' (costo: 0)
+  - Eliminar 'k' (costo: 1)
+--------------------------
+Strings: "aaaaiiimmmm" y "mmmmiiiaaaa"
+Distancia esperada: 14, Distancia calculada: 14
+Tiempo de ejecución: 32935 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'i' (costo: 1)
+  - Eliminar 'i' (costo: 1)
+  - Eliminar 'i' (costo: 1)
+  - Eliminar 'm' (costo: 1)
+  - Eliminar 'm' (costo: 1)
+  - Eliminar 'm' (costo: 1)
+  - Eliminar 'm' (costo: 1)
+  - Sustituir 'a' por 'a' (costo: 0)
+  - Sustituir 'a' por 'a' (costo: 0)
+  - Sustituir 'a' por 'a' (costo: 0)
+  - Sustituir 'a' por 'a' (costo: 0)
+  - Insertar 'i' (costo: 1)
+  - Insertar 'i' (costo: 1)
+  - Insertar 'i' (costo: 1)
+  - Insertar 'm' (costo: 1)
+  - Insertar 'm' (costo: 1)
+  - Insertar 'm' (costo: 1)
+  - Insertar 'm' (costo: 1)
+--------------------------
+Strings: "xxxrrbbbb" y "bbbbrrxxx"
+Distancia esperada: 10, Distancia calculada: 10
+Tiempo de ejecución: 1043 ms
+Secuencia de operaciones óptima:
+  - Insertar 'r' (costo: 1)
+  - Insertar 'r' (costo: 1)
+  - Insertar 'x' (costo: 1)
+  - Insertar 'x' (costo: 1)
+  - Insertar 'x' (costo: 1)
+  - Sustituir 'b' por 'b' (costo: 0)
+  - Sustituir 'b' por 'b' (costo: 0)
+  - Sustituir 'b' por 'b' (costo: 0)
+  - Sustituir 'b' por 'b' (costo: 0)
+  - Eliminar 'r' (costo: 1)
+  - Eliminar 'r' (costo: 1)
+  - Eliminar 'x' (costo: 1)
+  - Eliminar 'x' (costo: 1)
+  - Eliminar 'x' (costo: 1)
+--------------------------
+Strings: "llllfffaa" y "aafffllll"
+Distancia esperada: 10, Distancia calculada: 10
+Tiempo de ejecución: 1059 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'f' (costo: 1)
+  - Eliminar 'f' (costo: 1)
+  - Eliminar 'f' (costo: 1)
+  - Eliminar 'a' (costo: 1)
+  - Eliminar 'a' (costo: 1)
+  - Sustituir 'l' por 'l' (costo: 0)
+  - Sustituir 'l' por 'l' (costo: 0)
+  - Sustituir 'l' por 'l' (costo: 0)
+  - Sustituir 'l' por 'l' (costo: 0)
+  - Insertar 'f' (costo: 1)
+  - Insertar 'f' (costo: 1)
+  - Insertar 'f' (costo: 1)
+  - Insertar 'a' (costo: 1)
+  - Insertar 'a' (costo: 1)
+--------------------------
+Strings: "ddzzziiii" y "iiiizzzdd"
+Distancia esperada: 10, Distancia calculada: 10
+Tiempo de ejecución: 1052 ms
+Secuencia de operaciones óptima:
+  - Insertar 'z' (costo: 1)
+  - Insertar 'z' (costo: 1)
+  - Insertar 'z' (costo: 1)
+  - Insertar 'd' (costo: 1)
+  - Insertar 'd' (costo: 1)
+  - Sustituir 'i' por 'i' (costo: 0)
+  - Sustituir 'i' por 'i' (costo: 0)
+  - Sustituir 'i' por 'i' (costo: 0)
+  - Sustituir 'i' por 'i' (costo: 0)
+  - Eliminar 'z' (costo: 1)
+  - Eliminar 'z' (costo: 1)
+  - Eliminar 'z' (costo: 1)
+  - Eliminar 'd' (costo: 1)
+  - Eliminar 'd' (costo: 1)
+--------------------------
+Strings: "ssssddrrr" y "rrrddssss"
+Distancia esperada: 10, Distancia calculada: 10
+Tiempo de ejecución: 1043 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'd' (costo: 1)
+  - Eliminar 'd' (costo: 1)
+  - Eliminar 'r' (costo: 1)
+  - Eliminar 'r' (costo: 1)
+  - Eliminar 'r' (costo: 1)
+  - Sustituir 's' por 's' (costo: 0)
+  - Sustituir 's' por 's' (costo: 0)
+  - Sustituir 's' por 's' (costo: 0)
+  - Sustituir 's' por 's' (costo: 0)
+  - Insertar 'd' (costo: 1)
+  - Insertar 'd' (costo: 1)
+  - Insertar 'r' (costo: 1)
+  - Insertar 'r' (costo: 1)
+  - Insertar 'r' (costo: 1)
+--------------------------
+Strings: "yyyyyyyjj" y "jjyyyyyyy"
+Distancia esperada: 4, Distancia calculada: 4
+Tiempo de ejecución: 1232 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'j' (costo: 1)
+  - Eliminar 'j' (costo: 1)
+  - Sustituir 'y' por 'y' (costo: 0)
+  - Sustituir 'y' por 'y' (costo: 0)
+  - Sustituir 'y' por 'y' (costo: 0)
+  - Sustituir 'y' por 'y' (costo: 0)
+  - Sustituir 'y' por 'y' (costo: 0)
+  - Sustituir 'y' por 'y' (costo: 0)
+  - Sustituir 'y' por 'y' (costo: 0)
+  - Insertar 'j' (costo: 1)
+  - Insertar 'j' (costo: 1)
+--------------------------
+Strings: "uuuiiiqq" y "qqiiiuuu"
+Distancia esperada: 10, Distancia calculada: 10
+Tiempo de ejecución: 193 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'i' (costo: 1)
+  - Eliminar 'i' (costo: 1)
+  - Eliminar 'i' (costo: 1)
+  - Eliminar 'q' (costo: 1)
+  - Eliminar 'q' (costo: 1)
+  - Sustituir 'u' por 'u' (costo: 0)
+  - Sustituir 'u' por 'u' (costo: 0)
+  - Sustituir 'u' por 'u' (costo: 0)
+  - Insertar 'i' (costo: 1)
+  - Insertar 'i' (costo: 1)
+  - Insertar 'i' (costo: 1)
+  - Insertar 'q' (costo: 1)
+  - Insertar 'q' (costo: 1)
+--------------------------
+Strings: "mmmkkiii" y "iiikkmmm"
+Distancia esperada: 10, Distancia calculada: 10
+Tiempo de ejecución: 189 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'k' (costo: 1)
+  - Eliminar 'k' (costo: 1)
+  - Eliminar 'i' (costo: 1)
+  - Eliminar 'i' (costo: 1)
+  - Eliminar 'i' (costo: 1)
+  - Sustituir 'm' por 'm' (costo: 0)
+  - Sustituir 'm' por 'm' (costo: 0)
+  - Sustituir 'm' por 'm' (costo: 0)
+  - Insertar 'k' (costo: 1)
+  - Insertar 'k' (costo: 1)
+  - Insertar 'i' (costo: 1)
+  - Insertar 'i' (costo: 1)
+  - Insertar 'i' (costo: 1)
+--------------------------
+Strings: "xxxjjjsss" y "sssjjjxxx"
+Distancia esperada: 12, Distancia calculada: 12
+Tiempo de ejecución: 1060 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'j' (costo: 1)
+  - Eliminar 'j' (costo: 1)
+  - Eliminar 'j' (costo: 1)
+  - Eliminar 's' (costo: 1)
+  - Eliminar 's' (costo: 1)
+  - Eliminar 's' (costo: 1)
+  - Sustituir 'x' por 'x' (costo: 0)
+  - Sustituir 'x' por 'x' (costo: 0)
+  - Sustituir 'x' por 'x' (costo: 0)
+  - Insertar 'j' (costo: 1)
+  - Insertar 'j' (costo: 1)
+  - Insertar 'j' (costo: 1)
+  - Insertar 's' (costo: 1)
+  - Insertar 's' (costo: 1)
+  - Insertar 's' (costo: 1)
+--------------------------
+Strings: "ttttfffftt" y "ttfffftttt"
+Distancia esperada: 4, Distancia calculada: 4
+Tiempo de ejecución: 6233 ms
+Secuencia de operaciones óptima:
+  - Sustituir 't' por 't' (costo: 0)
+  - Sustituir 't' por 't' (costo: 0)
+  - Insertar 't' (costo: 1)
+  - Insertar 't' (costo: 1)
+  - Sustituir 'f' por 'f' (costo: 0)
+  - Sustituir 'f' por 'f' (costo: 0)
+  - Sustituir 'f' por 'f' (costo: 0)
+  - Sustituir 'f' por 'f' (costo: 0)
+  - Sustituir 't' por 't' (costo: 0)
+  - Sustituir 't' por 't' (costo: 0)
+  - Eliminar 't' (costo: 1)
+  - Eliminar 't' (costo: 1)
+--------------------------
+Strings: "rrrcccciiii" y "iiiiccccrrr"
+Distancia esperada: 14, Distancia calculada: 14
+Tiempo de ejecución: 33974 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'i' (costo: 1)
+  - Eliminar 'i' (costo: 1)
+  - Eliminar 'i' (costo: 1)
+  - Eliminar 'i' (costo: 1)
+  - Insertar 'r' (costo: 1)
+  - Insertar 'r' (costo: 1)
+  - Insertar 'r' (costo: 1)
+  - Sustituir 'c' por 'c' (costo: 0)
+  - Sustituir 'c' por 'c' (costo: 0)
+  - Sustituir 'c' por 'c' (costo: 0)
+  - Sustituir 'c' por 'c' (costo: 0)
+  - Eliminar 'r' (costo: 1)
+  - Eliminar 'r' (costo: 1)
+  - Eliminar 'r' (costo: 1)
+  - Insertar 'i' (costo: 1)
+  - Insertar 'i' (costo: 1)
+  - Insertar 'i' (costo: 1)
+  - Insertar 'i' (costo: 1)
+--------------------------
+Strings: "wwnnwww" y "wwwnnww"
+Distancia esperada: 2, Distancia calculada: 2
+Tiempo de ejecución: 35 ms
+Secuencia de operaciones óptima:
+  - Sustituir 'w' por 'w' (costo: 0)
+  - Sustituir 'w' por 'w' (costo: 0)
+  - Eliminar 'w' (costo: 1)
+  - Sustituir 'n' por 'n' (costo: 0)
+  - Sustituir 'n' por 'n' (costo: 0)
+  - Sustituir 'w' por 'w' (costo: 0)
+  - Sustituir 'w' por 'w' (costo: 0)
+  - Insertar 'w' (costo: 1)
+--------------------------
+Strings: "aaxxxyyyy" y "yyyyxxxaa"
+Distancia esperada: 10, Distancia calculada: 10
+Tiempo de ejecución: 1054 ms
+Secuencia de operaciones óptima:
+  - Insertar 'x' (costo: 1)
+  - Insertar 'x' (costo: 1)
+  - Insertar 'x' (costo: 1)
+  - Insertar 'a' (costo: 1)
+  - Insertar 'a' (costo: 1)
+  - Sustituir 'y' por 'y' (costo: 0)
+  - Sustituir 'y' por 'y' (costo: 0)
+  - Sustituir 'y' por 'y' (costo: 0)
+  - Sustituir 'y' por 'y' (costo: 0)
+  - Eliminar 'x' (costo: 1)
+  - Eliminar 'x' (costo: 1)
+  - Eliminar 'x' (costo: 1)
+  - Eliminar 'a' (costo: 1)
+  - Eliminar 'a' (costo: 1)
+--------------------------
+Strings: "ssaaaalll" y "lllaaaass"
+Distancia esperada: 10, Distancia calculada: 10
+Tiempo de ejecución: 1110 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'l' (costo: 1)
+  - Eliminar 'l' (costo: 1)
+  - Eliminar 'l' (costo: 1)
+  - Insertar 's' (costo: 1)
+  - Insertar 's' (costo: 1)
+  - Sustituir 'a' por 'a' (costo: 0)
+  - Sustituir 'a' por 'a' (costo: 0)
+  - Sustituir 'a' por 'a' (costo: 0)
+  - Sustituir 'a' por 'a' (costo: 0)
+  - Eliminar 's' (costo: 1)
+  - Eliminar 's' (costo: 1)
+  - Insertar 'l' (costo: 1)
+  - Insertar 'l' (costo: 1)
+  - Insertar 'l' (costo: 1)
+--------------------------
+Strings: "jjjjhhhhll" y "llhhhhjjjj"
+Distancia esperada: 12, Distancia calculada: 12
+Tiempo de ejecución: 5997 ms
+Secuencia de operaciones óptima:
+  - Eliminar 'h' (costo: 1)
+  - Eliminar 'h' (costo: 1)
+  - Eliminar 'h' (costo: 1)
+  - Eliminar 'h' (costo: 1)
+  - Eliminar 'l' (costo: 1)
+  - Eliminar 'l' (costo: 1)
+  - Sustituir 'j' por 'j' (costo: 0)
+  - Sustituir 'j' por 'j' (costo: 0)
+  - Sustituir 'j' por 'j' (costo: 0)
+  - Sustituir 'j' por 'j' (costo: 0)
+  - Insertar 'h' (costo: 1)
+  - Insertar 'h' (costo: 1)
+  - Insertar 'h' (costo: 1)
+  - Insertar 'h' (costo: 1)
+  - Insertar 'l' (costo: 1)
+  - Insertar 'l' (costo: 1)
+--------------------------

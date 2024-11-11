@@ -1,0 +1,13 @@
+- Contexto del algoritmo y sus usos
+- objetivo del informe
+	- Comparar los dos alcances
+	- ver cual es mejor 
+- Podemos mejorar la eficiencia mediante programación dinámica? o la fuerza bruta es la solucion
+- Comparar la eficiencia, uso de memoria, practicidad, pros y contras
+- Comprobar en la eficiencia en la practica 
+https://afteracademy.com/blog/edit-distance-problem/
+https://medium.com/@hebozhe/optimizing-levenshtein-distance-in-python-using-built-ins-only-8f6b37e9de89
+https://medium.com/@erayaraz10/the-levenshtein-distance-algorithm-cf6407d25d16
+https://www.geeksforgeeks.org/introduction-to-levenshtein-distance/?ref=oin_asr1
+https://afteracademy.com/blog/edit-distance-problem/
+https://bdebo.medium.com/edit-distance-643a4bcfaa09
