@@ -11,13 +11,11 @@
 
 using namespace std;
 
-// Variables globales para los costos
 vector<int> cost_insert(26);
 vector<int> cost_delete(26);
 vector<vector<int>> cost_replace(26, vector<int>(26));
 vector<vector<int>> cost_transpose(26, vector<int>(26));
 
-// Funciones para cargar los costos desde los archivos
 void cargarCostos(const string &filename, vector<int> &costos) {
     ifstream file(filename);
     if (!file.is_open()) {
