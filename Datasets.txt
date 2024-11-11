@@ -1,0 +1,11 @@
+Datasets:
+
+- transposiciones pequeñas
+- transposiciones grandes
+- cadenas vacias
+- caracteres repetidos
+- palabras normales
+	- 1 a 4
+	- 4 a 8
+		- matrices con 1
+		- variación de valores
