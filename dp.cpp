@@ -119,7 +119,6 @@ pair<int, vector<string>> distanciaEdicion(const string &s1, const string &s2) {
 
 // Función para leer el archivo dataset y calcular y comparar distancias
 void procesarDataset(const string &filename) {
-    long long TotalMemory=0;
     ifstream file(filename);
     ofstream outfile("output_dp.txt"); // Abrir archivo de salida
     if (!file.is_open()) {
@@ -133,45 +132,54 @@ void procesarDataset(const string &filename) {
 
     string line;
     
+    chrono::duration<double, milli> promedio;
+
     while (getline(file, line)) {
         
         istringstream ss(line);
         string s1, s2;
         int n;
-
+        
         // Separar la línea por comas y leer las variables
         if (getline(ss, s1, ',') && getline(ss, s2, ',') && ss >> n) {
             // Medir el tiempo de ejecución y el uso de memoria
             auto start = chrono::high_resolution_clock::now();
            
-      
-            // Calcular la distancia de edición con el algoritmo actual
             auto [distancia, operaciones] = distanciaEdicion(s1, s2);
 
-            
-           
             auto end = chrono::high_resolution_clock::now();
             chrono::duration<double, milli> duration = end - start;
-
+            promedio+=duration;
 
             // Mostrar los resultados en pantalla
-            cout << "Strings: " << s1 << ", " << s2 << endl;
+            cout << "Strings: " << s1 << " , " << s2 << endl;
             cout << "Distancia calculada: " << distancia << ", Distancia esperada: " << n << endl;
             cout << "Tiempo de ejecución: " << duration.count() << " ms" << endl;
 
             // Escribir los resultados en el archivo
-            outfile << "Strings: " << s1 << ", " << s2 << endl;
+            outfile << "Strings: " << s1 << " , " << s2 << endl;
             outfile << "Distancia calculada: " << distancia << ", Distancia esperada: " << n << endl;
+            if(distancia==n){
+                outfile << "Resultado correcto" << endl;
+            } else {
+                outfile<< "Resultado incorrecto" << endl;
+            }
             outfile << "Tiempo de ejecución: " << duration.count() << " ms" << endl;
             outfile << "Operaciones óptimas:" << endl;
-            for (const auto &operacion : operaciones) {
-                outfile << " - " << operacion << endl;
+            for (const auto &op : operaciones) {
+                if (op.find("0")== string::npos){
+                    outfile << " - " << op << endl;
+                }
             }
-            outfile << "----------------------------------------" << endl;
+            outfile << "--------------------------" << endl;
         } else {
             cerr << "Error al leer la línea: " << line << endl;
         }
+
     }
+
+    cout << "Tiempo de ejecución promedio: " << promedio.count()/20 << " ms" << endl;
+    outfile << "Tiempo promedio de ejecución: " << promedio.count()/20 <<" ms" << endl;
 
     file.close();
     outfile.close();

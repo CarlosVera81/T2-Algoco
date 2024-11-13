@@ -67,12 +67,12 @@ int distanciaEdicionFuerzaBruta(const string &s1, const string &s2, int i, int j
     }
     if (i == int(s1.size())) {
         int costo = costo_insercion(s2[j]);
-        operaciones.push_back("Insertar '" + string(1, s2[j]) + "' (costo: " + to_string(costo) + ")");
+        operaciones.push_back("Insertar " + string(1, s2[j]) + " (Costo: " + to_string(costo) + ")");
         return costo + distanciaEdicionFuerzaBruta(s1, s2, i, j + 1, operaciones);
     }
     if (j == int(s2.size())) {
         int costo = costo_eliminacion(s1[i]);
-        operaciones.push_back("Eliminar '" + string(1, s1[i]) + "' (costo: " + to_string(costo) + ")");
+        operaciones.push_back("Eliminar " + string(1, s1[i]) + " (Costo: " + to_string(costo) + ")");
         return costo + distanciaEdicionFuerzaBruta(s1, s2, i + 1, j, operaciones);
     }
 
@@ -91,16 +91,16 @@ int distanciaEdicionFuerzaBruta(const string &s1, const string &s2, int i, int j
 
     if (costoMinimo == costoIns) {
         operaciones = operacionesIns;
-        operaciones.push_back("Insertar '" + string(1, s2[j]) + "' (costo: " + to_string(costo_insercion(s2[j])) + ")");
+        operaciones.push_back("Insertar " + string(1, s2[j]) + " (Costo: " + to_string(costo_insercion(s2[j])) + ")");
     } else if (costoMinimo == costoDel) {
         operaciones = operacionesDel;
-        operaciones.push_back("Eliminar '" + string(1, s1[i]) + "' (costo: " + to_string(costo_eliminacion(s1[i])) + ")");
+        operaciones.push_back("Eliminar " + string(1, s1[i]) + " (Costo: " + to_string(costo_eliminacion(s1[i])) + ")");
     } else if (costoMinimo == costoSub) {
         operaciones = operacionesSub;
-        operaciones.push_back("Sustituir '" + string(1, s1[i]) + "' por '" + string(1, s2[j]) + "' (costo: " + to_string(costo_sustitucion(s1[i], s2[j])) + ")");
+        operaciones.push_back("Sustituir " + string(1, s1[i]) + " por " + string(1, s2[j]) + " (Costo: " + to_string(costo_sustitucion(s1[i], s2[j])) + ")");
     } else if (costoMinimo == costoTrans) {
         operaciones = operacionesTrans;
-        operaciones.push_back("Transponer '" + string(1, s1[i]) + "' y '" + string(1, s1[i + 1]) + "' (costo: " + to_string(costo_transposicion(s1[i], s1[i + 1])) + ")");
+        operaciones.push_back("Transponer " + string(1, s1[i]) + " y " + string(1, s1[i + 1]) + " (Costo: " + to_string(costo_transposicion(s1[i], s1[i + 1])) + ")");
     }
 
     return costoMinimo;
@@ -123,6 +123,8 @@ void procesarDataset(const string &dataset_filename) {
     }
 
     string line;
+    chrono::duration<double, milli> promedio;
+
     while (getline(dataset_file, line)) {
         stringstream ss(line);
         string s1, s2;
@@ -138,25 +140,36 @@ void procesarDataset(const string &dataset_filename) {
         auto start = chrono::high_resolution_clock::now();
         int calculated_distance = distanciaEdicionFuerzaBruta(s1, s2, 0, 0, operaciones);
         auto end = chrono::high_resolution_clock::now();
-        auto duration = chrono::duration_cast<chrono::milliseconds>(end - start).count();
-     
+        chrono::duration<double, milli> duration = end - start;
+        promedio+=duration;
+
         // Mostrar resultados en la consola
-        cout << "Strings: \"" << s1 << "\" y \"" << s2 << "\"" << endl;
+        cout << "Strings: " << s1 << " , " << s2 << endl;
         cout << "Distancia esperada: " << expected_distance << ", Distancia calculada: " << calculated_distance << endl;
-        cout << "Tiempo de ejecución: " << duration << " ms" << endl;
+        cout << "Tiempo de ejecución: " << duration.count() << " ms" << endl;
         
         // Escribir los resultados en el archivo de salida
-        output_file << "Strings: \"" << s1 << "\" y \"" << s2 << "\"" << endl;
-        output_file << "Distancia esperada: " << expected_distance << ", Distancia calculada: " << calculated_distance << endl;
-        output_file << "Tiempo de ejecución: " << duration << " ms" << endl;
-        output_file << "Secuencia de operaciones óptima:" << endl;
+        output_file << "Strings: " << s1 << " , " << s2 << endl;
+        output_file << "Distancia calculada: " << calculated_distance << ", Distancia esperada: " << expected_distance << endl;
+        if(expected_distance==calculated_distance){
+            output_file << "Resultado correcto" << endl;
+        } else {
+            output_file << "Resultado incorrecto" << endl;
+        }
+        output_file << "Tiempo de ejecución: " << duration.count() << " ms" << endl;
+        output_file << "Operaciones óptimas:" << endl;
         
         for (const string &op : operaciones) {
-            output_file << "  - " << op << endl;
+            if (op.find("0")== string::npos){
+                output_file << " - " << op << endl;
+            }
         }
         
         output_file << "--------------------------" << endl;
     }
+    cout << "Tiempo de ejecución promedio: " << promedio.count()/20 << " ms" << endl;
+    output_file << "Tiempo de ejecución promedio: " << promedio.count()/20 << " ms" << endl;
+
     dataset_file.close();
     output_file.close();
 }

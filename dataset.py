@@ -1,6 +1,7 @@
 import numpy as np
 from random import choice
 from weighted_levenshtein import osa
+from random import shuffle
 
 # Función para leer el archivo de costos (una fila de 26 valores)
 def leer_costos_unidimensional(archivo):
@@ -45,7 +46,7 @@ def obtener_palabras_ingles():
         import nltk
         nltk.download('words')
         from nltk.corpus import words
-        return [word.lower() for word in words.words() if word.islower() and all('a' <= char <= 'z' for char in word)]
+        return [word.lower() for word in words.words() if word.islower() and len(word)==8 and all('a' <= char <= 'z' for char in word)]
     except ImportError:
         print("No se pudo importar `nltk`. Usando lista de palabras estática.")
         return ["apple", "banana", "cherry", "date", "grape", "kiwi", "lemon", "melon", "orange", "pear"]
@@ -67,14 +68,26 @@ def generar_dataset_cadenas_vacias(num_casos):
 def generar_dataset_caracteres_repetidos(num_casos):
     dataset = []
     for _ in range(num_casos):
-        # Crear palabra con segmentos repetidos de letras aleatorias
-        segmentos = [
-            choice("abcdefghijklmnopqrstuvwxyz") * choice(range(2, 5)),
-            choice("abcdefghijklmnopqrstuvwxyz") * choice(range(2, 5)),
-            choice("abcdefghijklmnopqrstuvwxyz") * choice(range(2, 5))
-        ]
-        palabra1 = "".join(segmentos)
-        palabra2 = "".join(segmentos[::-1])  # Crear otra palabra cambiando el orden de los segmentos
+        # Crear segmentos repetidos de letras aleatorias
+        letra1 = choice("abcdefghijklmnopqrstuvwxyz")
+        letra2 = choice("abcdefghijklmnopqrstuvwxyz")
+        letra3 = choice("abcdefghijklmnopqrstuvwxyz")
+        
+        # Crear segmentos intercalados en lugar de concatenar directamente
+        segmentos = (
+            [letra1] * 3 + [letra2] * 2 + [letra3] * 3
+        )
+        
+        # Barajar los elementos de los segmentos para crear palabras con patrones intercalados
+        palabra1_segmentos = segmentos.copy()
+        palabra2_segmentos = segmentos.copy()
+        shuffle(palabra1_segmentos)
+        shuffle(palabra2_segmentos)
+        
+        palabra1 = "".join(palabra1_segmentos)
+        palabra2 = "".join(palabra2_segmentos)
+        
+        # Calcular el costo de edición entre las dos palabras
         costo = int(osa(palabra1, palabra2, insert_costs=insert_costs_128, 
                         delete_costs=delete_costs_128, 
                         substitute_costs=substitute_costs_128, 
@@ -109,7 +122,7 @@ def generar_dataset_transposicionesG(num_casos):
     return dataset
 
 # Función general para generar dataset
-def generar_dataset(palabras, num_palabras=100, tipo="aleatorio"):
+def generar_dataset(palabras, num_palabras=20, tipo="aleatorio"):
     if tipo == "cadenas_vacias":
         return generar_dataset_cadenas_vacias(num_palabras)
     elif tipo == "caracteres_repetidos":
@@ -140,8 +153,8 @@ def guardar_dataset(dataset, archivo="dataset.txt"):
 palabras_ingles = obtener_palabras_ingles()
 
 # Generar el dataset específico
-tipo_dataset = "caracteres_repetidos"  # Cambia el tipo a "cadenas_vacias", "caracteres_repetidos" o "transposiciones"
-dataset = generar_dataset(palabras_ingles, num_palabras=100, tipo=tipo_dataset)
+tipo_dataset = "aleatorio"  # Cambia el tipo a "cadenas_vacias", "caracteres_repetidos" o "transposiciones"
+dataset = generar_dataset(palabras_ingles, num_palabras=20, tipo=tipo_dataset)
 
 # Guardar el dataset en un archivo
 guardar_dataset(dataset)

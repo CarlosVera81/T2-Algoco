@@ -1,0 +1,1155 @@
+desc: (none)
+cmd: ./bf
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=62270215
+mem_heap_B=100681
+mem_heap_extra_B=1775
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=168975480
+mem_heap_B=102360
+mem_heap_extra_B=2176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=239552511
+mem_heap_B=102353
+mem_heap_extra_B=2191
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=365190641
+mem_heap_B=102777
+mem_heap_extra_B=2015
+mem_stacks_B=0
+heap_tree=detailed
+n7: 102777 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4900939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 16384 0x496B023: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n2: 16384 0x496F015: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+   n2: 8192 0x496F935: std::basic_ifstream<char, std::char_traits<char> >::basic_ifstream(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+    n1: 8192 0x10D31E: procesarDataset(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n0: 8192 0x10DD64: main (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+    n0: 0 in 2 places, all below massif's threshold (1.00%)
+   n1: 8192 0x496FCBD: std::basic_ofstream<char, std::char_traits<char> >::basic_ofstream(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+    n1: 8192 0x10D33C: procesarDataset(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n0: 8192 0x10DD64: main (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+ n1: 5616 0x11176D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+  n1: 5616 0x1111F5: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+   n1: 5616 0x110B0D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+    n1: 5616 0x1101D4: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n2: 5616 0x10F684: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+      n1: 5408 0x111C80: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+       n1: 5408 0x1118C2: void std::_Construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+        n1: 5408 0x111369: std::vector<int, std::allocator<int> >* std::__uninitialized_fill_n<false>::__uninit_fill_n<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+         n1: 5408 0x110C89: std::vector<int, std::allocator<int> >* std::uninitialized_fill_n<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+          n1: 5408 0x110444: std::vector<int, std::allocator<int> >* std::__uninitialized_fill_n_a<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > >&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+           n1: 5408 0x10F94D: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_fill_initialize(unsigned long, std::vector<int, std::allocator<int> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+            n2: 5408 0x10EBDD: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::vector(unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+             n1: 2704 0x10E009: __static_initialization_and_destruction_0(int, int) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+              n1: 2704 0x10E1D6: _GLOBAL__sub_I_cost_insert (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+               n1: 2704 0x4ACBEBA: call_init (libc-start.c:145)
+                n1: 2704 0x4ACBEBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+                 n0: 2704 0x10B844: (below main) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+             n1: 2704 0x10E09F: __static_initialization_and_destruction_0(int, int) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+              n1: 2704 0x10E1D6: _GLOBAL__sub_I_cost_insert (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+               n1: 2704 0x4ACBEBA: call_init (libc-start.c:145)
+                n1: 2704 0x4ACBEBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+                 n0: 2704 0x10B844: (below main) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+      n0: 208 in 1 place, below massif's threshold (1.00%)
+ n1: 3328 0x1114EB: __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::allocate(unsigned long, void const*) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+  n1: 3328 0x110F70: std::allocator_traits<std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::allocate(std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >&, unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+   n2: 3328 0x11087B: std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_allocate(unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+    n1: 3328 0x11052A: void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n1: 3328 0x10FA57: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >& std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+      n2: 3328 0x10EEFD: std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+       n2: 3328 0x10C68F: distanciaEdicionFuerzaBruta(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+        n2: 2624 0x10C29E: distanciaEdicionFuerzaBruta(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+         n2: 1792 0x10C303: distanciaEdicionFuerzaBruta(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+          n1: 1280 0x10C303: distanciaEdicionFuerzaBruta(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+           n0: 1280 in 4 places, all below massif's threshold (1.00%)
+          n0: 512 in 3 places, all below massif's threshold (1.00%)
+         n0: 832 in 3 places, all below massif's threshold (1.00%)
+        n0: 704 in 3 places, all below massif's threshold (1.00%)
+       n0: 0 in 4 places, all below massif's threshold (1.00%)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 2297 in 5 places, all below massif's threshold (1.00%)
+ n1: 1248 0x111866: __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::allocate(unsigned long, void const*) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+  n1: 1248 0x1112E9: std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::allocate(std::allocator<std::vector<int, std::allocator<int> > >&, unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+   n1: 1248 0x110C1B: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_allocate(unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+    n1: 1248 0x110388: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_create_storage(unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n1: 1248 0x10F886: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_Vector_base(unsigned long, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+      n1: 1248 0x10EBC6: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::vector(unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+       n0: 1248 in 2 places, all below massif's threshold (1.00%)
+ n1: 1200 0x49A5109: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 1200 0x111AA5: void std::_Construct<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+   n1: 1200 0x111537: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >* std::__uninitialized_copy<false>::__uninit_copy<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+    n1: 1200 0x110FA5: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >* std::uninitialized_copy<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n1: 1200 0x1108B7: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+      n1: 1200 0x10FD6C: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >* std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > >(unsigned long, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+       n2: 1200 0x10F1B3: std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::operator=(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+        n1: 1200 0x10C57C: distanciaEdicionFuerzaBruta(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+         n0: 1200 in 4 places, all below massif's threshold (1.00%)
+        n0: 0 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=5
+#-----------
+time=487632068
+mem_heap_B=105253
+mem_heap_extra_B=2515
+mem_stacks_B=0
+heap_tree=peak
+n7: 105253 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4900939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 16384 0x496B023: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n2: 16384 0x496F015: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+   n2: 8192 0x496F935: std::basic_ifstream<char, std::char_traits<char> >::basic_ifstream(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+    n1: 8192 0x10D31E: procesarDataset(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n0: 8192 0x10DD64: main (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+    n0: 0 in 2 places, all below massif's threshold (1.00%)
+   n1: 8192 0x496FCBD: std::basic_ofstream<char, std::char_traits<char> >::basic_ofstream(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+    n1: 8192 0x10D33C: procesarDataset(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n0: 8192 0x10DD64: main (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+ n1: 5616 0x11176D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+  n1: 5616 0x1111F5: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+   n1: 5616 0x110B0D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+    n1: 5616 0x1101D4: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n2: 5616 0x10F684: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+      n1: 5408 0x111C80: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+       n1: 5408 0x1118C2: void std::_Construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+        n1: 5408 0x111369: std::vector<int, std::allocator<int> >* std::__uninitialized_fill_n<false>::__uninit_fill_n<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+         n1: 5408 0x110C89: std::vector<int, std::allocator<int> >* std::uninitialized_fill_n<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+          n1: 5408 0x110444: std::vector<int, std::allocator<int> >* std::__uninitialized_fill_n_a<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > >&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+           n1: 5408 0x10F94D: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_fill_initialize(unsigned long, std::vector<int, std::allocator<int> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+            n2: 5408 0x10EBDD: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::vector(unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+             n1: 2704 0x10E009: __static_initialization_and_destruction_0(int, int) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+              n1: 2704 0x10E1D6: _GLOBAL__sub_I_cost_insert (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+               n1: 2704 0x4ACBEBA: call_init (libc-start.c:145)
+                n1: 2704 0x4ACBEBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+                 n0: 2704 0x10B844: (below main) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+             n1: 2704 0x10E09F: __static_initialization_and_destruction_0(int, int) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+              n1: 2704 0x10E1D6: _GLOBAL__sub_I_cost_insert (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+               n1: 2704 0x4ACBEBA: call_init (libc-start.c:145)
+                n1: 2704 0x4ACBEBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+                 n0: 2704 0x10B844: (below main) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+      n0: 208 in 1 place, below massif's threshold (1.00%)
+ n1: 5056 0x1114EB: __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::allocate(unsigned long, void const*) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+  n1: 5056 0x110F70: std::allocator_traits<std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::allocate(std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >&, unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+   n2: 5056 0x11087B: std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_allocate(unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+    n1: 4928 0x11052A: void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n1: 4928 0x10FA57: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >& std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+      n2: 4928 0x10EEFD: std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+       n3: 4672 0x10C68F: distanciaEdicionFuerzaBruta(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+        n2: 3136 0x10C29E: distanciaEdicionFuerzaBruta(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+         n1: 1600 0x10C303: distanciaEdicionFuerzaBruta(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+          n0: 1600 in 4 places, all below massif's threshold (1.00%)
+         n0: 1536 in 3 places, all below massif's threshold (1.00%)
+        n1: 1280 0x10C303: distanciaEdicionFuerzaBruta(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+         n0: 1280 in 4 places, all below massif's threshold (1.00%)
+        n0: 256 in 2 places, all below massif's threshold (1.00%)
+       n0: 256 in 4 places, all below massif's threshold (1.00%)
+    n0: 128 in 1 place, below massif's threshold (1.00%)
+ n0: 2576 in 5 places, all below massif's threshold (1.00%)
+ n1: 1669 0x49A5109: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 1669 0x111AA5: void std::_Construct<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+   n1: 1669 0x111537: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >* std::__uninitialized_copy<false>::__uninit_copy<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+    n1: 1669 0x110FA5: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >* std::uninitialized_copy<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n1: 1669 0x1108B7: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+      n1: 1669 0x10FD6C: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >* std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > >(unsigned long, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+       n2: 1669 0x10F1B3: std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::operator=(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+        n2: 1669 0x10C57C: distanciaEdicionFuerzaBruta(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+         n1: 1134 0x10C29E: distanciaEdicionFuerzaBruta(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+          n0: 1134 in 4 places, all below massif's threshold (1.00%)
+         n0: 535 in 3 places, all below massif's threshold (1.00%)
+        n0: 0 in 2 places, all below massif's threshold (1.00%)
+ n1: 1248 0x111866: __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::allocate(unsigned long, void const*) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+  n1: 1248 0x1112E9: std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::allocate(std::allocator<std::vector<int, std::allocator<int> > >&, unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+   n1: 1248 0x110C1B: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_allocate(unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+    n1: 1248 0x110388: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_create_storage(unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n1: 1248 0x10F886: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_Vector_base(unsigned long, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+      n1: 1248 0x10EBC6: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::vector(unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+       n0: 1248 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=6
+#-----------
+time=555188225
+mem_heap_B=103076
+mem_heap_extra_B=2044
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=625362691
+mem_heap_B=102312
+mem_heap_extra_B=1960
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=701915300
+mem_heap_B=101814
+mem_heap_extra_B=1818
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=778470186
+mem_heap_B=102374
+mem_heap_extra_B=1938
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=890096456
+mem_heap_B=102360
+mem_heap_extra_B=1912
+mem_stacks_B=0
+heap_tree=detailed
+n7: 102360 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4900939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 16384 0x496B023: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n2: 16384 0x496F015: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+   n2: 8192 0x496F935: std::basic_ifstream<char, std::char_traits<char> >::basic_ifstream(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+    n1: 8192 0x10D31E: procesarDataset(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n0: 8192 0x10DD64: main (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+    n0: 0 in 2 places, all below massif's threshold (1.00%)
+   n1: 8192 0x496FCBD: std::basic_ofstream<char, std::char_traits<char> >::basic_ofstream(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+    n1: 8192 0x10D33C: procesarDataset(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n0: 8192 0x10DD64: main (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+ n1: 5616 0x11176D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+  n1: 5616 0x1111F5: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+   n1: 5616 0x110B0D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+    n1: 5616 0x1101D4: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n2: 5616 0x10F684: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+      n1: 5408 0x111C80: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+       n1: 5408 0x1118C2: void std::_Construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+        n1: 5408 0x111369: std::vector<int, std::allocator<int> >* std::__uninitialized_fill_n<false>::__uninit_fill_n<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+         n1: 5408 0x110C89: std::vector<int, std::allocator<int> >* std::uninitialized_fill_n<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+          n1: 5408 0x110444: std::vector<int, std::allocator<int> >* std::__uninitialized_fill_n_a<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > >&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+           n1: 5408 0x10F94D: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_fill_initialize(unsigned long, std::vector<int, std::allocator<int> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+            n2: 5408 0x10EBDD: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::vector(unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+             n1: 2704 0x10E009: __static_initialization_and_destruction_0(int, int) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+              n1: 2704 0x10E1D6: _GLOBAL__sub_I_cost_insert (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+               n1: 2704 0x4ACBEBA: call_init (libc-start.c:145)
+                n1: 2704 0x4ACBEBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+                 n0: 2704 0x10B844: (below main) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+             n1: 2704 0x10E09F: __static_initialization_and_destruction_0(int, int) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+              n1: 2704 0x10E1D6: _GLOBAL__sub_I_cost_insert (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+               n1: 2704 0x4ACBEBA: call_init (libc-start.c:145)
+                n1: 2704 0x4ACBEBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+                 n0: 2704 0x10B844: (below main) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+      n0: 208 in 1 place, below massif's threshold (1.00%)
+ n1: 2944 0x1114EB: __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::allocate(unsigned long, void const*) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+  n1: 2944 0x110F70: std::allocator_traits<std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::allocate(std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >&, unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+   n2: 2944 0x11087B: std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_allocate(unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+    n1: 2944 0x11052A: void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n1: 2944 0x10FA57: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >& std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+      n2: 2944 0x10EEFD: std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+       n2: 2048 0x10C68F: distanciaEdicionFuerzaBruta(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+        n1: 1152 0x10C29E: distanciaEdicionFuerzaBruta(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+         n0: 1152 in 4 places, all below massif's threshold (1.00%)
+        n0: 896 in 3 places, all below massif's threshold (1.00%)
+       n0: 896 in 4 places, all below massif's threshold (1.00%)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 2390 in 5 places, all below massif's threshold (1.00%)
+ n1: 1248 0x111866: __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::allocate(unsigned long, void const*) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+  n1: 1248 0x1112E9: std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::allocate(std::allocator<std::vector<int, std::allocator<int> > >&, unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+   n1: 1248 0x110C1B: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_allocate(unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+    n1: 1248 0x110388: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_create_storage(unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n1: 1248 0x10F886: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_Vector_base(unsigned long, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+      n1: 1248 0x10EBC6: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::vector(unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+       n0: 1248 in 2 places, all below massif's threshold (1.00%)
+ n1: 1074 0x49A5109: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 1074 0x111AA5: void std::_Construct<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+   n1: 1074 0x111537: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >* std::__uninitialized_copy<false>::__uninit_copy<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+    n1: 1074 0x110FA5: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >* std::uninitialized_copy<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n1: 1074 0x1108B7: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+      n1: 1074 0x10FD6C: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >* std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > >(unsigned long, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+       n1: 1074 0x10F1B3: std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::operator=(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+        n0: 1074 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=11
+#-----------
+time=979392308
+mem_heap_B=101870
+mem_heap_extra_B=1818
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=1068688493
+mem_heap_B=102448
+mem_heap_extra_B=1920
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=1146822228
+mem_heap_B=101167
+mem_heap_extra_B=1721
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=1247281040
+mem_heap_B=101283
+mem_heap_extra_B=1701
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=1347739854
+mem_heap_B=102471
+mem_heap_extra_B=1945
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=1457760151
+mem_heap_B=101872
+mem_heap_extra_B=1832
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=1534292250
+mem_heap_B=101857
+mem_heap_extra_B=1855
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=1610825051
+mem_heap_B=104113
+mem_heap_extra_B=2311
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=1668223922
+mem_heap_B=103512
+mem_heap_extra_B=2176
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=1783020980
+mem_heap_B=102134
+mem_heap_extra_B=1842
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=1859552724
+mem_heap_B=101412
+mem_heap_extra_B=1692
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=1936086143
+mem_heap_B=102608
+mem_heap_extra_B=1928
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=2012619211
+mem_heap_B=102477
+mem_heap_extra_B=1995
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=2089152435
+mem_heap_B=101165
+mem_heap_extra_B=1715
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=2184817951
+mem_heap_B=103924
+mem_heap_extra_B=2316
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=2280483402
+mem_heap_B=101864
+mem_heap_extra_B=1832
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=2369781776
+mem_heap_B=101228
+mem_heap_extra_B=1684
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=2433577648
+mem_heap_B=103034
+mem_heap_extra_B=2078
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=2497372827
+mem_heap_B=103158
+mem_heap_extra_B=2114
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=2561168319
+mem_heap_B=101681
+mem_heap_extra_B=1815
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=2656861311
+mem_heap_B=100902
+mem_heap_extra_B=1570
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=2720657138
+mem_heap_B=103107
+mem_heap_extra_B=2101
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=2784453153
+mem_heap_B=103812
+mem_heap_extra_B=2276
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=2848248736
+mem_heap_B=102284
+mem_heap_extra_B=1980
+mem_stacks_B=0
+heap_tree=detailed
+n6: 102284 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4900939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 16384 0x496B023: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n2: 16384 0x496F015: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+   n2: 8192 0x496F935: std::basic_ifstream<char, std::char_traits<char> >::basic_ifstream(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+    n1: 8192 0x10D31E: procesarDataset(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n0: 8192 0x10DD64: main (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+    n0: 0 in 2 places, all below massif's threshold (1.00%)
+   n1: 8192 0x496FCBD: std::basic_ofstream<char, std::char_traits<char> >::basic_ofstream(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+    n1: 8192 0x10D33C: procesarDataset(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n0: 8192 0x10DD64: main (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+ n1: 5616 0x11176D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+  n1: 5616 0x1111F5: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+   n1: 5616 0x110B0D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+    n1: 5616 0x1101D4: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n2: 5616 0x10F684: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+      n1: 5408 0x111C80: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+       n1: 5408 0x1118C2: void std::_Construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+        n1: 5408 0x111369: std::vector<int, std::allocator<int> >* std::__uninitialized_fill_n<false>::__uninit_fill_n<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+         n1: 5408 0x110C89: std::vector<int, std::allocator<int> >* std::uninitialized_fill_n<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+          n1: 5408 0x110444: std::vector<int, std::allocator<int> >* std::__uninitialized_fill_n_a<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > >&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+           n1: 5408 0x10F94D: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_fill_initialize(unsigned long, std::vector<int, std::allocator<int> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+            n2: 5408 0x10EBDD: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::vector(unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+             n1: 2704 0x10E009: __static_initialization_and_destruction_0(int, int) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+              n1: 2704 0x10E1D6: _GLOBAL__sub_I_cost_insert (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+               n1: 2704 0x4ACBEBA: call_init (libc-start.c:145)
+                n1: 2704 0x4ACBEBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+                 n0: 2704 0x10B844: (below main) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+             n1: 2704 0x10E09F: __static_initialization_and_destruction_0(int, int) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+              n1: 2704 0x10E1D6: _GLOBAL__sub_I_cost_insert (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+               n1: 2704 0x4ACBEBA: call_init (libc-start.c:145)
+                n1: 2704 0x4ACBEBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+                 n0: 2704 0x10B844: (below main) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+      n0: 208 in 1 place, below massif's threshold (1.00%)
+ n0: 3356 in 6 places, all below massif's threshold (1.00%)
+ n1: 2976 0x1114EB: __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::allocate(unsigned long, void const*) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+  n1: 2976 0x110F70: std::allocator_traits<std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::allocate(std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >&, unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+   n2: 2976 0x11087B: std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_allocate(unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+    n1: 2976 0x11052A: void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n1: 2976 0x10FA57: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >& std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+      n2: 2976 0x10EEFD: std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+       n1: 1792 0x10C68F: distanciaEdicionFuerzaBruta(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+        n0: 1792 in 4 places, all below massif's threshold (1.00%)
+       n0: 1184 in 4 places, all below massif's threshold (1.00%)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 1248 0x111866: __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::allocate(unsigned long, void const*) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+  n1: 1248 0x1112E9: std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::allocate(std::allocator<std::vector<int, std::allocator<int> > >&, unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+   n1: 1248 0x110C1B: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_allocate(unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+    n1: 1248 0x110388: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_create_storage(unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n1: 1248 0x10F886: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_Vector_base(unsigned long, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+      n1: 1248 0x10EBC6: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::vector(unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+       n0: 1248 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=35
+#-----------
+time=2912046052
+mem_heap_B=101821
+mem_heap_extra_B=1859
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=2975842051
+mem_heap_B=102258
+mem_heap_extra_B=1942
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=3039637823
+mem_heap_B=104025
+mem_heap_extra_B=2319
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=3135330545
+mem_heap_B=101698
+mem_heap_extra_B=1758
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=3231024185
+mem_heap_B=102060
+mem_heap_extra_B=1852
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=3294820466
+mem_heap_B=102409
+mem_heap_extra_B=1895
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=3358615793
+mem_heap_B=102737
+mem_heap_extra_B=1967
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=3422411264
+mem_heap_B=100694
+mem_heap_extra_B=1562
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=3486207911
+mem_heap_B=101051
+mem_heap_extra_B=1645
+mem_stacks_B=0
+heap_tree=detailed
+n6: 101051 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4900939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 16384 0x496B023: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n2: 16384 0x496F015: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+   n2: 8192 0x496F935: std::basic_ifstream<char, std::char_traits<char> >::basic_ifstream(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+    n1: 8192 0x10D31E: procesarDataset(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n0: 8192 0x10DD64: main (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+    n0: 0 in 2 places, all below massif's threshold (1.00%)
+   n1: 8192 0x496FCBD: std::basic_ofstream<char, std::char_traits<char> >::basic_ofstream(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+    n1: 8192 0x10D33C: procesarDataset(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n0: 8192 0x10DD64: main (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+ n1: 5616 0x11176D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+  n1: 5616 0x1111F5: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+   n1: 5616 0x110B0D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+    n1: 5616 0x1101D4: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n2: 5616 0x10F684: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+      n1: 5408 0x111C80: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+       n1: 5408 0x1118C2: void std::_Construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+        n1: 5408 0x111369: std::vector<int, std::allocator<int> >* std::__uninitialized_fill_n<false>::__uninit_fill_n<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+         n1: 5408 0x110C89: std::vector<int, std::allocator<int> >* std::uninitialized_fill_n<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+          n1: 5408 0x110444: std::vector<int, std::allocator<int> >* std::__uninitialized_fill_n_a<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > >&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+           n1: 5408 0x10F94D: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_fill_initialize(unsigned long, std::vector<int, std::allocator<int> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+            n2: 5408 0x10EBDD: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::vector(unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+             n1: 2704 0x10E009: __static_initialization_and_destruction_0(int, int) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+              n1: 2704 0x10E1D6: _GLOBAL__sub_I_cost_insert (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+               n1: 2704 0x4ACBEBA: call_init (libc-start.c:145)
+                n1: 2704 0x4ACBEBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+                 n0: 2704 0x10B844: (below main) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+             n1: 2704 0x10E09F: __static_initialization_and_destruction_0(int, int) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+              n1: 2704 0x10E1D6: _GLOBAL__sub_I_cost_insert (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+               n1: 2704 0x4ACBEBA: call_init (libc-start.c:145)
+                n1: 2704 0x4ACBEBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+                 n0: 2704 0x10B844: (below main) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+      n0: 208 in 1 place, below massif's threshold (1.00%)
+ n0: 3019 in 6 places, all below massif's threshold (1.00%)
+ n1: 2080 0x1114EB: __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::allocate(unsigned long, void const*) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+  n1: 2080 0x110F70: std::allocator_traits<std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::allocate(std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >&, unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+   n2: 2080 0x11087B: std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_allocate(unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+    n1: 2080 0x11052A: void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n1: 2080 0x10FA57: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >& std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+      n2: 2080 0x10EEFD: std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+       n1: 1152 0x10C68F: distanciaEdicionFuerzaBruta(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+        n0: 1152 in 5 places, all below massif's threshold (1.00%)
+       n0: 928 in 5 places, all below massif's threshold (1.00%)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 1248 0x111866: __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::allocate(unsigned long, void const*) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+  n1: 1248 0x1112E9: std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::allocate(std::allocator<std::vector<int, std::allocator<int> > >&, unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+   n1: 1248 0x110C1B: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_allocate(unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+    n1: 1248 0x110388: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_create_storage(unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n1: 1248 0x10F886: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_Vector_base(unsigned long, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+      n1: 1248 0x10EBC6: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::vector(unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+       n0: 1248 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=44
+#-----------
+time=3550003886
+mem_heap_B=101021
+mem_heap_extra_B=1635
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=3613799550
+mem_heap_B=102122
+mem_heap_extra_B=1918
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=3709493178
+mem_heap_B=101701
+mem_heap_extra_B=1819
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=3773288096
+mem_heap_B=102718
+mem_heap_extra_B=2010
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=3837083527
+mem_heap_B=102204
+mem_heap_extra_B=1900
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=3932778163
+mem_heap_B=102061
+mem_heap_extra_B=1859
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=3990177186
+mem_heap_B=101812
+mem_heap_extra_B=1836
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=4047576678
+mem_heap_B=102058
+mem_heap_extra_B=1854
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=4104976254
+mem_heap_B=102537
+mem_heap_extra_B=1927
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=4162376144
+mem_heap_B=102705
+mem_heap_extra_B=1959
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=4219775292
+mem_heap_B=104290
+mem_heap_extra_B=2294
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=4277174200
+mem_heap_B=101620
+mem_heap_extra_B=1804
+mem_stacks_B=0
+heap_tree=detailed
+n6: 101620 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4900939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 16384 0x496B023: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n2: 16384 0x496F015: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+   n2: 8192 0x496F935: std::basic_ifstream<char, std::char_traits<char> >::basic_ifstream(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+    n1: 8192 0x10D31E: procesarDataset(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n0: 8192 0x10DD64: main (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+    n0: 0 in 2 places, all below massif's threshold (1.00%)
+   n1: 8192 0x496FCBD: std::basic_ofstream<char, std::char_traits<char> >::basic_ofstream(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+    n1: 8192 0x10D33C: procesarDataset(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n0: 8192 0x10DD64: main (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+ n1: 5616 0x11176D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+  n1: 5616 0x1111F5: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+   n1: 5616 0x110B0D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+    n1: 5616 0x1101D4: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n2: 5616 0x10F684: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+      n1: 5408 0x111C80: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+       n1: 5408 0x1118C2: void std::_Construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+        n1: 5408 0x111369: std::vector<int, std::allocator<int> >* std::__uninitialized_fill_n<false>::__uninit_fill_n<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+         n1: 5408 0x110C89: std::vector<int, std::allocator<int> >* std::uninitialized_fill_n<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+          n1: 5408 0x110444: std::vector<int, std::allocator<int> >* std::__uninitialized_fill_n_a<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > >&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+           n1: 5408 0x10F94D: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_fill_initialize(unsigned long, std::vector<int, std::allocator<int> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+            n2: 5408 0x10EBDD: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::vector(unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+             n1: 2704 0x10E009: __static_initialization_and_destruction_0(int, int) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+              n1: 2704 0x10E1D6: _GLOBAL__sub_I_cost_insert (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+               n1: 2704 0x4ACBEBA: call_init (libc-start.c:145)
+                n1: 2704 0x4ACBEBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+                 n0: 2704 0x10B844: (below main) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+             n1: 2704 0x10E09F: __static_initialization_and_destruction_0(int, int) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+              n1: 2704 0x10E1D6: _GLOBAL__sub_I_cost_insert (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+               n1: 2704 0x4ACBEBA: call_init (libc-start.c:145)
+                n1: 2704 0x4ACBEBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+                 n0: 2704 0x10B844: (below main) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+      n0: 208 in 1 place, below massif's threshold (1.00%)
+ n0: 3140 in 6 places, all below massif's threshold (1.00%)
+ n1: 2528 0x1114EB: __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::allocate(unsigned long, void const*) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+  n1: 2528 0x110F70: std::allocator_traits<std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::allocate(std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >&, unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+   n2: 2528 0x11087B: std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_allocate(unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+    n1: 2528 0x11052A: void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n1: 2528 0x10FA57: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >& std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+      n2: 2528 0x10EEFD: std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+       n2: 1792 0x10C68F: distanciaEdicionFuerzaBruta(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+        n1: 1792 0x10C29E: distanciaEdicionFuerzaBruta(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+         n0: 1792 in 4 places, all below massif's threshold (1.00%)
+        n0: 0 in 4 places, all below massif's threshold (1.00%)
+       n0: 736 in 5 places, all below massif's threshold (1.00%)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 1248 0x111866: __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::allocate(unsigned long, void const*) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+  n1: 1248 0x1112E9: std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::allocate(std::allocator<std::vector<int, std::allocator<int> > >&, unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+   n1: 1248 0x110C1B: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_allocate(unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+    n1: 1248 0x110388: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_create_storage(unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n1: 1248 0x10F886: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_Vector_base(unsigned long, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+      n1: 1248 0x10EBC6: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::vector(unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+       n0: 1248 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=56
+#-----------
+time=4334574506
+mem_heap_B=102718
+mem_heap_extra_B=2026
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=4391973932
+mem_heap_B=102455
+mem_heap_extra_B=1977
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=4449373943
+mem_heap_B=103035
+mem_heap_extra_B=2069
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=4506773906
+mem_heap_B=100417
+mem_heap_extra_B=1527
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=4564172852
+mem_heap_B=102609
+mem_heap_extra_B=2023
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=4621571877
+mem_heap_B=101222
+mem_heap_extra_B=1730
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=4678971510
+mem_heap_B=102703
+mem_heap_extra_B=2033
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=4736370458
+mem_heap_B=100896
+mem_heap_extra_B=1584
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=4793770558
+mem_heap_B=99842
+mem_heap_extra_B=1366
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=4851169628
+mem_heap_B=100890
+mem_heap_extra_B=1566
+mem_stacks_B=0
+heap_tree=detailed
+n7: 100890 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4900939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 16384 0x496B023: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n2: 16384 0x496F015: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+   n2: 8192 0x496F935: std::basic_ifstream<char, std::char_traits<char> >::basic_ifstream(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+    n1: 8192 0x10D31E: procesarDataset(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n0: 8192 0x10DD64: main (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+    n0: 0 in 2 places, all below massif's threshold (1.00%)
+   n1: 8192 0x496FCBD: std::basic_ofstream<char, std::char_traits<char> >::basic_ofstream(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+    n1: 8192 0x10D33C: procesarDataset(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n0: 8192 0x10DD64: main (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+ n1: 5616 0x11176D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+  n1: 5616 0x1111F5: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+   n1: 5616 0x110B0D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+    n1: 5616 0x1101D4: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n2: 5616 0x10F684: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+      n1: 5408 0x111C80: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+       n1: 5408 0x1118C2: void std::_Construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+        n1: 5408 0x111369: std::vector<int, std::allocator<int> >* std::__uninitialized_fill_n<false>::__uninit_fill_n<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+         n1: 5408 0x110C89: std::vector<int, std::allocator<int> >* std::uninitialized_fill_n<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+          n1: 5408 0x110444: std::vector<int, std::allocator<int> >* std::__uninitialized_fill_n_a<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > >&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+           n1: 5408 0x10F94D: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_fill_initialize(unsigned long, std::vector<int, std::allocator<int> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+            n2: 5408 0x10EBDD: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::vector(unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+             n1: 2704 0x10E009: __static_initialization_and_destruction_0(int, int) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+              n1: 2704 0x10E1D6: _GLOBAL__sub_I_cost_insert (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+               n1: 2704 0x4ACBEBA: call_init (libc-start.c:145)
+                n1: 2704 0x4ACBEBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+                 n0: 2704 0x10B844: (below main) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+             n1: 2704 0x10E09F: __static_initialization_and_destruction_0(int, int) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+              n1: 2704 0x10E1D6: _GLOBAL__sub_I_cost_insert (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+               n1: 2704 0x4ACBEBA: call_init (libc-start.c:145)
+                n1: 2704 0x4ACBEBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+                 n0: 2704 0x10B844: (below main) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+      n0: 208 in 1 place, below massif's threshold (1.00%)
+ n0: 2026 in 5 places, all below massif's threshold (1.00%)
+ n1: 1888 0x1114EB: __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::allocate(unsigned long, void const*) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+  n1: 1888 0x110F70: std::allocator_traits<std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::allocate(std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >&, unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+   n2: 1888 0x11087B: std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_allocate(unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+    n1: 1856 0x11052A: void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n1: 1856 0x10FA57: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >& std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+      n2: 1856 0x10EEFD: std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+       n2: 1344 0x10C68F: distanciaEdicionFuerzaBruta(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+        n1: 1280 0x10C29E: distanciaEdicionFuerzaBruta(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+         n0: 1280 in 4 places, all below massif's threshold (1.00%)
+        n0: 64 in 4 places, all below massif's threshold (1.00%)
+       n0: 512 in 5 places, all below massif's threshold (1.00%)
+    n0: 32 in 1 place, below massif's threshold (1.00%)
+ n1: 1248 0x111866: __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::allocate(unsigned long, void const*) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+  n1: 1248 0x1112E9: std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::allocate(std::allocator<std::vector<int, std::allocator<int> > >&, unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+   n1: 1248 0x110C1B: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_allocate(unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+    n1: 1248 0x110388: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_create_storage(unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n1: 1248 0x10F886: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_Vector_base(unsigned long, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+      n1: 1248 0x10EBC6: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::vector(unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+       n0: 1248 in 2 places, all below massif's threshold (1.00%)
+ n1: 1024 0x4B20BA3: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 1024 0x4B2FCDF: _IO_doallocbuf (genops.c:347)
+   n1: 1024 0x4B2EF5F: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+    n1: 1024 0x4B2D6D4: _IO_new_file_xsputn (fileops.c:1243)
+     n1: 1024 0x4B2D6D4: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+      n1: 1024 0x4B21FD6: fwrite (iofwrite.c:39)
+       n1: 1024 0x4992B64: std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+        n1: 1024 0x4992EBA: std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+         n1: 1024 0x10D55A: procesarDataset(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+          n0: 1024 0x10DD64: main (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+#-----------
+snapshot=66
+#-----------
+time=4908569648
+mem_heap_B=100569
+mem_heap_extra_B=1503
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=4965968564
+mem_heap_B=102377
+mem_heap_extra_B=1855
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=5023368441
+mem_heap_B=101793
+mem_heap_extra_B=1743
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=5080767594
+mem_heap_B=101567
+mem_heap_extra_B=1793
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=5138167049
+mem_heap_B=102601
+mem_heap_extra_B=2015
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=5195566166
+mem_heap_B=102162
+mem_heap_extra_B=1934
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=5252965223
+mem_heap_B=102840
+mem_heap_extra_B=1992
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=5310364615
+mem_heap_B=103294
+mem_heap_extra_B=2146
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=5367763730
+mem_heap_B=101208
+mem_heap_extra_B=1664
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=5425163049
+mem_heap_B=102503
+mem_heap_extra_B=1961
+mem_stacks_B=0
+heap_tree=detailed
+n7: 102503 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4900939: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 72704 0x400647D: call_init.part.0 (dl-init.c:70)
+   n1: 72704 0x4006567: call_init (dl-init.c:33)
+    n1: 72704 0x4006567: _dl_init (dl-init.c:117)
+     n0: 72704 0x40202C9: ??? (in /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2)
+ n1: 16384 0x496B023: std::basic_filebuf<char, std::char_traits<char> >::_M_allocate_internal_buffer() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n2: 16384 0x496F015: std::basic_filebuf<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+   n2: 8192 0x496F935: std::basic_ifstream<char, std::char_traits<char> >::basic_ifstream(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+    n1: 8192 0x10D31E: procesarDataset(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n0: 8192 0x10DD64: main (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+    n0: 0 in 2 places, all below massif's threshold (1.00%)
+   n1: 8192 0x496FCBD: std::basic_ofstream<char, std::char_traits<char> >::basic_ofstream(char const*, std::_Ios_Openmode) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+    n1: 8192 0x10D33C: procesarDataset(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n0: 8192 0x10DD64: main (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+ n1: 5616 0x11176D: __gnu_cxx::new_allocator<int>::allocate(unsigned long, void const*) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+  n1: 5616 0x1111F5: std::allocator_traits<std::allocator<int> >::allocate(std::allocator<int>&, unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+   n1: 5616 0x110B0D: std::_Vector_base<int, std::allocator<int> >::_M_allocate(unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+    n1: 5616 0x1101D4: std::_Vector_base<int, std::allocator<int> >::_M_create_storage(unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n2: 5616 0x10F684: std::_Vector_base<int, std::allocator<int> >::_Vector_base(unsigned long, std::allocator<int> const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+      n1: 5408 0x111C80: std::vector<int, std::allocator<int> >::vector(std::vector<int, std::allocator<int> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+       n1: 5408 0x1118C2: void std::_Construct<std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > const&>(std::vector<int, std::allocator<int> >*, std::vector<int, std::allocator<int> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+        n1: 5408 0x111369: std::vector<int, std::allocator<int> >* std::__uninitialized_fill_n<false>::__uninit_fill_n<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+         n1: 5408 0x110C89: std::vector<int, std::allocator<int> >* std::uninitialized_fill_n<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+          n1: 5408 0x110444: std::vector<int, std::allocator<int> >* std::__uninitialized_fill_n_a<std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> >, std::vector<int, std::allocator<int> > >(std::vector<int, std::allocator<int> >*, unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > >&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+           n1: 5408 0x10F94D: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_fill_initialize(unsigned long, std::vector<int, std::allocator<int> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+            n2: 5408 0x10EBDD: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::vector(unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+             n1: 2704 0x10E009: __static_initialization_and_destruction_0(int, int) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+              n1: 2704 0x10E1D6: _GLOBAL__sub_I_cost_insert (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+               n1: 2704 0x4ACBEBA: call_init (libc-start.c:145)
+                n1: 2704 0x4ACBEBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+                 n0: 2704 0x10B844: (below main) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+             n1: 2704 0x10E09F: __static_initialization_and_destruction_0(int, int) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+              n1: 2704 0x10E1D6: _GLOBAL__sub_I_cost_insert (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+               n1: 2704 0x4ACBEBA: call_init (libc-start.c:145)
+                n1: 2704 0x4ACBEBA: __libc_start_main@@GLIBC_2.34 (libc-start.c:379)
+                 n0: 2704 0x10B844: (below main) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+      n0: 208 in 1 place, below massif's threshold (1.00%)
+ n1: 3104 0x1114EB: __gnu_cxx::new_allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::allocate(unsigned long, void const*) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+  n1: 3104 0x110F70: std::allocator_traits<std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::allocate(std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >&, unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+   n2: 3104 0x11087B: std::_Vector_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_allocate(unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+    n1: 3104 0x11052A: void std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n1: 3104 0x10FA57: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >& std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::emplace_back<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+      n2: 3104 0x10EEFD: std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+       n2: 3008 0x10C68F: distanciaEdicionFuerzaBruta(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+        n2: 2176 0x10C29E: distanciaEdicionFuerzaBruta(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+         n0: 1088 in 3 places, all below massif's threshold (1.00%)
+         n1: 1088 0x10C303: distanciaEdicionFuerzaBruta(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+          n0: 1088 in 4 places, all below massif's threshold (1.00%)
+        n0: 832 in 4 places, all below massif's threshold (1.00%)
+       n0: 96 in 5 places, all below massif's threshold (1.00%)
+    n0: 0 in 1 place, below massif's threshold (1.00%)
+ n0: 2328 in 5 places, all below massif's threshold (1.00%)
+ n1: 1248 0x111866: __gnu_cxx::new_allocator<std::vector<int, std::allocator<int> > >::allocate(unsigned long, void const*) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+  n1: 1248 0x1112E9: std::allocator_traits<std::allocator<std::vector<int, std::allocator<int> > > >::allocate(std::allocator<std::vector<int, std::allocator<int> > >&, unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+   n1: 1248 0x110C1B: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_allocate(unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+    n1: 1248 0x110388: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_M_create_storage(unsigned long) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n1: 1248 0x10F886: std::_Vector_base<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::_Vector_base(unsigned long, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+      n1: 1248 0x10EBC6: std::vector<std::vector<int, std::allocator<int> >, std::allocator<std::vector<int, std::allocator<int> > > >::vector(unsigned long, std::vector<int, std::allocator<int> > const&, std::allocator<std::vector<int, std::allocator<int> > > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+       n0: 1248 in 2 places, all below massif's threshold (1.00%)
+ n1: 1119 0x49A5109: void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char*>(char*, char*, std::forward_iterator_tag) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.30)
+  n1: 1119 0x111AA5: void std::_Construct<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+   n1: 1119 0x111537: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >* std::__uninitialized_copy<false>::__uninit_copy<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+    n1: 1119 0x110FA5: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >* std::uninitialized_copy<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*>(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+     n1: 1119 0x1108B7: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >* std::__uninitialized_copy_a<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+      n1: 1119 0x10FD6C: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >* std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::_M_allocate_and_copy<__gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > >(unsigned long, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >, __gnu_cxx::__normal_iterator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const*, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+       n2: 1119 0x10F1B3: std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >::operator=(std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > const&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+        n1: 1097 0x10C57C: distanciaEdicionFuerzaBruta(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, int, std::vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::allocator<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > >&) (in /home/carlos/Universidad/2024-2/Algoco/T2-Algoco/bf)
+         n0: 1097 in 5 places, all below massif's threshold (1.00%)
+        n0: 22 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=76
+#-----------
+time=5482562012
+mem_heap_B=101177
+mem_heap_extra_B=1679
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=77
+#-----------
+time=5539961141
+mem_heap_B=102990
+mem_heap_extra_B=2058
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=78
+#-----------
+time=5597360253
+mem_heap_B=102284
+mem_heap_extra_B=1884
+mem_stacks_B=0
+heap_tree=empty
