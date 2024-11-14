@@ -1,15 +1,42 @@
+1)  Solución diseñada:
+
+Como solución diseñada, se optó por implementar un algoritmo de fuerza
+bruta recursiva, el cual recibe como parámetros dos cadenas S1 y S2, dos 
+contadores i y j que representan un indice de las cadenas S1 y S2, respectivamente, los cuales serán comparados.
+Ademas, la función recibe un lista de operaciones, la cual se usa para almacenar
+las operaciones optimas que producen la distancia minima de edición.
+
+Para calcular la distancia minima de edición, el algoritmo calculara todas las posibles
+combinaciones de operaciones las cuales transforman la cadena S1 en S2, donde se quedara
+con la combinación la cual produzca el menor costo, estos costos están asociados
+a un matriz de costos definidas para cada tipo de operación.
+
+La solución diseñada fue una iteración sobre al algoritmo de fuerza bruta
+recursiva propuesto en el 
+blog \citeauthor{EditDistance} \cite{EditDistance}
+, donde se modifico para agregar la operación de transposición y llevar el registro
+de operaciones optimas.
+
+
+2) Pseudocódigo:
+
+\begin{comment}
 \epigraph{\textit{``Indeed, brute force is a perfectly good technique in many cases; the real question is, can we use brute force in such a way that we avoid the worst-case behavior?''}}{--- \citeauthor{taocv3}, \citeyear{taocv3} \cite{taocv3}}
+\end{comment}
 
 \begin{algorithm}[H]
     \SetKwProg{myproc}{Procedure}{}{}
-    \SetKwFunction{AlgorithmName}{AlgorithmName}  % Cambia 'AlgorithmName' por el nombre del enfoque elegido
-    \SetKwFunction{AuxiliaryFunction}{AuxiliaryFunction}  % Función auxiliar de ejemplo
-    
+    \SetKwFunction{AlgorithmName}{FuerzaBruta}  % Cambia 'AlgorithmName' por el nombre del enfoque elegido
+    \SetKwFunction{AuxiliaryFunction}{CostoInsertar}  % Función auxiliar de ejemplo
+    \SetKwFunction{AuxiliaryFunction}{CostoEliminar}  % Función auxiliar de ejemplo
+    \SetKwFunction{AuxiliaryFunction}{CostoTransponer}  % Función auxiliar de ejemplo
+    \SetKwFunction{AuxiliaryFunction}{CostoInsertar}  % Función auxiliar de ejemplo
+
     \DontPrintSemicolon
     \footnotesize
 
     % Definición del algoritmo principal
-    \myproc{\AlgorithmName{S1, S2}}{
+    \myproc{\AlgorithmName{S1, S2, i, j, operaciones}}{
     \uIf{S1 está vacía}{
         \Return longitud de S2\;  % Return explícito si S1 está vacía
     }

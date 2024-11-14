@@ -235,35 +235,6 @@
       \field{title}{The art of computer programming, volume 3: (2nd ed.) sorting and searching}
       \field{year}{1998}
     \endentry
-    \entry{GoodScientificPaper}{book}{}{}
-      \name{author}{2}{}{%
-        {{hash=debc1116d00474fc674854eafd1404c3}{%
-           family={Mack},
-           familyi={M\bibinitperiod},
-           given={Chris},
-           giveni={C\bibinitperiod}}}%
-        {{hash=eef23a8bb793d56bf9d5b9ff106830bf}{%
-           family={Muxamedova},
-           familyi={M\bibinitperiod},
-           given={Lola},
-           giveni={L\bibinitperiod}}}%
-      }
-      \strng{namehash}{1aedf2b33708721bdb537522e4578c92}
-      \strng{fullhash}{1aedf2b33708721bdb537522e4578c92}
-      \strng{fullhashraw}{1aedf2b33708721bdb537522e4578c92}
-      \strng{bibnamehash}{1aedf2b33708721bdb537522e4578c92}
-      \strng{authorbibnamehash}{1aedf2b33708721bdb537522e4578c92}
-      \strng{authornamehash}{1aedf2b33708721bdb537522e4578c92}
-      \strng{authorfullhash}{1aedf2b33708721bdb537522e4578c92}
-      \strng{authorfullhashraw}{1aedf2b33708721bdb537522e4578c92}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{11}
-      \field{title}{How to Write a Good Scientific Paper}
-      \field{year}{2019}
-    \endentry
     \entry{overleaf-algorithms}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=80d685e90fa23d7996a66e45aa2d24ad}{%
