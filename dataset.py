@@ -46,7 +46,7 @@ def obtener_palabras_ingles():
         import nltk
         nltk.download('words')
         from nltk.corpus import words
-        return [word.lower() for word in words.words() if word.islower() and len(word)==8 and all('a' <= char <= 'z' for char in word)]
+        return [word.lower() for word in words.words() if word.islower() and len(word)<=8 and all('a' <= char <= 'z' for char in word)]
     except ImportError:
         print("No se pudo importar `nltk`. Usando lista de palabras estática.")
         return ["apple", "banana", "cherry", "date", "grape", "kiwi", "lemon", "melon", "orange", "pear"]
