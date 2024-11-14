@@ -77,14 +77,19 @@ int distanciaEdicionFuerzaBruta(const string &s1, const string &s2, int i, int j
     }
 
     vector<string> operacionesIns, operacionesDel, operacionesSub, operacionesTrans;
-    
-    int costoIns = costo_insercion(s2[j]) + distanciaEdicionFuerzaBruta(s1, s2, i, j + 1, operacionesIns);
-    int costoDel = costo_eliminacion(s1[i]) + distanciaEdicionFuerzaBruta(s1, s2, i + 1, j, operacionesDel);
-    int costoSub = costo_sustitucion(s1[i], s2[j]) + distanciaEdicionFuerzaBruta(s1, s2, i + 1, j + 1, operacionesSub);
-    int costoTrans = INT_MAX;
+    if (i < int(s1.size()) && j < int(s2.size()) && s1[i] == s2[j]) {
+        return distanciaEdicionFuerzaBruta(s1, s2, i + 1, j + 1, operaciones);
 
-    if (i + 1 < int(s1.size()) && j + 1 < int(s2.size()) && s1[i] == s2[j + 1] && s1[i + 1] == s2[j]) {
-        costoTrans = costo_transposicion(s1[i], s1[i + 1]) + distanciaEdicionFuerzaBruta(s1, s2, i + 2, j + 2, operacionesTrans);
+    } else{
+
+        int costoIns = costo_insercion(s2[j]) + distanciaEdicionFuerzaBruta(s1, s2, i, j + 1, operacionesIns);
+        int costoDel = costo_eliminacion(s1[i]) + distanciaEdicionFuerzaBruta(s1, s2, i + 1, j, operacionesDel);
+        int costoSub = costo_sustitucion(s1[i], s2[j]) + distanciaEdicionFuerzaBruta(s1, s2, i + 1, j + 1, operacionesSub);
+        int costoTrans = INT_MAX;
+
+        if (i + 1 < int(s1.size()) && j + 1 < int(s2.size()) && s1[i] == s2[j + 1] && s1[i + 1] == s2[j]) {
+            costoTrans = costo_transposicion(s1[i], s1[i + 1]) + distanciaEdicionFuerzaBruta(s1, s2, i + 2, j + 2, operacionesTrans);
+        }
     }
 
     int costoMinimo = min({costoIns, costoDel, costoSub, costoTrans});
@@ -106,10 +111,7 @@ int distanciaEdicionFuerzaBruta(const string &s1, const string &s2, int i, int j
     return costoMinimo;
 }
 
-// Función para medir el uso de memoria
 
-
-// Función para leer y procesar el dataset
 void procesarDataset(const string &dataset_filename) {
     ifstream dataset_file(dataset_filename);
     ofstream output_file("output_bf.txt");  // Archivo de salida

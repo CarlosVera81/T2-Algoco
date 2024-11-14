@@ -1,8 +1,8 @@
-PWD c:/Users/carlo/Desktop/Universidad/2024-2/Algoco/AlgoReportTemplate
+PWD c:/Users/carlo/Desktop/Universidad/2024-2/Algoco/T2-Algoco
 INPUT c:/texlive/2024/texmf.cnf
 INPUT c:/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/carlo/Desktop/Universidad/2024-2/Algoco/AlgoReportTemplate/tarea_main.tex
+INPUT c:/Users/carlo/Desktop/Universidad/2024-2/Algoco/T2-Algoco/tarea_main.tex
 OUTPUT tarea_main.log
 INPUT c:/texlive/2024/texmf-dist/tex/latex/base/article.cls
 INPUT c:/texlive/2024/texmf-dist/tex/latex/base/article.cls

@@ -1,14 +1,14 @@
 # Fdb version 4
-["biber tarea_main"] 1730685306.38797 "tarea_main.bcf" "tarea_main.bbl" "tarea_main" 1730685343.39455 0
+["biber tarea_main"] 1730685306.38797 "tarea_main.bcf" "tarea_main.bbl" "tarea_main" 1731463452.1365 0
   "references.bib" 1730682982 2706 858e6ddac9529badfa7a276ee2547e06 ""
-  "tarea_main.bcf" 1730685343 110058 873c900f49af04e81e163faa1e4d6764 "pdflatex"
+  "tarea_main.bcf" 1731463451 110058 873c900f49af04e81e163faa1e4d6764 "pdflatex"
   (generated)
   "tarea_main.bbl"
   "tarea_main.blg"
   (rewritten before read)
-["pdflatex"] 1730685340.29796 "c:/Users/carlo/Desktop/Universidad/2024-2/Algoco/AlgoReportTemplate/tarea_main.tex" "tarea_main.pdf" "tarea_main" 1730685343.39535 0
+["pdflatex"] 1731463448.91853 "c:/Users/carlo/Desktop/Universidad/2024-2/Algoco/T2-Algoco/tarea_main.tex" "tarea_main.pdf" "tarea_main" 1731463452.13725 0
   "author.tex" 1730416246 410 2e3c6886ff43889d950957a36249beb3 ""
-  "c:/Users/carlo/Desktop/Universidad/2024-2/Algoco/AlgoReportTemplate/tarea_main.tex" 1730416068 1841 173144734cafaa4caf15a034e8937701 ""
+  "c:/Users/carlo/Desktop/Universidad/2024-2/Algoco/T2-Algoco/tarea_main.tex" 1730416068 1841 173144734cafaa4caf15a034e8937701 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1730412112 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1730411829 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1730412356 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -330,13 +330,13 @@
   "sections/experiment_intro.tex" 1730416068 1149 85f81d687df91ddcc0b4420993f9d3d5 ""
   "sections/experiment_results.tex" 1730416068 3038 383170a4f86b6ebd5932fa244371ca4c ""
   "sections/implementations.tex" 1730416068 485 b32450d81265861238164a2040d3bb2a ""
-  "sections/introduction.tex" 1730685339 6042 613a7a74ba828cbddb6df08accbba464 ""
-  "tarea_main.aux" 1730685343 6888 2f99d1825f1b6b5c996056a74cd9f988 "pdflatex"
+  "sections/introduction.tex" 1731463448 6099 9b2074d688b1ec07d90e27947c2eb001 ""
+  "tarea_main.aux" 1731463451 6888 2f99d1825f1b6b5c996056a74cd9f988 "pdflatex"
   "tarea_main.bbl" 1730685310 12696 c0b4452170ef6f7b174034847983ba20 "biber tarea_main"
-  "tarea_main.out" 1730685343 914 f9f8b60de6284405ddc8af7482a432c4 "pdflatex"
-  "tarea_main.run.xml" 1730685343 2347 3a149f2168a09cc18164f684ae49c28d "pdflatex"
+  "tarea_main.out" 1731463451 914 f9f8b60de6284405ddc8af7482a432c4 "pdflatex"
+  "tarea_main.run.xml" 1731463451 2347 3a149f2168a09cc18164f684ae49c28d "pdflatex"
   "tarea_main.tex" 1730416068 1841 173144734cafaa4caf15a034e8937701 ""
-  "tarea_main.toc" 1730685343 1439 24a387e5bfac8b24d6e64f2388b9b577 "pdflatex"
+  "tarea_main.toc" 1731463451 1439 24a387e5bfac8b24d6e64f2388b9b577 "pdflatex"
   "tikz/plot1.tex" 1730416068 1848 bdcbace1ac66950aa38383d5b1fc5b88 ""
   "tikz/plot2.tex" 1730416068 1187 95a7ad76f55ba0a66e134a7b7400dfb7 ""
   "tikz/plot3.tex" 1730416068 1795 e5757e6dd2141513efca05f312e4a72b ""
