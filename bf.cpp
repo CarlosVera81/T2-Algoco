@@ -42,20 +42,26 @@ void cargarCostos(const string &filename, vector<vector<int>> &costos) {
 }
 
 
-int cost_insertar(char b) {
-    return cost_insert[b - 'a'];
+int cost_insertar(char a) {
+    int index= int(a)-97;
+    return cost_insert[index];
 }
 
 int cost_deletear(char a) {
-    return cost_delete[a - 'a'];
+    int index= int(a)-97;
+    return cost_delete[index];
 }
 
 int cost_remplazar(char a, char b) {
-    return cost_replace[a - 'a'][b - 'a'];
+    int index1= int(a)-97;
+    int index2= int(b)-97;
+    return cost_replace[index1][index2];
 }
 
 int cost_trans(char a, char b) {
-    return cost_transpose[a - 'a'][b - 'a'];
+    int index1= int(a)-97;
+    int index2= int(b)-97;
+    return cost_transpose[index1][index2];
 }
 
 int bf_osa(const string &s1, const string &s2, int i, int j, vector<string> &operaciones) {

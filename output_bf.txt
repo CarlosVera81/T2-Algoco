@@ -1,7 +1,7 @@
 Strings: horreum , datolite
 Distancia calculada: 19, Distancia esperada: 19
 Resultado correcto
-Tiempo de ejecución: 58.1431 ms
+Tiempo de ejecución: 55.4958 ms
 Operaciones óptimas:
  - Eliminar u (Costo: 2)
  - Eliminar m (Costo: 2)
@@ -15,7 +15,7 @@ Operaciones óptimas:
 Strings: pannum , scoon
 Distancia calculada: 15, Distancia esperada: 15
 Resultado correcto
-Tiempo de ejecución: 1.78743 ms
+Tiempo de ejecución: 1.91534 ms
 Operaciones óptimas:
  - Eliminar u (Costo: 2)
  - Eliminar m (Costo: 2)
@@ -27,7 +27,7 @@ Operaciones óptimas:
 Strings: tuts , griffade
 Distancia calculada: 20, Distancia esperada: 20
 Resultado correcto
-Tiempo de ejecución: 2.81621 ms
+Tiempo de ejecución: 2.91789 ms
 Operaciones óptimas:
  - Sustituir s por e (Costo: 3)
  - Sustituir t por d (Costo: 3)
@@ -41,7 +41,7 @@ Operaciones óptimas:
 Strings: overgrow , unmating
 Distancia calculada: 24, Distancia esperada: 24
 Resultado correcto
-Tiempo de ejecución: 169.629 ms
+Tiempo de ejecución: 169.454 ms
 Operaciones óptimas:
  - Eliminar r (Costo: 2)
  - Eliminar o (Costo: 2)
@@ -57,7 +57,7 @@ Operaciones óptimas:
 Strings: merit , snow
 Distancia calculada: 14, Distancia esperada: 14
 Resultado correcto
-Tiempo de ejecución: 0.454086 ms
+Tiempo de ejecución: 0.456972 ms
 Operaciones óptimas:
  - Sustituir t por w (Costo: 3)
  - Sustituir i por o (Costo: 3)
@@ -68,7 +68,7 @@ Operaciones óptimas:
 Strings: cackerel , sero
 Distancia calculada: 14, Distancia esperada: 14
 Resultado correcto
-Tiempo de ejecución: 1.65321 ms
+Tiempo de ejecución: 1.6416 ms
 Operaciones óptimas:
  - Sustituir l por o (Costo: 3)
  - Eliminar e (Costo: 2)
@@ -80,7 +80,7 @@ Operaciones óptimas:
 Strings: waterdoe , jive
 Distancia calculada: 17, Distancia esperada: 17
 Resultado correcto
-Tiempo de ejecución: 1.66697 ms
+Tiempo de ejecución: 1.65392 ms
 Operaciones óptimas:
  - Sustituir o por v (Costo: 3)
  - Sustituir d por i (Costo: 3)
@@ -93,7 +93,7 @@ Operaciones óptimas:
 Strings: staglike , sennite
 Distancia calculada: 14, Distancia esperada: 14
 Resultado correcto
-Tiempo de ejecución: 6.67246 ms
+Tiempo de ejecución: 6.54428 ms
 Operaciones óptimas:
  - Sustituir k por t (Costo: 3)
  - Sustituir l por n (Costo: 3)
@@ -104,7 +104,7 @@ Operaciones óptimas:
 Strings: fresh , bushily
 Distancia calculada: 14, Distancia esperada: 14
 Resultado correcto
-Tiempo de ejecución: 3.65467 ms
+Tiempo de ejecución: 3.52059 ms
 Operaciones óptimas:
  - Insertar i (Costo: 2)
  - Insertar l (Costo: 2)
@@ -116,7 +116,7 @@ Operaciones óptimas:
 Strings: biporose , hame
 Distancia calculada: 17, Distancia esperada: 17
 Resultado correcto
-Tiempo de ejecución: 2.16808 ms
+Tiempo de ejecución: 2.16149 ms
 Operaciones óptimas:
  - Sustituir s por m (Costo: 3)
  - Sustituir o por a (Costo: 3)
@@ -129,7 +129,7 @@ Operaciones óptimas:
 Strings: appinite , lovelass
 Distancia calculada: 24, Distancia esperada: 24
 Resultado correcto
-Tiempo de ejecución: 182.495 ms
+Tiempo de ejecución: 178.605 ms
 Operaciones óptimas:
  - Sustituir e por s (Costo: 3)
  - Sustituir t por s (Costo: 3)
@@ -143,7 +143,7 @@ Operaciones óptimas:
 Strings: wade , coontie
 Distancia calculada: 15, Distancia esperada: 15
 Resultado correcto
-Tiempo de ejecución: 1.18975 ms
+Tiempo de ejecución: 1.18218 ms
 Operaciones óptimas:
  - Sustituir d por i (Costo: 3)
  - Sustituir a por t (Costo: 3)
@@ -155,7 +155,7 @@ Operaciones óptimas:
 Strings: hexafoil , peccancy
 Distancia calculada: 19, Distancia esperada: 19
 Resultado correcto
-Tiempo de ejecución: 75.8119 ms
+Tiempo de ejecución: 76.4363 ms
 Operaciones óptimas:
  - Sustituir l por y (Costo: 3)
  - Sustituir i por c (Costo: 3)
@@ -168,7 +168,7 @@ Operaciones óptimas:
 Strings: hillocky , fleech
 Distancia calculada: 16, Distancia esperada: 16
 Resultado correcto
-Tiempo de ejecución: 12.2788 ms
+Tiempo de ejecución: 11.2092 ms
 Operaciones óptimas:
  - Sustituir y por h (Costo: 3)
  - Eliminar k (Costo: 2)
@@ -180,7 +180,7 @@ Operaciones óptimas:
 Strings: upslope , lambeau
 Distancia calculada: 18, Distancia esperada: 18
 Resultado correcto
-Tiempo de ejecución: 30.511 ms
+Tiempo de ejecución: 27.1853 ms
 Operaciones óptimas:
  - Insertar a (Costo: 2)
  - Insertar u (Costo: 2)
@@ -194,7 +194,7 @@ Operaciones óptimas:
 Strings: rampager , valyl
 Distancia calculada: 18, Distancia esperada: 18
 Resultado correcto
-Tiempo de ejecución: 4.91151 ms
+Tiempo de ejecución: 4.62519 ms
 Operaciones óptimas:
  - Sustituir r por l (Costo: 3)
  - Sustituir e por y (Costo: 3)
@@ -207,7 +207,7 @@ Operaciones óptimas:
 Strings: reborn , eyepit
 Distancia calculada: 16, Distancia esperada: 16
 Resultado correcto
-Tiempo de ejecución: 2.86594 ms
+Tiempo de ejecución: 2.56041 ms
 Operaciones óptimas:
  - Sustituir n por t (Costo: 3)
  - Sustituir r por i (Costo: 3)
@@ -219,7 +219,7 @@ Operaciones óptimas:
 Strings: twagger , bendwise
 Distancia calculada: 19, Distancia esperada: 19
 Resultado correcto
-Tiempo de ejecución: 53.4484 ms
+Tiempo de ejecución: 53.1812 ms
 Operaciones óptimas:
  - Eliminar r (Costo: 2)
  - Sustituir g por s (Costo: 3)
@@ -233,7 +233,7 @@ Operaciones óptimas:
 Strings: ambury , jolthead
 Distancia calculada: 22, Distancia esperada: 22
 Resultado correcto
-Tiempo de ejecución: 31.2405 ms
+Tiempo de ejecución: 29.1548 ms
 Operaciones óptimas:
  - Sustituir y por d (Costo: 3)
  - Sustituir r por a (Costo: 3)
@@ -247,7 +247,7 @@ Operaciones óptimas:
 Strings: paroemia , toze
 Distancia calculada: 15, Distancia esperada: 15
 Resultado correcto
-Tiempo de ejecución: 1.25567 ms
+Tiempo de ejecución: 1.26679 ms
 Operaciones óptimas:
  - Eliminar m (Costo: 2)
  - Eliminar i (Costo: 2)
@@ -257,4 +257,4 @@ Operaciones óptimas:
  - Eliminar a (Costo: 2)
  - Eliminar p (Costo: 2)
 --------------------------
-Tiempo de ejecución promedio: 32.2327 ms
+Tiempo de ejecución promedio: 31.5584 ms
