@@ -25,45 +25,124 @@ de operaciones optimas.
 \end{comment}
 
 \begin{algorithm}[H]
-    \SetKwProg{myproc}{Procedure}{}{}
-    \SetKwFunction{AlgorithmName}{FuerzaBruta}  % Cambia 'AlgorithmName' por el nombre del enfoque elegido
-    \SetKwFunction{AuxiliaryFunction}{CostoInsertar}  % Función auxiliar de ejemplo
-    \SetKwFunction{AuxiliaryFunction}{CostoEliminar}  % Función auxiliar de ejemplo
-    \SetKwFunction{AuxiliaryFunction}{CostoTransponer}  % Función auxiliar de ejemplo
-    \SetKwFunction{AuxiliaryFunction}{CostoInsertar}  % Función auxiliar de ejemplo
+    \SetKwFunction{FMain}{FuerzaBruta}
+    \SetKwProg{Fn}{Function}{:}{}  % Cambia 'AlgorithmName' por el nombre del enfoque elegido
+    \SetKwFunction{AuxiliaryFunctionIns}{CostoInsertar}  % Función auxiliar de ejemplo
+    \SetKwFunction{AuxiliaryFunctionDel}{CostoEliminar}  % Función auxiliar de ejemplo
+    \SetKwFunction{AuxiliaryFunctionTrans}{CostoTransponer}  % Función auxiliar de ejemplo
+    \SetKwFunction{AuxiliaryFunctionSub}{CostoSustituir}  % Función auxiliar de ejemplo
 
     \DontPrintSemicolon
     \footnotesize
 
     % Definición del algoritmo principal
-    \myproc{\AlgorithmName{S1, S2, i, j, operaciones}}{
-    \uIf{S1 está vacía}{
-        \Return longitud de S2\;  % Return explícito si S1 está vacía
-    }
-    \uElseIf{S2 está vacía}{
-        \Return longitud de S1\;  % Return explícito si S2 está vacía
-    }
-    \uElseIf{S1[0] = S2[0]}{
-        \Return \AlgorithmName{S1[1:], S2[1:]}  % Llamada recursiva
-    }
-    \Else{
-        % Ejemplo de llamado a una función auxiliar
-        $costo \leftarrow \AuxiliaryFunction{S1, S2}$\;
-        \Return costo\;  % Retornar el valor calculado
-    }
+    \Fn{\FMain{s1, s2, i, j, operaciones}}{
+        m $\leftarrow$ tamaño de s1\;
+        n $\leftarrow$ tamaño de s2\;
+    
+        \If{i = m \textbf{and} j = n}{
+            \Return 0\;
+        }
+    
+        \If{i = m}{
+            operaciones.push\_back( Insertar s2[j] CostoInsertar(s2[j]) )\;
+            \Return CostoInsertar(s2[j]) + \FMain{s1, s2, i, j + 1, operaciones}\;
+        }
+    
+        \If{j = n}{
+            operaciones.push\_back( Eliminar s1[i] CostoEliminar(s1[i]) )\;
+            \Return  CostoEliminar(s1[i]) + \FMain{s1, s2, i + 1, j, operaciones}\;
+        }
+    
+        Inicializar op\_ins, op\_del, op\_sub, op\_trans como vectores de string vacíos\;
+        Declarar ins, del, sub, trans como enteros\;
+    
+        \If{i < m \textbf{and} j < n \textbf{and} s1[i] = s2[j]}{
+            \Return \FMain{s1, s2, i + 1, j + 1, operaciones}\;
+        }
+        \Else{
+            ins $\leftarrow$ CostoInsertar(s2[j]) + \FMain{s1, s2, i, j + 1, op\_ins}\;
+            del $\leftarrow$ CostoEliminar(s1[i]) + \FMain{s1, s2, i + 1, j, op\_del}\;
+            sub $\leftarrow$ CostoSustituir(s1[i], s2[j]) + \FMain{s1, s2, i + 1, j + 1, op\_sub}\;
+            trans $\leftarrow$ INT\_MAX\;
+    
+            \If{i + 1 < m \textbf{and} j + 1 < n \textbf{and} s1[i] = s2[j + 1] \textbf{and} s1[i + 1] = s2[j]}{
+                trans $\leftarrow$ CostoTransponer(s1[i], s1[i + 1]) + \FMain{s1, s2, i + 2, j + 2, op\_trans}\;
+            }
+        }
+    
+        costo\_min $\leftarrow$ min(\{ins, del, sub, trans\})\;
+    
+        \If{costo\_min = ins}{
+            operaciones $\leftarrow$ op\_ins\;
+            operaciones.push\_back( Insertar s2[j] CostoInsertar(s2[j]) )\;
+        }
+        \ElseIf{costo\_min = del}{
+            operaciones $\leftarrow$ op\_del\;
+            operaciones.push\_back( Eliminar s1[i] CostoEliminar(s1[i]) )\;
+        }
+        \ElseIf{costo\_min = sub}{
+            operaciones $\leftarrow$ op\_sub\;
+            operaciones.push\_back( Sustituir s1[i] por s2[j] CostoSustituir(s1[i], s2[j]) )\;
+        }
+        \ElseIf{costo\_min = trans}{
+            operaciones $\leftarrow$ op\_trans\;
+            operaciones.push\_back( Transponer s1[i] y s1[i + 1] CostoTransponer(s1[i], s1[i + 1]) )\;
+        }
+    
+        \Return costo\_min\;
     }
 
-    % Definición de la función auxiliar
-    \myproc{\AuxiliaryFunction{S1, S2}}{
-    % Acciones o cálculos auxiliares
-    \uIf{S1 y S2 son similares}{
-        \Return algún valor o costo\;  % Retornar el valor calculado por la función auxiliar
-    }
-    \Else{
-        % Llamar de nuevo a la función principal
-        \Return \AlgorithmName{S1 modificado, S2}\;  % Llamada recursiva y retorno del resultado
-    }
-    }
-    \caption{Este es solo un ejemplo de cómo estructurar el pseudocódigo, con retornos explícitos y llamados a funciones.}
-    \label{alg:mi_algoritmo_1}
+
 \end{algorithm}
+
+3) Ejecución
+
+Para ejemplificar el funcionamiento del algoritmo, usaremos las cadenas
+abba y baba, al iniciar el algoritmo se le entregan los siguientes parámetros
+
+s1= abba
+s2= baba
+i=0
+j=0
+operaciones=op
+
+además, para el funcionamiento de las funciones auxiliares de costos
+hay que definir los archivos .txt correspondientes, los valores para el ejemplo son:
+
+
+Costo insercion= 1 para todas las letras del abecedario ingles en minúscula
+Costo eliminacion= 1 para todas las letras del abecedario ingles en minúscula
+Costo sustitucion= 2 para todo par de letras a sustituir del abecedario ingles en minúscula (excepto para un par idéntico (char1,char1)=0)
+Costo transpocion= 1 para todo par de letras a transponer del abecedario ingles en minúscula (excepto para un par idéntico (char1,char1)=0)
+
+Pasos:
+
+1) Como primer paso, se definen los valores de m y n, ademas se comprueba si alguno de los 
+indices ha llegado al final, como no es el caso se sigue la ejecución.
+
+2) Luego, se comparan S1[0]='a' y S2[0]='b', al ser distintos estos ingresan al bloque ELSE 
+donde se calcularan el costo de insertar, eliminar y sustituir, en este caso ademas
+se calculará el costo de transponer, este calculo se compone de llamar la función de costo 
+respectiva e realizar la llamada recursiva para continuar con el resto de caracteres, 
+probando las 4 operaciones por cada indice.
+
+3) Al devolverse la llamada recursiva a la llamada raiz, se calcula el minimo
+entre las operaciones iniciales, se guarda el valor y se procede a agregar las
+acciones a la lista. esto ocurre en cada llamada recursiva.
+
+4) Como resultado de la ejecución, el programa determina que la distancia mínima de edición
+que transforma la cadena "abba" en "baba" es de 1, lo cual corresponde a realizar una
+transición del primer y segundo carácter, este valor es retornado a donde fue llamada
+la función en un inicio.
+
+5) Cabe destacar, que si el valor de transponer fuera 2, el 
+algoritmo hubiera determinado que existen dos caminos los cuales producen
+el mismo costo de edición mínimo, transponer el primer y segundo carácter (coste 2) o
+eliminar e insertar los caracteres correspondientes (coste 2), por lo cual, las dos 
+respuestas son validas.
+
+6) En el caso que el valor de transponer fuera 3, el coste mínimo de edición
+pasaría a ser producido por la combinación de inserciones y eliminaciones.
+
+

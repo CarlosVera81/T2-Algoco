@@ -19,6 +19,29 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global/global}
+    \entry{EditDistance}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=b1f2d5cfee6a6eea2deba5bcbaf21638}{%
+           family={AfterAcademy},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b1f2d5cfee6a6eea2deba5bcbaf21638}
+      \strng{fullhash}{b1f2d5cfee6a6eea2deba5bcbaf21638}
+      \strng{fullhashraw}{b1f2d5cfee6a6eea2deba5bcbaf21638}
+      \strng{bibnamehash}{b1f2d5cfee6a6eea2deba5bcbaf21638}
+      \strng{authorbibnamehash}{b1f2d5cfee6a6eea2deba5bcbaf21638}
+      \strng{authornamehash}{b1f2d5cfee6a6eea2deba5bcbaf21638}
+      \strng{authorfullhash}{b1f2d5cfee6a6eea2deba5bcbaf21638}
+      \strng{authorfullhashraw}{b1f2d5cfee6a6eea2deba5bcbaf21638}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://afteracademy.com/blog/edit-distance-problem/}}
+      \field{month}{04}
+      \field{title}{Edit Distance}
+      \field{year}{2022}
+    \endentry
     \entry{LevenshteinDistance}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=4c4de9fb02c93877daf3882c7c3a7592}{%
@@ -204,36 +227,6 @@
       \verb{doi}
       \verb 10.1007/978-3-030-43020-7_68
       \endverb
-    \endentry
-    \entry{taocv3}{book}{}{}
-      \name{author}{1}{}{%
-        {{hash=ec08e6f01da5f3814f28a70c89c64656}{%
-           family={Knuth},
-           familyi={K\bibinitperiod},
-           given={Donald\bibnamedelima E.},
-           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {USA}%
-      }
-      \list{publisher}{1}{%
-        {Addison Wesley Longman Publishing Co., Inc.}%
-      }
-      \strng{namehash}{ec08e6f01da5f3814f28a70c89c64656}
-      \strng{fullhash}{ec08e6f01da5f3814f28a70c89c64656}
-      \strng{fullhashraw}{ec08e6f01da5f3814f28a70c89c64656}
-      \strng{bibnamehash}{ec08e6f01da5f3814f28a70c89c64656}
-      \strng{authorbibnamehash}{ec08e6f01da5f3814f28a70c89c64656}
-      \strng{authornamehash}{ec08e6f01da5f3814f28a70c89c64656}
-      \strng{authorfullhash}{ec08e6f01da5f3814f28a70c89c64656}
-      \strng{authorfullhashraw}{ec08e6f01da5f3814f28a70c89c64656}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{0201896850}
-      \field{title}{The art of computer programming, volume 3: (2nd ed.) sorting and searching}
-      \field{year}{1998}
     \endentry
     \entry{overleaf-algorithms}{misc}{}{}
       \name{author}{1}{}{%

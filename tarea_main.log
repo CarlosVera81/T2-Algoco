@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.31)  14 NOV 2024 13:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.31)  15 NOV 2024 00:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1558,34 +1558,40 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 5.
  (c:/texlive/2024/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-)) (./sections/design_analysis_brute_force.tex
+)
+
+LaTeX Warning: Reference `alg:mi_algoritmo_1' on page 1 undefined on input line 9.
+
+) (./sections/design_analysis_brute_force.tex
 
 [3{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 55.
+(Font)              scaled to size 6.99199pt on input line 95.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 55.
-) (./sections/design_analysis_dynamic_programming.tex
+(Font)              scaled to size 6.99199pt on input line 95.
+
+
+[4]) (./sections/design_analysis_dynamic_programming.tex
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
 (Font)              scaled to size 9.19998pt on input line 2.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 9.19998pt on input line 2.
-)
 
-[4]
 
-[5] (./sections/implementations.tex)
+[5])
 
-[6] (./sections/experiment_intro.tex) (./sections/experiment_dataset.tex) (./sections/experiment_results.tex
+[6] (./sections/implementations.tex)
+
+[7] (./sections/experiment_intro.tex) (./sections/experiment_dataset.tex) (./sections/experiment_results.tex
 Package mdframed Info: Not enough space on this page on input line 3.
 
 
-[7]
+[8]
 Package mdframed Info: Not enough space on this page on input line 3.
  (./tikz/plot1.tex) (./tikz/plot2.tex) (./tikz/plot3.tex)
 
-[8]
-<images/4_impurezas_cantmax_size10.png, id=157, 1204.5pt x 1204.5pt>
+[9]
+<images/4_impurezas_cantmax_size10.png, id=180, 1204.5pt x 1204.5pt>
 File: images/4_impurezas_cantmax_size10.png Graphic file (type png)
 <use images/4_impurezas_cantmax_size10.png>
 Package pdftex.def Info: images/4_impurezas_cantmax_size10.png  used on input line 37.
@@ -1596,23 +1602,23 @@ Package pdftex.def Info: images/4_impurezas_cantmax_size10.png  used on input li
 (pdftex.def)             Requested size: 236.01561pt x 236.00687pt.
 )
 
-[9 <./images/4_impurezas_cantmax_size10.png>] (./sections/conclusions.tex)
+[10 <./images/4_impurezas_cantmax_size10.png>] (./sections/conclusions.tex)
 
-[10] (./condiciones.tex
+[11] (./condiciones.tex
 Overfull \hbox (5.05753pt too wide) in paragraph at lines 33--34
 []\T1/futs/m/n/10.95 No mo-di-fi-que \T1/cmtt/m/n/10.95 preamble.tex\T1/futs/m/n/10.95 , \T1/cmtt/m/n/10.95 tarea_main.tex\T1/futs/m/n/10.95 , \T1/cmtt/m/n/10.95 condiciones.tex\T1/futs/m/n/10.95 , es-truc-tu-ra de di-rec-to-rios, nom-
  []
 
 )
 
-[11] (./sections/appendix1.tex)
+[12] (./sections/appendix1.tex)
 Overfull \hbox (35.87987pt too wide) in paragraph at lines 102--102
 []\T1/futs/m/n/10.95 K. Pop-per. \T1/futs/m/it/10.95 The Lo-gic of Scien-ti-fic Dis-co-very\T1/futs/m/n/10.95 . Routled-ge Clas-sics. Tay-lor & Fran-cis, 2005. \T1/futs/m/sc/10.95 isbn\T1/futs/m/n/10.95 : 9781134470020.
  []
 
 
 
-[12] (./tarea_main.aux
+[13] (./tarea_main.aux
 LaTeX Info: Redefining \sptext on input line 16.
 LaTeX Info: Redefining \. on input line 16.
 LaTeX Info: Redefining \% on input line 16.
@@ -1622,6 +1628,10 @@ Package cleveref Info: loaded `spanish' language definitions on input line 16.
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `tarea_main.out' has not changed.
 (rerunfilecheck)             Checksum: F9F8B60DE6284405DDC8AF7482A432C4;914.
 Package logreq Info: Writing requests to 'tarea_main.run.xml'.
@@ -1629,18 +1639,18 @@ Package logreq Info: Writing requests to 'tarea_main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 56096 strings out of 473577
- 1272666 string characters out of 5732224
- 2242972 words of memory out of 5000000
- 78023 multiletter control sequences out of 15000+600000
- 728392 words of font info for 181 fonts, out of 8000000 for 9000
+ 56148 strings out of 473577
+ 1273424 string characters out of 5732224
+ 2242905 words of memory out of 5000000
+ 78052 multiletter control sequences out of 15000+600000
+ 733002 words of font info for 184 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  107i,21n,110p,7232b,2495s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb><c:/texlive/2024/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on tarea_main.pdf (12 pages, 204885 bytes).
+Output written on tarea_main.pdf (13 pages, 209718 bytes).
 PDF statistics:
- 246 PDF objects out of 1000 (max. 8388607)
- 213 compressed objects within 3 object streams
- 82 named destinations out of 1000 (max. 500000)
+ 274 PDF objects out of 1000 (max. 8388607)
+ 240 compressed objects within 3 object streams
+ 103 named destinations out of 1000 (max. 500000)
  74 words of extra memory for PDF output out of 10000 (max. 10000000)
 
