@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber tarea_main"] 1731607920.65745 "tarea_main.bcf" "tarea_main.bbl" "tarea_main" 1731641512.79572 0
+["biber tarea_main"] 1731607920.65745 "tarea_main.bcf" "tarea_main.bbl" "tarea_main" 1731730311.55826 0
   "references.bib" 1731603218 2902 c2d95dc7d25b66d26c15071071760fde ""
-  "tarea_main.bcf" 1731641512 110008 c54423b98972df1ac86349865103c9f3 "pdflatex"
+  "tarea_main.bcf" 1731730311 110008 c54423b98972df1ac86349865103c9f3 "pdflatex"
   (generated)
   "tarea_main.bbl"
   "tarea_main.blg"
   (rewritten before read)
-["pdflatex"] 1731641509.62971 "c:/Users/carlo/Desktop/Universidad/2024-2/Algoco/T2-Algoco/tarea_main.tex" "tarea_main.pdf" "tarea_main" 1731641512.79646 0
+["pdflatex"] 1731730308.33829 "c:/Users/carlo/Desktop/Universidad/2024-2/Algoco/T2-Algoco/tarea_main.tex" "tarea_main.pdf" "tarea_main" 1731730311.55908 0
   "author.tex" 1730416246 410 2e3c6886ff43889d950957a36249beb3 ""
   "c:/Users/carlo/Desktop/Universidad/2024-2/Algoco/T2-Algoco/tarea_main.tex" 1730416068 1841 173144734cafaa4caf15a034e8937701 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1730412112 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -48,6 +48,7 @@
   "c:/texlive/2024/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb" 1730414394 36507 bc28f9f0cdba50a8a348a6e4dc8a5378 ""
   "c:/texlive/2024/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb" 1730414394 37756 112837e95d30cb64c320437ea63bd4d6 ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb" 1730411829 169670 061d76bd536389c258413384f964e74a ""
+  "c:/texlive/2024/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb" 1730412380 35376 a07df24b37ec077fc9f917f37a80f694 ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb" 1730412380 13137 d534e7147563c8a3571b54501ba30e36 ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb" 1730412380 22238 87e9c1bfb269d3da7d96d9f4df8849d2 ""
   "c:/texlive/2024/texmf-dist/fonts/vf/public/fourier/futb8t.vf" 1730412380 2168 d2ac693e07cd79dbc2b914caee3e8df0 ""
@@ -324,19 +325,19 @@
   "sections/appendix1.tex" 1730416068 651 5bd1e43d77c49cbe70e610bf2cbf6026 ""
   "sections/conclusions.tex" 1730416068 1707 816cf3e1532fac1114793ded1f756f4e ""
   "sections/design_analysis.tex" 1731607916 2588 c1df9206c50ce08de51d92d494f4420a ""
-  "sections/design_analysis_brute_force.tex" 1731641509 6783 e6caa88d313558d6ddb73cc74b4e5211 ""
+  "sections/design_analysis_brute_force.tex" 1731730307 8560 a5bcc865c2ab82e829e495a8eb01c370 ""
   "sections/design_analysis_dynamic_programming.tex" 1730416068 2360 85960682129a1fc6fb4a9cc2118e7612 ""
   "sections/experiment_dataset.tex" 1730416068 1400 0c198ec592f167298760db80765097c7 ""
   "sections/experiment_intro.tex" 1730416068 1149 85f81d687df91ddcc0b4420993f9d3d5 ""
   "sections/experiment_results.tex" 1730416068 3038 383170a4f86b6ebd5932fa244371ca4c ""
   "sections/implementations.tex" 1730416068 485 b32450d81265861238164a2040d3bb2a ""
   "sections/introduction.tex" 1731463448 6099 9b2074d688b1ec07d90e27947c2eb001 ""
-  "tarea_main.aux" 1731641512 6513 46d18bbe752ad29012d0ce97045630de "pdflatex"
+  "tarea_main.aux" 1731730311 6518 58b344d9db44a53e9eb8f85ca8d3460e "pdflatex"
   "tarea_main.bbl" 1731607922 12470 69fc6368d6312016e291bbe901611352 "biber tarea_main"
-  "tarea_main.out" 1731641512 914 f9f8b60de6284405ddc8af7482a432c4 "pdflatex"
-  "tarea_main.run.xml" 1731641512 2347 3a149f2168a09cc18164f684ae49c28d "pdflatex"
+  "tarea_main.out" 1731730311 914 f9f8b60de6284405ddc8af7482a432c4 "pdflatex"
+  "tarea_main.run.xml" 1731730311 2347 3a149f2168a09cc18164f684ae49c28d "pdflatex"
   "tarea_main.tex" 1730416068 1841 173144734cafaa4caf15a034e8937701 ""
-  "tarea_main.toc" 1731641512 1439 96f6d08924b6a5c591e3d2df44bd1d24 "pdflatex"
+  "tarea_main.toc" 1731730311 1439 9d6b189dfa6f2f00eb6e0de9f2c23105 "pdflatex"
   "tikz/plot1.tex" 1730416068 1848 bdcbace1ac66950aa38383d5b1fc5b88 ""
   "tikz/plot2.tex" 1730416068 1187 95a7ad76f55ba0a66e134a7b7400dfb7 ""
   "tikz/plot3.tex" 1730416068 1795 e5757e6dd2141513efca05f312e4a72b ""

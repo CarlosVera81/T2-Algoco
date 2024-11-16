@@ -111,10 +111,10 @@ además, para el funcionamiento de las funciones auxiliares de costos
 hay que definir los archivos .txt correspondientes, los valores para el ejemplo son:
 
 
-Costo insercion= 1 para todas las letras del abecedario ingles en minúscula
-Costo eliminacion= 1 para todas las letras del abecedario ingles en minúscula
-Costo sustitucion= 2 para todo par de letras a sustituir del abecedario ingles en minúscula (excepto para un par idéntico (char1,char1)=0)
-Costo transpocion= 1 para todo par de letras a transponer del abecedario ingles en minúscula (excepto para un par idéntico (char1,char1)=0)
+Costo inserción= 1 para todas las letras del abecedario ingles en minúscula
+Costo eliminación= 1 para todas las letras del abecedario ingles en minúscula
+Costo sustitución= 2 para todo par de letras a sustituir del abecedario ingles en minúscula (excepto para un par idéntico (char1,char1)=0)
+Costo transposición= 1 para todo par de letras a transponer del abecedario ingles en minúscula (excepto para un par idéntico (char1,char1)=0)
 
 Pasos:
 
@@ -127,7 +127,7 @@ se calculará el costo de transponer, este calculo se compone de llamar la funci
 respectiva e realizar la llamada recursiva para continuar con el resto de caracteres, 
 probando las 4 operaciones por cada indice.
 
-3) Al devolverse la llamada recursiva a la llamada raiz, se calcula el minimo
+3) Al devolverse la llamada recursiva a la llamada raíz, se calcula el mínimo
 entre las operaciones iniciales, se guarda el valor y se procede a agregar las
 acciones a la lista. esto ocurre en cada llamada recursiva.
 
@@ -146,3 +146,35 @@ respuestas son validas.
 pasaría a ser producido por la combinación de inserciones y eliminaciones.
 
 
+4) Complejidad temporal y espacial
+
+Si consideramos m y n como el tamaño de las cadenas S1 y S2, 
+respectivamente, tenemos que
+el algoritmo propuesto posee una complejidad temporal 
+perteneciente a $O\left(4^{\min(n, m)}\right)$, esto
+se debe a que el algoritmo tiene que calcular todas las posibles
+combinaciones, donde por cada carácter de alguna de las cadenas, existen
+4 opciones factibles, ademas, se usa el mínimo entre los dos tamaños ya que
+al llegar al final de una de las cadenas, se sigue completando los caracteres
+restantes con operaciones de inserción o eliminación, 
+lo cual nos lleva a tiempo lineal.
+
+Al ser un algoritmo que utiliza recursion y ademas solo almacena variables
+de manera lineal, la complejidad temporal del algoritmo pertenece a $O\left({\min(n, m)}\right)$ 
+donde este mínimo corresponde a la altura del árbol de recursion.
+
+Ademas, se podría considerar la memoria que se usa para almacenar las operaciones
+que producen la distancia de edición minima, donde el máximo de operaciones
+por cada par de cadenas se define como m+n, por lo tanto la memoria necesaria
+para almacenar las operaciones en el peor caso pertenece a $O\left({m+n}\right)$
+
+
+5) Transposiciones y costos variables
+
+En el algoritmo implementado, la complejidad depende directamente
+de la cantidad de operaciones disponibles, al agregar la operación 
+de transposición, la complejidad aumenta desde $O\left(3^{\min(n, m)}\right)$ a 
+$O\left(4^{\min(n, m)}\right)$, por otra parte, los costos variables
+modifican las operaciones que producen la distancia de edición minima, pero no aumentan
+el orden de la complejidad, ya que estos costos están almacenados en memoria
+y recuperar su valor tiene un costo de $O\left({1}\right)$
