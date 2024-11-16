@@ -1,4 +1,6 @@
-1)  Solución diseñada:
+
+\begin{enumerate}[1)]
+    \item Solución diseñada:
 
 Como solución diseñada, se optó por implementar un algoritmo de fuerza
 bruta recursiva, el cual recibe como parámetros dos cadenas S1 y S2, dos 
@@ -18,77 +20,47 @@ blog \citeauthor{EditDistance} \cite{EditDistance}
 de operaciones optimas.
 
 
-2) Pseudocódigo:
+\item Pseudocódigo:
 
-\begin{comment}
-\epigraph{\textit{``Indeed, brute force is a perfectly good technique in many cases; the real question is, can we use brute force in such a way that we avoid the worst-case behavior?''}}{--- \citeauthor{taocv3}, \citeyear{taocv3} \cite{taocv3}}
-\end{comment}
 
 \begin{algorithm}[H]
     \SetKwFunction{FMain}{FuerzaBruta}
     \SetKwProg{Fn}{Function}{:}{}  % Cambia 'AlgorithmName' por el nombre del enfoque elegido
-    \SetKwFunction{AuxiliaryFunctionIns}{CostoInsertar}  % Función auxiliar de ejemplo
-    \SetKwFunction{AuxiliaryFunctionDel}{CostoEliminar}  % Función auxiliar de ejemplo
-    \SetKwFunction{AuxiliaryFunctionTrans}{CostoTransponer}  % Función auxiliar de ejemplo
-    \SetKwFunction{AuxiliaryFunctionSub}{CostoSustituir}  % Función auxiliar de ejemplo
 
     \DontPrintSemicolon
     \footnotesize
 
     % Definición del algoritmo principal
-    \Fn{\FMain{s1, s2, i, j, operaciones}}{
-        m $\leftarrow$ tamaño de s1\;
-        n $\leftarrow$ tamaño de s2\;
-    
+    \Fn{\FMain{s1, s2, i, j}}{
+        $m \gets |s1|, \, n \gets |s2|$\;
         \If{i = m \textbf{and} j = n}{
             \Return 0\;
         }
     
         \If{i = m}{
-            operaciones.push\_back( Insertar s2[j] CostoInsertar(s2[j]) )\;
-            \Return CostoInsertar(s2[j]) + \FMain{s1, s2, i, j + 1, operaciones}\;
+            \Return CostoInsertar(s2[j]) + \FMain{s1, s2, i, j + 1}\;
         }
     
         \If{j = n}{
-            operaciones.push\_back( Eliminar s1[i] CostoEliminar(s1[i]) )\;
-            \Return  CostoEliminar(s1[i]) + \FMain{s1, s2, i + 1, j, operaciones}\;
+            \Return  CostoEliminar(s1[i]) + \FMain{s1, s2, i + 1, j}\;
         }
     
-        Inicializar op\_ins, op\_del, op\_sub, op\_trans como vectores de string vacíos\;
-        Declarar ins, del, sub, trans como enteros\;
-    
+       
         \If{i < m \textbf{and} j < n \textbf{and} s1[i] = s2[j]}{
-            \Return \FMain{s1, s2, i + 1, j + 1, operaciones}\;
+            \Return \FMain{s1, s2, i + 1, j + 1}\;
         }
         \Else{
-            ins $\leftarrow$ CostoInsertar(s2[j]) + \FMain{s1, s2, i, j + 1, op\_ins}\;
-            del $\leftarrow$ CostoEliminar(s1[i]) + \FMain{s1, s2, i + 1, j, op\_del}\;
-            sub $\leftarrow$ CostoSustituir(s1[i], s2[j]) + \FMain{s1, s2, i + 1, j + 1, op\_sub}\;
+            ins $\leftarrow$ CostoInsertar(s2[j]) + \FMain{s1, s2, i, j + 1}\;
+            del $\leftarrow$ CostoEliminar(s1[i]) + \FMain{s1, s2, i + 1, j}\;
+            sub $\leftarrow$ CostoSustituir(s1[i], s2[j]) + \FMain{s1, s2, i + 1, j + 1}\;
             trans $\leftarrow$ INT\_MAX\;
     
             \If{i + 1 < m \textbf{and} j + 1 < n \textbf{and} s1[i] = s2[j + 1] \textbf{and} s1[i + 1] = s2[j]}{
-                trans $\leftarrow$ CostoTransponer(s1[i], s1[i + 1]) + \FMain{s1, s2, i + 2, j + 2, op\_trans}\;
+                trans $\leftarrow$ CostoTransponer(s1[i], s1[i + 1]) + \FMain{s1, s2, i + 2, j + 2}\;
             }
         }
     
         costo\_min $\leftarrow$ min(\{ins, del, sub, trans\})\;
-    
-        \If{costo\_min = ins}{
-            operaciones $\leftarrow$ op\_ins\;
-            operaciones.push\_back( Insertar s2[j] CostoInsertar(s2[j]) )\;
-        }
-        \ElseIf{costo\_min = del}{
-            operaciones $\leftarrow$ op\_del\;
-            operaciones.push\_back( Eliminar s1[i] CostoEliminar(s1[i]) )\;
-        }
-        \ElseIf{costo\_min = sub}{
-            operaciones $\leftarrow$ op\_sub\;
-            operaciones.push\_back( Sustituir s1[i] por s2[j] CostoSustituir(s1[i], s2[j]) )\;
-        }
-        \ElseIf{costo\_min = trans}{
-            operaciones $\leftarrow$ op\_trans\;
-            operaciones.push\_back( Transponer s1[i] y s1[i + 1] CostoTransponer(s1[i], s1[i + 1]) )\;
-        }
     
         \Return costo\_min\;
     }
@@ -96,57 +68,37 @@ de operaciones optimas.
 
 \end{algorithm}
 
-3) Ejecución
+\item Ejecución del algoritmo
 
 Para ejemplificar el funcionamiento del algoritmo, usaremos las cadenas
-abba y baba, al iniciar el algoritmo se le entregan los siguientes parámetros
-
-s1= abba
-s2= baba
-i=0
-j=0
-operaciones=op
-
-además, para el funcionamiento de las funciones auxiliares de costos
-hay que definir los archivos .txt correspondientes, los valores para el ejemplo son:
+abba y baba, ademas, todos los valores de las operaciones serán 1, excepto
+por la operación de transposición que tendrá valor 2, los pasos son los siguientes:
 
 
-Costo inserción= 1 para todas las letras del abecedario ingles en minúscula
-Costo eliminación= 1 para todas las letras del abecedario ingles en minúscula
-Costo sustitución= 2 para todo par de letras a sustituir del abecedario ingles en minúscula (excepto para un par idéntico (char1,char1)=0)
-Costo transposición= 1 para todo par de letras a transponer del abecedario ingles en minúscula (excepto para un par idéntico (char1,char1)=0)
-
-Pasos:
-
-1) Como primer paso, se definen los valores de m y n, ademas se comprueba si alguno de los 
+\begin{enumerate}[1)]
+    \item Como primer paso, se definen los valores de m y n, ademas se comprueba si alguno de los 
 indices ha llegado al final, como no es el caso se sigue la ejecución.
 
-2) Luego, se comparan S1[0]='a' y S2[0]='b', al ser distintos estos ingresan al bloque ELSE 
-donde se calcularan el costo de insertar, eliminar y sustituir, en este caso ademas
-se calculará el costo de transponer, este calculo se compone de llamar la función de costo 
-respectiva e realizar la llamada recursiva para continuar con el resto de caracteres, 
+\item Luego, se comparan S1[0]='a' y S2[0]='b', al ser distintos estos ingresan al bloque ELSE 
+donde se calcularan el de todas las operaciones, este calculo se compone de llamar la función de costo 
+respectiva y realizar la llamada recursiva para continuar con el resto de caracteres, 
 probando las 4 operaciones por cada indice.
 
-3) Al devolverse la llamada recursiva a la llamada raíz, se calcula el mínimo
+\item Al devolverse la llamada recursiva a la llamada raíz, se calcula el mínimo
 entre las operaciones iniciales, se guarda el valor y se procede a agregar las
 acciones a la lista. esto ocurre en cada llamada recursiva.
 
-4) Como resultado de la ejecución, el programa determina que la distancia mínima de edición
+\item Como resultado de la ejecución, el programa determina que la distancia mínima de edición
 que transforma la cadena "abba" en "baba" es de 1, lo cual corresponde a realizar una
 transición del primer y segundo carácter, este valor es retornado a donde fue llamada
 la función en un inicio.
 
-5) Cabe destacar, que si el valor de transponer fuera 2, el 
-algoritmo hubiera determinado que existen dos caminos los cuales producen
-el mismo costo de edición mínimo, transponer el primer y segundo carácter (coste 2) o
-eliminar e insertar los caracteres correspondientes (coste 2), por lo cual, las dos 
-respuestas son validas.
-
-6) En el caso que el valor de transponer fuera 3, el coste mínimo de edición
+\item En el caso que el valor de transponer fuera 3, el coste mínimo de edición
 pasaría a ser producido por la combinación de inserciones y eliminaciones.
 
+\end{enumerate}
 
-4) Complejidad temporal y espacial
+\item Complejidad temporal y espacial
 
 Si consideramos m y n como el tamaño de las cadenas S1 y S2, 
 respectivamente, tenemos que
@@ -160,7 +112,7 @@ restantes con operaciones de inserción o eliminación,
 lo cual nos lleva a tiempo lineal.
 
 Al ser un algoritmo que utiliza recursion y ademas solo almacena variables
-de manera lineal, la complejidad temporal del algoritmo pertenece a $O\left({\min(n, m)}\right)$ 
+de manera lineal, la complejidad espacial del algoritmo pertenece a $O\left({\min(n, m)}\right)$ 
 donde este mínimo corresponde a la altura del árbol de recursion.
 
 Ademas, se podría considerar la memoria que se usa para almacenar las operaciones
@@ -169,7 +121,7 @@ por cada par de cadenas se define como m+n, por lo tanto la memoria necesaria
 para almacenar las operaciones en el peor caso pertenece a $O\left({m+n}\right)$
 
 
-5) Transposiciones y costos variables
+\item Transposiciones y costos variables
 
 En el algoritmo implementado, la complejidad depende directamente
 de la cantidad de operaciones disponibles, al agregar la operación 
@@ -177,4 +129,6 @@ de transposición, la complejidad aumenta desde $O\left(3^{\min(n, m)}\right)$ a
 $O\left(4^{\min(n, m)}\right)$, por otra parte, los costos variables
 modifican las operaciones que producen la distancia de edición minima, pero no aumentan
 el orden de la complejidad, ya que estos costos están almacenados en memoria
-y recuperar su valor tiene un costo de $O\left({1}\right)$
+y recuperar su valor tiene un costo de $O\left({1}\right)$.
+
+\end{enumerate}

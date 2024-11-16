@@ -1,63 +1,191 @@
 
-\epigraph{\textit{Dynamic programming is not about filling in tables. It's about smart recursion!}}{\citeauthor{algorithms_erickson}, \citeyear{algorithms_erickson} \cite{algorithms_erickson}}
 
 \begin{enumerate}[1)]
-    \item Describa la solución recursiva.
-    \item Escriba la relación de recurrencia, incluyendo condiciones y casos base.
-    \item Identifique subproblemas.
-    \item Defina estructura de datos a utilizar y especifique el orden de calculo que realiza su programa que utiliza programación dinámica. 
+    \item Solución diseñada
+    
+Como solución diseñada, se opto por implementar un algoritmo de programación
+dinámica que utiliza el método iterativo bottom up, el cual va construyendo la
+solución a medida que resuelve los subproblemas que lo componen. En este caso, el
+algoritmo recibe como entrada las cadenas $S_1$ y $S_2$ a comparar y devuelve el costo de edición
+mínimo, ademas se implemento una matriz auxiliar la cual va almacenando las operaciones
+que producen el costo mínimo.
+
+Para calcular la distancia de edición, el algoritmo calcula todos los subproblemas posibles
+y almacena los que producen el costo mínimo en una matriz, donde al completarla,
+el resultado estará en la ultima posición.
+
+La solución diseñada fue una iteración sobre al algoritmo de programación dinámica iterativo
+propuesto en el 
+blog \citeauthor{EditDistance} \cite{EditDistance}
+, donde se modifico para agregar la operación de transposición y llevar el registro
+de operaciones optimas.
+
+\item Pseudocódigo
+
+\begin{algorithm}[H]
+    \SetKwFunction{FMain}{ProgramacionDinamica}
+    \SetKwProg{Fn}{Function}{:}{} 
+    \DontPrintSemicolon
+    \footnotesize
+    \Fn{\FMain{$S_1$, $S_2$}}{
+            $m \gets |S_1|, \, n \gets |S_2|$\;
+            Matriz dp[m][n] = 0; Para todas las casillas de la matriz
+
+            \For{i = 1 to m}{
+                dp[i][0] = dp[i-1][0] + costo\_eliminacion($S_1$[i-1])\;
+            }
+            \For{j = 1 to n}{
+                dp[0][j] = dp[0][j-1] +costo\_insercion($S_2$[j-1])\;
+            }
+
+            \For{i = 1 to m}{
+            \For{j = 1 to n}{
+                costoIns, costoDel, costoSub = costo\_insercion($S_2$[j-1])\ , costo\_eliminacion($S_1$[i-1])\, costo\_sustitucion($S_1$[i-1], $S_2$[j-1])\;
+                dp[i][j] = dp[i-1][j-1] + costoSub\;
+
+                \If{dp[i][j-1] + costoIns < dp[i][j]}{
+                    dp[i][j] = dp[i][j-1] + costoIns\;
+                }
+
+                \If{dp[i-1][j] + costoDel < dp[i][j]}{
+                    dp[i][j] =  dp[i-1][j] + costoDel\;
+                }
+
+                \If{i + 1 < m \textbf{and} j + 1 < n \textbf{and} $S_1$[i] = $S_2$[j + 1] \textbf{and} $S_1$[i + 1] = $S_2$[j]}{
+                    \If{dp[i-2][j-2] + costo\_transposicion($S_1$[i-2], $S_1$[i-1])\ < dp[i][j]}{
+                        dp[i][j] = dp[i-2][j-2] + costo\_transposicion($S_1$[i-2], $S_1$[i-1])\;
+                    }
+                }
+            }
+            }
+
+            \Return{dp[m][n]}\;
+    }
+
+\end{algorithm}
+
+\item Ejecución del algoritmo
+
+Para ejemplificar el funcionamiento del algoritmo, usaremos las cadenas
+abba y baba, ademas, todos los valores de las operaciones serán 1, excepto
+por la operación de transposición que tendrá valor 2, los pasos son los siguientes:
+
+\begin{enumerate}[1)]
+    \item Como primer paso, se definen los valores de m, n y la matriz dp la cual almacena
+    los resultados parciales, esta se inicializa en tamaño [m+1][n+1], para poder manejar
+    casos con cadenas vacías.
+
+\item Luego, se llenan la primera columna y fila de la matriz, con las operaciones
+de eliminar y insertar para manejar los casos con cadenas vacías.
+
+\item Seguido se entra al bucle principal, donde para $S_1$[0]='a' y $S_2$[0]='b' se calcularan
+todas las operaciones llamando a las funciones de costos, para luego tomar como base la operación se sustitución con la cual
+se realizaran las comparaciones para determinar cual de todas las operaciones produce el menor
+costo, modificando el valor en la matriz dp.
+
+\item Para el ejemplo propuesto, una vez llenada la matriz dp, se retornara la distancia
+de edición minima, la cual corresponde a transponer los primeros dos caracteres y su costo es 1.
+
+\end{enumerate}
+
+
+    \item Complejidad temporal y espacial
+    
+    Si consideramos m y n como el tamaño de las cadenas $S_1$ y $S_2$, 
+    respectivamente, tenemos que
+    el algoritmo propuesto posee una complejidad temporal 
+    perteneciente a $O\left(n^{2}\right)$, esto
+    se debe a que el algoritmo realiza m x n operaciones con costo lineal, lo que corresponde
+    a cada combinación de caracteres de las cadenas de entrada, ademas, por su naturaleza
+    de programación dinámica, aprovecha los cálculos previos almacenados en la matriz para 
+    evitar recalcular algunos costos.
+    
+    Al ser un algoritmo almacena los valores parciales en una matriz, 
+    la complejidad espacial del algoritmo pertenece a $O\left(n^{2}\right)$ 
+    ya que tiene que almacenar m+1 x n+1 resultados, esto ocurre en todos los casos
+    ya que siempre se llenara la matriz al completo.
+    
+    Ademas, se podría considerar la memoria que se usa para almacenar las operaciones
+    que producen la distancia de edición minima, la cual funciona igual a la matriz dp,
+    por lo tanto se necesaria $O\left(n^{2}\right)$ espacio adicional, por lo cual
+    la complejidad espacial del algoritmo se mantiene igual.
+
+
+    \item Transposiciones y costos variables
+    
+    La inclusion de la operación de transposición no afecta
+    a la complejidad, ya que esta depende solamente del tamaño de la entrada,
+    por otro lado, los costos variables tampoco afectan a la complejidad, ya que
+    al estar almacenados en un vector, el costo de consultar los valores es lineal.
+
 \end{enumerate}
 
 \subsubsection{Descripción de la solución recursiva}
 
+El problema de distancia de edición extendida se puede resolver
+mediante la resolución y composición
+de subproblemas, ya que al resolver estos subproblemas obtenemos
+su optimo local, lo cual al volver a componer la solución general
+nos entrega una solución la cual también es optima, En especifico,
+si tenemos $S_1$[0:i] y $S_2$[0:j], para resolver el problema
+necesitamos conocer como se transforma $S_1$[0:i-1] a $S_2$[0:j-1], asi sucesivamente.
+
+Esta solución se demuestra mediante el principio de optimalidad de Bellman \cite{optimizaciondp}, el
+cual describe lo mencionado.
+
 \subsubsection{Relación de recurrencia}
+
+Dada dos cadenas \( S_1 \) y \( S_2 \), 
+donde \( S_1 = S_1[1..m] \) y \( S_2 = S_2[1..n] \),
+la distancia de edición extendida 
+\( \text{DistanciaExtendida}(i, j) \), para (i,j) hasta (m,n), se define  como:
+
+\[  
+\text{DistanciaExtendida}(i, j) = 
+\begin{cases}
+0 & \text{si } i = 0 \text{ y } j = 0, \\
+j \cdot \text{costo\_insercion}(S_2[j-1]) & \text{si } i = 0, \\
+i \cdot \text{costo\_eliminacion}(S_1[i-1]) & \text{si } j = 0, \\
+\min\left\{
+\text{DistanciaExtendida}(i-1, j-1) + \text{costo\_replace}(S_1[i-1], S_2[j-1]), \right. \\
+\quad \left. \text{DistanciaExtendida}(i, j-1) + \text{costo\_insert}(S_2[j-1]), \right. \\
+\quad \left. \text{DistanciaExtendida}(i-1, j) + \text{costo\_delete}(S_1[i-1]), \right. \\
+\quad \left. \text{DistanciaExtendida}(i-2, j-2) + \text{costo\_trans}(S_1[i-2], S_1[i-1]) \right\} 
+& \text{si } i > 0 \text{ y } j > 0.
+\end{cases}
+\]
 
 \subsubsection{Identificación de subproblemas}
 
+Los subproblemas los podemos categorizar con las 4 operaciones, entonces:
+
+\begin{enumerate}
+    \item Inserción: Para resolver el costo de inserción con (i,j), se necesita
+    calcular la distancia entre los primeros i caracteres de $S_1$ y los primeros
+    j-1 caracteres de $S_2$ para luego sumarle el costo de insertar el carácter
+    $S_2$[j-1].
+    \item Eliminación: Para resolver el costo de eliminación con (i,j), se necesita
+    calcular la distancia entre los primeros i-1 caracteres de $S_1$ y los primeros
+    j caracteres de $S_2$ para luego sumarle el costo de eliminar el carácter
+    $S_1$[i-1].
+    \item Sustitución: Para resolver el costo de sustitución con (i,j), se necesita
+    calcular la distancia entre los primeros i-1 caracteres de $S_1$ y los primeros
+    j-1 caracteres de $S_2$ para luego sumarle el costo de sustituir el carácter
+    $S_1$[i-1] por el carácter $S_2$[j-1].
+    \item Transposición: Para resolver el costo de transposición con (i,j), se necesita
+    calcular la distancia entre los primeros i-2 caracteres de $S_1$ y los primeros
+    j-2 caracteres de $S_2$ para luego sumarle el costo de transponer los caracteres
+    $S_1$[i-2] y $S_1$[i-1].
+
+\end{enumerate}
+
+Con esto, podemos ver que los subproblemas se solapan, lo que nos da la oportunidad
+de optimizar el algoritmo evitando recalcular ciertos resultados.
+
 \subsubsection{Estructura de datos y orden de cálculo}
 
-\subsubsection{Algoritmo utilizando programación dinámica}
-
-
-
-\begin{algorithm}[H]
-
-    \SetKwProg{myproc}{Procedure}{}{}
-    \SetKwFunction{AlgorithmName}{AlgorithmName}  % Cambia 'AlgorithmName' por el nombre del enfoque elegido
-    \SetKwFunction{AuxiliaryFunction}{AuxiliaryFunction}  % Función auxiliar de ejemplo
-    
-    \DontPrintSemicolon
-    \footnotesize
-
-    % Definición del algoritmo principal
-    \myproc{\AlgorithmName{S1, S2}}{
-    \uIf{S1 está vacía}{
-        \Return longitud de S2\;  % Return explícito si S1 está vacía
-    }
-    \uElseIf{S2 está vacía}{
-        \Return longitud de S1\;  % Return explícito si S2 está vacía
-    }
-    \uElseIf{S1[0] = S2[0]}{
-        \Return \AlgorithmName{S1[1:], S2[1:]}  % Llamada recursiva
-    }
-    \Else{
-        % Ejemplo de llamado a una función auxiliar
-        $costo \leftarrow \AuxiliaryFunction{S1, S2}$\;
-        \Return costo\;  % Retornar el valor calculado
-    }
-    }
-
-    % Definición de la función auxiliar
-    \myproc{\AuxiliaryFunction{S1, S2}}{
-    % Acciones o cálculos auxiliares
-    \uIf{S1 y S2 son similares}{
-        \Return algún valor o costo\;  % Retornar el valor calculado por la función auxiliar
-    }
-    \Else{
-        % Llamar de nuevo a la función principal
-        \Return \AlgorithmName{S1 modificado, S2}\;  % Llamada recursiva y retorno del resultado
-    }
-    }
-    \caption{Este es solo un ejemplo de cómo estructurar el pseudocódigo, con retornos explícitos y llamados a funciones.}
-    \label{alg:mi_algoritmo_2}
-\end{algorithm}
+Como estructura de datos se utilizo una matriz para almacenar los resultados
+parciales óptimos, los cuales compondrán el resultado final, ademas esta matriz 
+es llenada desde izquierda a derecha y arriba hacia abajo, esto, ya que como definimos
+en los subproblemas, se necesitan los resultados anteriores o con menor indice para componer
+la solución general.
