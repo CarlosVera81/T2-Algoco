@@ -66,34 +66,6 @@
       \field{title}{Algoritmos Discretos: Análisis y Diseño}
       \field{year}{2022}
     \endentry
-    \entry{elsevier_abstract_2024}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=21abe5a91c2949aba6ef77033a5f98f3}{%
-           family={Elsevier},
-           familyi={E\bibinitperiod}}}%
-      }
-      \strng{namehash}{21abe5a91c2949aba6ef77033a5f98f3}
-      \strng{fullhash}{21abe5a91c2949aba6ef77033a5f98f3}
-      \strng{fullhashraw}{21abe5a91c2949aba6ef77033a5f98f3}
-      \strng{bibnamehash}{21abe5a91c2949aba6ef77033a5f98f3}
-      \strng{authorbibnamehash}{21abe5a91c2949aba6ef77033a5f98f3}
-      \strng{authornamehash}{21abe5a91c2949aba6ef77033a5f98f3}
-      \strng{authorfullhash}{21abe5a91c2949aba6ef77033a5f98f3}
-      \strng{authorfullhashraw}{21abe5a91c2949aba6ef77033a5f98f3}
-      \field{sortinit}{E}
-      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Accessed: 2024-10-02}
-      \field{title}{Differentiating between an introduction and abstract in a research paper}
-      \field{year}{2024}
-      \verb{urlraw}
-      \verb https://scientific-publishing.webshop.elsevier.com/manuscript-preparation/differentiating-between-and-introduction-research-paper/
-      \endverb
-      \verb{url}
-      \verb https://scientific-publishing.webshop.elsevier.com/manuscript-preparation/differentiating-between-and-introduction-research-paper/
-      \endverb
-    \endentry
     \entry{optimizaciondp}{book}{}{}
       \name{author}{1}{}{%
         {{hash=95d17a551ecf8f6bccc2567a34d8f968}{%

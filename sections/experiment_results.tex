@@ -61,14 +61,14 @@ Las instrucciones detalladas para la ejecución de los programas se encuentran a
     \begin{figure}[H]
         \centering
       
-        \subfloat[Transposiciones con costo estándar.]{%
-            \includegraphics[width=0.45\textwidth]{images/trans-normal.png}%
+        \subfloat[Transposiciones con costo estándar.]{
+            \includegraphics[width=0.45\textwidth]{images/trans-normal.png}
             \label{fig:imagen1}
         }
         \hfill
-        % Segunda imagen
-        \subfloat[Transposiciones con costo modificado.]{%
-            \includegraphics[width=0.45\textwidth]{images/trans-modificada.png}%
+        % --
+        \subfloat[Transposiciones con costo modificado.]{
+            \includegraphics[width=0.45\textwidth]{images/trans-modificada.png}
             \label{fig:imagen2}
         }
         \caption{Ejemplo ejecución de transposiciones.}
@@ -148,6 +148,69 @@ Las instrucciones detalladas para la ejecución de los programas se encuentran a
         \label{tab:tabla3}
         \end{table}
 
+    \begin{mdframed}
+        El uso de memoria para las palabras de largo 12 con el algoritmo de 
+        fuerza bruta no pudo ser medido ya que 
+        se excedía el tiempo de ejecución con la utilidad \textbf{massif}.
+    \end{mdframed}
+
+    Para los datasets de palabras aleatorias podemos ver que nuevamente,
+    el algoritmo de fuerza bruta es mas ineficiente frente al algoritmo
+    de programación dinámica, exceptuando cuando la entrada es muy pequeña.
+    Ademas podemos ver mas claramente el comportamiento a medida que crece el 
+    tamaño de la entrada:
+
+
+    \begin{figure}[H]
+        \centering
+      
+        \subfloat[Tiempo de ejecución Fuerza Bruta.]{
+            \includegraphics[width=0.5\textwidth]{images/tiempo-ejecucion-bf.png}
+            \label{fig:imagen1}
+        }
+        % --
+        \subfloat[Tiempo de ejecución Programación Dinámica.]{
+            \includegraphics[width=0.5\textwidth]{images/tiempo-ejecucion-dp.png}
+            \label{fig:imagen2}
+        }
+
+    \end{figure}
+
+    \begin{figure}[H]
+        \centering
+      
+        \subfloat[Uso de memoria Fuerza Bruta.]{
+            \includegraphics[width=0.5\textwidth]{images/usomem-bf.png}
+            \label{fig:imagen1}
+        }
+        % --
+        \subfloat[Uso de memoria Programación Dinámica.]{
+            \includegraphics[width=0.5\textwidth]{images/usomem-dp.png}
+            \label{fig:imagen2}
+        }
+
+    \end{figure}
+
+    Los gráficos representan el tiempo de ejecución de los algoritmos
+    a medida que crece la entrada, al igual que el uso de memoria, ademas
+    se les agrego una linea de tendencia en conjunto con la ecuación del
+    gráfico.
+
+    Con esto, podemos determinar que a medida que crece la entrada,
+    el tiempo de ejecución del algoritmo de fuerza bruta 
+    se comporta de manera exponencial y su memoria se comporta
+    de manera lineal.
+
+    Por otra parte, el tiempo de ejecución del algoritmo de programación
+    dinámica se comporta de manera cuadrática, al igual que su uso de 
+    memoria.
+
+    Ademas, con el dataset con costos modificados, no se observo mayores
+    diferencias con respecto al resto de las pruebas, exceptuando la secuencia
+    de operaciones que producen la distancia de edición optima, la cual
+    cambio con respecto a las matrices de costo estándar.
+
+
 \end{enumerate}
 
 
@@ -164,14 +227,7 @@ Las instrucciones detalladas para la ejecución de los programas se encuentran a
 
 
 
-
-
-
-
-
-
-
-
+\begin{comment}
 
 
 En esta sección, los resultados obtenidos, como las gráficas o tablas, deben estar respaldados por los datos generados durante la ejecución de sus programas. Es fundamental que, junto con el informe, se adjunten los archivos que contienen dichos datos para permitir su verificación. Además, se debe permitir y especficiar como obtener esos archivos desde una ejecución en otro computador (otra infraestructura para hacer lso experimentos).
@@ -215,9 +271,8 @@ En la \cref{fig:scatterplot_1} se muestra un scatterplot hecho con \href{https:/
 
 
 
-
-
 \begin{mdframed}
     Recuerde que es imprescindible que se pueda replicar la generación de las gráficas, por lo que usted debe incluir cómo generó esos datos y  cómo podría generarlos la persona que revisa su entrega y ejecuta sus programas. Por ejemplo, si genera un scatterpolot con Tikz, usted debe explicar cómo obtener la tupla de valores que se usaron para generar la gráfica.
 \end{mdframed}
 
+\end{comment}

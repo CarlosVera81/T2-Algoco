@@ -17,10 +17,6 @@ vector<vector<int>> cost_transpose(26, vector<int>(26));
 
 void cargarCostos(const string &filename, vector<int> &costos) {
     ifstream file(filename);
-    if (!file.is_open()) {
-        cerr << "Error al abrir el archivo " << filename << endl;
-        exit(1);
-    }
     for (int &cost : costos) {
         file >> cost;
     }
@@ -29,10 +25,6 @@ void cargarCostos(const string &filename, vector<int> &costos) {
 
 void cargarCostos(const string &filename, vector<vector<int>> &costos) {
     ifstream file(filename);
-    if (!file.is_open()) {
-        cerr << "Error al abrir el archivo " << filename << endl;
-        exit(1);
-    }
     for (auto &fila : costos) {
         for (int &cost : fila) {
             file >> cost;
@@ -123,44 +115,36 @@ int bf_osa(const string &s1, const string &s2, int i, int j, vector<string> &ope
 void procesarDataset(const string &dataset_filename) {
     ifstream dataset_file(dataset_filename);
     ofstream output_file("output_bf.txt");  
-    if (!dataset_file.is_open()) {
-        cerr << "Error al abrir el archivo " << dataset_filename << endl;
-        exit(1);
-    }
-    if (!output_file.is_open()) {
-        cerr << "Error al abrir el archivo output_bf.txt" << endl;
-        exit(1);
-    }
-
+    
     string line;
     chrono::duration<double, milli> promedio;
 
     while (getline(dataset_file, line)) {
         stringstream ss(line);
         string s1, s2;
-        int expected_distance;
+        int esperada;
 
         getline(ss, s1, ',');
         getline(ss, s2, ',');
-        ss >> expected_distance;
+        ss >> esperada;
 
         vector<string> operaciones;
 
    
         auto start = chrono::high_resolution_clock::now();
-        int calculated_distance = bf_osa(s1, s2, 0, 0, operaciones);
+        int calculada = bf_osa(s1, s2, 0, 0, operaciones);
         auto end = chrono::high_resolution_clock::now();
         chrono::duration<double, milli> duration = end - start;
         promedio+=duration;
 
         cout << "Strings: " << s1 << " , " << s2 << endl;
-        cout << "Distancia esperada: " << expected_distance << ", Distancia calculada: " << calculated_distance << endl;
+        cout << "Distancia esperada: " << esperada << ", Distancia calculada: " << calculada << endl;
         cout << "Tiempo de ejecución: " << duration.count() << " ms" << endl;
         
   
         output_file << "Strings: " << s1 << " , " << s2 << endl;
-        output_file << "Distancia calculada: " << calculated_distance << ", Distancia esperada: " << expected_distance << endl;
-        if(expected_distance==calculated_distance){
+        output_file << "Distancia calculada: " << calculada << ", Distancia esperada: " << esperada << endl;
+        if(esperada==calculada){
             output_file << "Resultado correcto" << endl;
         } else {
             output_file << "Resultado incorrecto" << endl;
@@ -189,7 +173,6 @@ int main() {
     cargarCostos("cost_delete.txt", cost_delete);
     cargarCostos("cost_replace.txt", cost_replace);
     cargarCostos("cost_transpose.txt", cost_transpose);
-
     procesarDataset("dataset.txt");
 
     return 0;

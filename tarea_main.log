@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.31)  17 NOV 2024 15:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.31)  17 NOV 2024 19:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1365,8 +1365,45 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
  (./tarea_main.aux
-LaTeX Info: Redefining \. on input line 16.
-LaTeX Info: Redefining \% on input line 16.
+LaTeX Info: Redefining \. on input line 14.
+LaTeX Info: Redefining \% on input line 14.
+
+
+LaTeX Warning: Label `fig:imagen1' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:imagen1' multiply defined.
+
+
+LaTeX Warning: Label `fig:imagen1@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:imagen2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:imagen2' multiply defined.
+
+
+LaTeX Warning: Label `fig:imagen2@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:imagen1' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:imagen1' multiply defined.
+
+
+LaTeX Warning: Label `fig:imagen1@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:imagen2' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:imagen2' multiply defined.
+
+
+LaTeX Warning: Label `fig:imagen2@cref' multiply defined.
+
 )
 \openout1 = `tarea_main.aux'.
 
@@ -1541,17 +1578,17 @@ Package cleveref Info: loaded `spanish' language definitions on input line 1.
 
 ] (./sections/introduction.tex
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 65.
+(Font)              scaled to size 10.07397pt on input line 37.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 65.
+(Font)              scaled to size 7.63599pt on input line 37.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 65.
+(Font)              scaled to size 5.51999pt on input line 37.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 65.
+(Font)              scaled to size 10.07397pt on input line 37.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 65.
+(Font)              scaled to size 7.63599pt on input line 37.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 65.
+(Font)              scaled to size 5.51999pt on input line 37.
 )
 
 [2] (./sections/design_analysis.tex) (./sections/design_analysis_brute_force.tex
@@ -1596,12 +1633,12 @@ Overfull \hbox (5.97702pt too wide) in paragraph at lines 29--38
 
 
 [10]
-<images/trans-normal.png, id=176, 296.60812pt x 127.97812pt>
+<images/trans-normal.png, id=174, 296.60812pt x 127.97812pt>
 File: images/trans-normal.png Graphic file (type png)
 <use images/trans-normal.png>
 Package pdftex.def Info: images/trans-normal.png  used on input line 67.
 (pdftex.def)             Requested size: 212.41261pt x 91.654pt.
-<images/trans-modificada.png, id=178, 296.60812pt x 181.42781pt>
+<images/trans-modificada.png, id=176, 296.60812pt x 181.42781pt>
 File: images/trans-modificada.png Graphic file (type png)
 <use images/trans-modificada.png>
 Package pdftex.def Info: images/trans-modificada.png  used on input line 73.
@@ -1615,25 +1652,43 @@ Overfull \hbox (38.02594pt too wide) in paragraph at lines 137--147
  [][] 
  []
 
-(./tikz/plot1.tex)
+<images/tiempo-ejecucion-bf.png, id=195, 664.73344pt x 400.49625pt>
+File: images/tiempo-ejecucion-bf.png Graphic file (type png)
+<use images/tiempo-ejecucion-bf.png>
+Package pdftex.def Info: images/tiempo-ejecucion-bf.png  used on input line 170.
+(pdftex.def)             Requested size: 236.01561pt x 142.19855pt.
+<images/tiempo-ejecucion-dp.png, id=196, 672.26157pt x 403.5075pt>
+File: images/tiempo-ejecucion-dp.png Graphic file (type png)
+<use images/tiempo-ejecucion-dp.png>
+Package pdftex.def Info: images/tiempo-ejecucion-dp.png  used on input line 175.
+(pdftex.def)             Requested size: 236.01561pt x 141.66072pt.
 
-[13] (./tikz/plot2.tex) (./tikz/plot3.tex)
-<images/4_impurezas_cantmax_size10.png, id=207, 1204.5pt x 1204.5pt>
-File: images/4_impurezas_cantmax_size10.png Graphic file (type png)
-<use images/4_impurezas_cantmax_size10.png>
-Package pdftex.def Info: images/4_impurezas_cantmax_size10.png  used on input line 208.
-(pdftex.def)             Requested size: 236.01561pt x 236.00687pt.
-File: images/4_impurezas_cantmax_size10.png Graphic file (type png)
-<use images/4_impurezas_cantmax_size10.png>
-Package pdftex.def Info: images/4_impurezas_cantmax_size10.png  used on input line 211.
-(pdftex.def)             Requested size: 236.01561pt x 236.00687pt.
+Overfull \hbox (13.59978pt too wide) in paragraph at lines 170--176
+ [][][][] 
+ []
+
+<images/usomem-bf.png, id=197, 666.99188pt x 411.03563pt>
+File: images/usomem-bf.png Graphic file (type png)
+<use images/usomem-bf.png>
+Package pdftex.def Info: images/usomem-bf.png  used on input line 185.
+(pdftex.def)             Requested size: 236.01561pt x 145.44513pt.
+<images/usomem-dp.png, id=198, 681.29532pt x 398.99063pt>
+File: images/usomem-dp.png Graphic file (type png)
+<use images/usomem-dp.png>
+Package pdftex.def Info: images/usomem-dp.png  used on input line 190.
+(pdftex.def)             Requested size: 236.01561pt x 138.21811pt.
+
+Overfull \hbox (13.59978pt too wide) in paragraph at lines 185--191
+ [][][][] 
+ []
 
 
-[14])
 
-[15 <./images/4_impurezas_cantmax_size10.png>] (./sections/conclusions.tex)
+[13 <./images/tiempo-ejecucion-bf.png> <./images/tiempo-ejecucion-dp.png>])
 
-[16] (./condiciones.tex
+[14 <./images/usomem-bf.png> <./images/usomem-dp.png>] (./sections/conclusions.tex)
+
+[15] (./condiciones.tex
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 8.
  (c:/texlive/2024/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
@@ -1644,18 +1699,22 @@ Overfull \hbox (5.05753pt too wide) in paragraph at lines 33--34
 
 )
 
-[17{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] (./sections/appendix1.tex)
+[16{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] (./sections/appendix1.tex)
 
-[18] (./tarea_main.aux
-LaTeX Info: Redefining \sptext on input line 16.
-LaTeX Info: Redefining \. on input line 16.
-LaTeX Info: Redefining \% on input line 16.
-Package cleveref Info: loaded `spanish' language definitions on input line 16.
+[17] (./tarea_main.aux
+LaTeX Info: Redefining \sptext on input line 14.
+LaTeX Info: Redefining \. on input line 14.
+LaTeX Info: Redefining \% on input line 14.
+Package cleveref Info: loaded `spanish' language definitions on input line 14.
 )
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-10-09>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `tarea_main.out' has not changed.
 (rerunfilecheck)             Checksum: F9F8B60DE6284405DDC8AF7482A432C4;914.
 Package logreq Info: Writing requests to 'tarea_main.run.xml'.
@@ -1663,18 +1722,18 @@ Package logreq Info: Writing requests to 'tarea_main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 56156 strings out of 473577
- 1272712 string characters out of 5732224
- 2249117 words of memory out of 5000000
- 78042 multiletter control sequences out of 15000+600000
- 708716 words of font info for 174 fonts, out of 8000000 for 9000
+ 55562 strings out of 473577
+ 1256916 string characters out of 5732224
+ 2223721 words of memory out of 5000000
+ 77461 multiletter control sequences out of 15000+600000
+ 697180 words of font info for 168 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 107i,24n,110p,7232b,2495s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 107i,24n,110p,7232b,2191s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb><c:/texlive/2024/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on tarea_main.pdf (18 pages, 230432 bytes).
+Output written on tarea_main.pdf (17 pages, 249611 bytes).
 PDF statistics:
- 303 PDF objects out of 1000 (max. 8388607)
- 258 compressed objects within 3 object streams
- 119 named destinations out of 1000 (max. 500000)
- 84 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 302 PDF objects out of 1000 (max. 8388607)
+ 252 compressed objects within 3 object streams
+ 120 named destinations out of 1000 (max. 500000)
+ 99 words of extra memory for PDF output out of 10000 (max. 10000000)
 
