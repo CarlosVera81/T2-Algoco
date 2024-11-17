@@ -2,22 +2,21 @@
 \begin{enumerate}[1)]
     \item Solución diseñada:
 
-Como solución diseñada, se optó por implementar un algoritmo de fuerza
-bruta recursiva, el cual recibe como parámetros dos cadenas S1 y S2, dos 
-contadores i y j que representan un indice de las cadenas S1 y S2, respectivamente, los cuales serán comparados.
-Ademas, la función recibe un lista de operaciones, la cual se usa para almacenar
-las operaciones optimas que producen la distancia minima de edición.
-
-Para calcular la distancia minima de edición, el algoritmo calculara todas las posibles
-combinaciones de operaciones las cuales transforman la cadena S1 en S2, donde se quedara
-con la combinación la cual produzca el menor costo, estos costos están asociados
-a un matriz de costos definidas para cada tipo de operación.
-
-La solución diseñada fue una iteración sobre al algoritmo de fuerza bruta
-recursiva propuesto en el 
-blog \citeauthor{EditDistance} \cite{EditDistance}
-, donde se modifico para agregar la operación de transposición y llevar el registro
-de operaciones optimas.
+    Se diseñó un algoritmo recursivo de fuerza bruta 
+    para calcular la distancia mínima de edición entre dos cadenas, S1 y S2. 
+    Este algoritmo utiliza índices i y j
+    para comparar caracteres de las cadenas y 
+    una lista para registrar las operaciones óptimas que minimizan el 
+    costo de transformación.
+    
+    El algoritmo explora todas las posibles 
+    combinaciones de operaciones (inserción, eliminación, sustitución, y transposición) y
+    selecciona la que tiene el menor costo, basado en una matriz de costos. 
+    La solución diseñada fue una iteración sobre al algoritmo de fuerza bruta
+    recursiva propuesto en el 
+    blog \citeauthor{EditDistance} \cite{EditDistance}
+    , donde se modifico para agregar la operación de transposición y llevar el registro
+    de operaciones optimas.
 
 
 \item Pseudocódigo:
@@ -89,12 +88,10 @@ entre las operaciones iniciales, se guarda el valor y se procede a agregar las
 acciones a la lista. esto ocurre en cada llamada recursiva.
 
 \item Como resultado de la ejecución, el programa determina que la distancia mínima de edición
-que transforma la cadena "abba" en "baba" es de 1, lo cual corresponde a realizar una
-transición del primer y segundo carácter, este valor es retornado a donde fue llamada
-la función en un inicio.
-
-\item En el caso que el valor de transponer fuera 3, el coste mínimo de edición
+que transforma la cadena 'abba' en 'baba' es de 1, lo cual corresponde a realizar una
+transición del primer y segundo carácter. En el caso que el valor de transponer fuera 3, el coste mínimo de edición
 pasaría a ser producido por la combinación de inserciones y eliminaciones.
+
 
 \end{enumerate}
 

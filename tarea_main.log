@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.31)  16 NOV 2024 17:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.31)  16 NOV 2024 23:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1556,24 +1556,24 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 
 [2] (./sections/design_analysis.tex) (./sections/design_analysis_brute_force.tex
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 67.
+(Font)              scaled to size 6.99199pt on input line 66.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 67.
+(Font)              scaled to size 6.99199pt on input line 66.
 
-Overfull \hbox (27.37506pt too wide) in paragraph at lines 26--69
+Overfull \hbox (27.37506pt too wide) in paragraph at lines 25--68
 $[]$ 
  []
 
 
 
 [3]
-Overfull \hbox (9.1609pt too wide) in paragraph at lines 126--133
+Overfull \hbox (9.1609pt too wide) in paragraph at lines 123--130
 \T1/futs/m/n/10.95 nes dis-po-ni-bles, al agre-gar la ope-ra-ciÛn de trans-po-si-ciÛn, la com-ple-ji-dad au-men-ta des-de $\FML/futmi/m/it/10.95 O []$
  []
 
+) (./sections/design_analysis_dynamic_programming.tex
 
-
-[4]) (./sections/design_analysis_dynamic_programming.tex
+[4]
 Overfull \hbox (27.37506pt too wide) in paragraph at lines 25--65
 $[]$ 
  []
@@ -1582,36 +1582,16 @@ $[]$
 
 [5]
 
-[6]
-Overfull \hbox (60.43011pt too wide) detected at line 156
-[]\T1/futs/m/n/10.95 (\FML/futmi/m/it/10.95 i; j\T1/futs/m/n/10.95 ) \FMS/futm/m/n/10.95 Å []
- []
+[6])
 
-)
+[7] (./sections/implementations.tex)
 
-[7]
+[8] (./sections/experiment_intro.tex) (./sections/experiment_dataset.tex
 
-[8] (./sections/implementations.tex)
+[9]) (./sections/experiment_results.tex (./tikz/plot1.tex)
 
-[9] (./sections/experiment_intro.tex
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 7.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 7.
-) (./sections/experiment_dataset.tex
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 7.
- (c:/texlive/2024/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-)) (./sections/experiment_results.tex
-Package mdframed Info: Not enough space on this page on input line 3.
-
-
-[10{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
-Package mdframed Info: Not enough space on this page on input line 3.
- (./tikz/plot1.tex) (./tikz/plot2.tex) (./tikz/plot3.tex)
-
-[11]
-<images/4_impurezas_cantmax_size10.png, id=185, 1204.5pt x 1204.5pt>
+[10] (./tikz/plot2.tex) (./tikz/plot3.tex)
+<images/4_impurezas_cantmax_size10.png, id=180, 1204.5pt x 1204.5pt>
 File: images/4_impurezas_cantmax_size10.png Graphic file (type png)
 <use images/4_impurezas_cantmax_size10.png>
 Package pdftex.def Info: images/4_impurezas_cantmax_size10.png  used on input line 37.
@@ -1620,23 +1600,24 @@ File: images/4_impurezas_cantmax_size10.png Graphic file (type png)
 <use images/4_impurezas_cantmax_size10.png>
 Package pdftex.def Info: images/4_impurezas_cantmax_size10.png  used on input line 40.
 (pdftex.def)             Requested size: 236.01561pt x 236.00687pt.
-)
+
+
+[11])
 
 [12 <./images/4_impurezas_cantmax_size10.png>] (./sections/conclusions.tex)
 
 [13] (./condiciones.tex
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 8.
+ (c:/texlive/2024/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
 Overfull \hbox (5.05753pt too wide) in paragraph at lines 33--34
 []\T1/futs/m/n/10.95 No mo-di-fi-que \T1/cmtt/m/n/10.95 preamble.tex\T1/futs/m/n/10.95 , \T1/cmtt/m/n/10.95 tarea_main.tex\T1/futs/m/n/10.95 , \T1/cmtt/m/n/10.95 condiciones.tex\T1/futs/m/n/10.95 , es-truc-tu-ra de di-rec-to-rios, nom-
  []
 
 )
 
-[14] (./sections/appendix1.tex)
-Overfull \hbox (30.53627pt too wide) in paragraph at lines 102--102
-[]\T1/futs/m/n/10.95 K. Pop-per. \T1/futs/m/it/10.95 The Lo-gic of Scien-ti-fic Dis-co-very\T1/futs/m/n/10.95 . Routled-ge Clas-sics. Tay-lor & Fran-cis, 2005. \T1/futs/m/sc/10.95 isbn\T1/futs/m/n/10.95 : 9781134470020.
- []
-
-
+[14{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] (./sections/appendix1.tex)
 
 [15] (./tarea_main.aux
 LaTeX Info: Redefining \sptext on input line 16.
@@ -1655,18 +1636,18 @@ Package logreq Info: Writing requests to 'tarea_main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 56121 strings out of 473577
- 1272290 string characters out of 5732224
- 2242522 words of memory out of 5000000
- 78021 multiletter control sequences out of 15000+600000
- 712271 words of font info for 182 fonts, out of 8000000 for 9000
+ 56101 strings out of 473577
+ 1271680 string characters out of 5732224
+ 2248394 words of memory out of 5000000
+ 77999 multiletter control sequences out of 15000+600000
+ 708716 words of font info for 174 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  107i,24n,110p,7232b,2495s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb><c:/texlive/2024/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on tarea_main.pdf (15 pages, 218361 bytes).
+Output written on tarea_main.pdf (15 pages, 213195 bytes).
 PDF statistics:
- 277 PDF objects out of 1000 (max. 8388607)
- 239 compressed objects within 3 object streams
- 105 named destinations out of 1000 (max. 500000)
+ 275 PDF objects out of 1000 (max. 8388607)
+ 237 compressed objects within 3 object streams
+ 107 named destinations out of 1000 (max. 500000)
  74 words of extra memory for PDF output out of 10000 (max. 10000000)
 

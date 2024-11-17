@@ -84,7 +84,8 @@ se realizaran las comparaciones para determinar cual de todas las operaciones pr
 costo, modificando el valor en la matriz dp.
 
 \item Para el ejemplo propuesto, una vez llenada la matriz dp, se retornara la distancia
-de edición minima, la cual corresponde a transponer los primeros dos caracteres y su costo es 1.
+de edición minima, la cual corresponde a transponer los primeros dos caracteres y su costo es 1. En el caso que el valor de transponer fuera 3, el coste mínimo de edición
+pasaría a ser producido por la combinación de inserciones y eliminaciones.
 
 \end{enumerate}
 
@@ -138,19 +139,19 @@ cual describe lo mencionado.
 Dada dos cadenas \( S_1 \) y \( S_2 \), 
 donde \( S_1 = S_1[1..m] \) y \( S_2 = S_2[1..n] \),
 la distancia de edición extendida 
-\( \text{DistanciaExtendida}(i, j) \), para (i,j) hasta (m,n), se define  como:
+\( \text{DE}(i, j) \), para (i,j) hasta (m,n), se define  como:
 
 \[  
-\text{DistanciaExtendida}(i, j) = 
+\text{DE}(i, j) = 
 \begin{cases}
 0 & \text{si } i = 0 \text{ y } j = 0, \\
 j \cdot \text{costo\_insercion}(S_2[j-1]) & \text{si } i = 0, \\
 i \cdot \text{costo\_eliminacion}(S_1[i-1]) & \text{si } j = 0, \\
 \min\left\{
-\text{DistanciaExtendida}(i-1, j-1) + \text{costo\_replace}(S_1[i-1], S_2[j-1]), \right. \\
-\quad \left. \text{DistanciaExtendida}(i, j-1) + \text{costo\_insert}(S_2[j-1]), \right. \\
-\quad \left. \text{DistanciaExtendida}(i-1, j) + \text{costo\_delete}(S_1[i-1]), \right. \\
-\quad \left. \text{DistanciaExtendida}(i-2, j-2) + \text{costo\_trans}(S_1[i-2], S_1[i-1]) \right\} 
+\text{DE}(i-1, j-1) + \text{costo\_replace}(S_1[i-1], S_2[j-1]), \right. \\
+\quad \left. \text{DE}(i, j-1) + \text{costo\_insert}(S_2[j-1]), \right. \\
+\quad \left. \text{DE}(i-1, j) + \text{costo\_delete}(S_1[i-1]), \right. \\
+\quad \left. \text{DE}(i-2, j-2) + \text{costo\_trans}(S_1[i-2], S_1[i-1]) \right\} 
 & \text{si } i > 0 \text{ y } j > 0.
 \end{cases}
 \]
