@@ -95,20 +95,20 @@ pasaría a ser producido por la combinación de inserciones y eliminaciones.
     Si consideramos m y n como el tamaño de las cadenas $S_1$ y $S_2$, 
     respectivamente, tenemos que
     el algoritmo propuesto posee una complejidad temporal 
-    perteneciente a $O\left(n^{2}\right)$, esto
-    se debe a que el algoritmo realiza m x n operaciones con costo lineal, lo que corresponde
+    perteneciente a $O\left(m*n\right)$, esto
+    se debe a que el algoritmo realiza m x n operaciones con costo constante, lo que corresponde
     a cada combinación de caracteres de las cadenas de entrada, ademas, por su naturaleza
     de programación dinámica, aprovecha los cálculos previos almacenados en la matriz para 
     evitar recalcular algunos costos.
     
     Al ser un algoritmo almacena los valores parciales en una matriz, 
-    la complejidad espacial del algoritmo pertenece a $O\left(n^{2}\right)$ 
+    la complejidad espacial del algoritmo pertenece a $O\left(m*n\right)$ 
     ya que tiene que almacenar m+1 x n+1 resultados, esto ocurre en todos los casos
     ya que siempre se llenara la matriz al completo.
     
     Ademas, se podría considerar la memoria que se usa para almacenar las operaciones
     que producen la distancia de edición minima, la cual funciona igual a la matriz dp,
-    por lo tanto se necesaria $O\left(n^{2}\right)$ espacio adicional, por lo cual
+    por lo tanto se necesaria $O\left(m*n\right)$ espacio adicional, por lo cual
     la complejidad espacial del algoritmo se mantiene igual.
 
 
@@ -117,7 +117,7 @@ pasaría a ser producido por la combinación de inserciones y eliminaciones.
     La inclusion de la operación de transposición no afecta
     a la complejidad, ya que esta depende solamente del tamaño de la entrada,
     por otro lado, los costos variables tampoco afectan a la complejidad, ya que
-    al estar almacenados en un vector, el costo de consultar los valores es lineal.
+    al estar almacenados en un vector, el costo de consultar los valores es constante.
 
 \end{enumerate}
 

@@ -722,6 +722,16 @@ INPUT ./sections/experiment_results.tex
 INPUT ./sections/experiment_results.tex
 INPUT ./sections/experiment_results.tex
 INPUT sections/experiment_results.tex
+INPUT ./images/trans-normal.png
+INPUT ./images/trans-normal.png
+INPUT ./images/trans-normal.png
+INPUT ./images/trans-normal.png
+INPUT ./images/trans-normal.png
+INPUT ./images/trans-modificada.png
+INPUT ./images/trans-modificada.png
+INPUT ./images/trans-modificada.png
+INPUT ./images/trans-modificada.png
+INPUT ./images/trans-modificada.png
 INPUT ./tikz/plot1.tex
 INPUT ./tikz/plot1.tex
 INPUT tikz/plot1.tex

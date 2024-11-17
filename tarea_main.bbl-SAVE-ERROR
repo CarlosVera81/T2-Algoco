@@ -94,41 +94,6 @@
       \verb https://scientific-publishing.webshop.elsevier.com/manuscript-preparation/differentiating-between-and-introduction-research-paper/
       \endverb
     \endentry
-    \entry{inbookFonseca}{inbook}{}{}
-      \name{author}{2}{}{%
-        {{hash=c41c292e845093ea0f1404581ba2075a}{%
-           family={Fonseca},
-           familyi={F\bibinitperiod},
-           given={Jorge},
-           giveni={J\bibinitperiod}}}%
-        {{hash=8ee9db73aeef2920bf2d6f8ad95ebd2c}{%
-           family={Taghva},
-           familyi={T\bibinitperiod},
-           given={Kazem},
-           giveni={K\bibinitperiod}}}%
-      }
-      \strng{namehash}{494d8bfb4dabf185c03aeee5d7e6dae1}
-      \strng{fullhash}{494d8bfb4dabf185c03aeee5d7e6dae1}
-      \strng{fullhashraw}{494d8bfb4dabf185c03aeee5d7e6dae1}
-      \strng{bibnamehash}{494d8bfb4dabf185c03aeee5d7e6dae1}
-      \strng{authorbibnamehash}{494d8bfb4dabf185c03aeee5d7e6dae1}
-      \strng{authornamehash}{494d8bfb4dabf185c03aeee5d7e6dae1}
-      \strng{authorfullhash}{494d8bfb4dabf185c03aeee5d7e6dae1}
-      \strng{authorfullhashraw}{494d8bfb4dabf185c03aeee5d7e6dae1}
-      \field{sortinit}{F}
-      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{978-3-030-43019-1}
-      \field{month}{01}
-      \field{title}{The State of Reproducible Research in Computer Science}
-      \field{year}{2020}
-      \field{pages}{519\bibrangedash 524}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1007/978-3-030-43020-7_68
-      \endverb
-    \endentry
     \entry{optimizaciondp}{book}{}{}
       \name{author}{1}{}{%
         {{hash=95d17a551ecf8f6bccc2567a34d8f968}{%
@@ -153,40 +118,6 @@
       \field{month}{01}
       \field{title}{Optimización con programación dinámica}
       \field{year}{2022}
-    \endentry
-    \entry{popper2005logic}{book}{}{}
-      \name{author}{1}{}{%
-        {{hash=bbe62e2df9be5791a797b9266d4504a9}{%
-           family={Popper},
-           familyi={P\bibinitperiod},
-           given={K.},
-           giveni={K\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Taylor \& Francis}%
-      }
-      \strng{namehash}{bbe62e2df9be5791a797b9266d4504a9}
-      \strng{fullhash}{bbe62e2df9be5791a797b9266d4504a9}
-      \strng{fullhashraw}{bbe62e2df9be5791a797b9266d4504a9}
-      \strng{bibnamehash}{bbe62e2df9be5791a797b9266d4504a9}
-      \strng{authorbibnamehash}{bbe62e2df9be5791a797b9266d4504a9}
-      \strng{authornamehash}{bbe62e2df9be5791a797b9266d4504a9}
-      \strng{authorfullhash}{bbe62e2df9be5791a797b9266d4504a9}
-      \strng{authorfullhashraw}{bbe62e2df9be5791a797b9266d4504a9}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{9781134470020}
-      \field{series}{Routledge Classics}
-      \field{title}{The Logic of Scientific Discovery}
-      \field{year}{2005}
-      \verb{urlraw}
-      \verb https://books.google.cl/books?id=LWSBAgAAQBAJ
-      \endverb
-      \verb{url}
-      \verb https://books.google.cl/books?id=LWSBAgAAQBAJ
-      \endverb
     \endentry
   \enddatalist
 \endrefsection

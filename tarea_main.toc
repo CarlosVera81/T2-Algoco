@@ -10,7 +10,7 @@
 \contentsline {section}{\numberline {3}Implementaciones}{8}{section.3}%
 \contentsline {section}{\numberline {4}Experimentos}{9}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Dataset (casos de prueba)}{9}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Resultados}{10}{subsection.4.2}%
-\contentsline {section}{\numberline {5}Conclusiones}{13}{section.5}%
-\contentsline {section}{\numberline {6}Condiciones de entrega}{14}{section.6}%
-\contentsline {section}{\numberline {A}Apéndice 1}{15}{appendix.Alph1}%
+\contentsline {subsection}{\numberline {4.2}Resultados}{11}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Conclusiones}{16}{section.5}%
+\contentsline {section}{\numberline {6}Condiciones de entrega}{17}{section.6}%
+\contentsline {section}{\numberline {A}Apéndice 1}{18}{appendix.Alph1}%

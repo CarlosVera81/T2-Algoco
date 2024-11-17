@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.31)  16 NOV 2024 23:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.31)  17 NOV 2024 15:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1588,25 +1588,52 @@ $[]$
 
 [8] (./sections/experiment_intro.tex) (./sections/experiment_dataset.tex
 
-[9]) (./sections/experiment_results.tex (./tikz/plot1.tex)
+[9]) (./sections/experiment_results.tex
+Overfull \hbox (5.97702pt too wide) in paragraph at lines 29--38
+ [][] 
+ []
 
-[10] (./tikz/plot2.tex) (./tikz/plot3.tex)
-<images/4_impurezas_cantmax_size10.png, id=180, 1204.5pt x 1204.5pt>
+
+
+[10]
+<images/trans-normal.png, id=176, 296.60812pt x 127.97812pt>
+File: images/trans-normal.png Graphic file (type png)
+<use images/trans-normal.png>
+Package pdftex.def Info: images/trans-normal.png  used on input line 67.
+(pdftex.def)             Requested size: 212.41261pt x 91.654pt.
+<images/trans-modificada.png, id=178, 296.60812pt x 181.42781pt>
+File: images/trans-modificada.png Graphic file (type png)
+<use images/trans-modificada.png>
+Package pdftex.def Info: images/trans-modificada.png  used on input line 73.
+(pdftex.def)             Requested size: 212.41261pt x 129.93306pt.
+
+
+[11]
+
+[12 <./images/trans-normal.png> <./images/trans-modificada.png>]
+Overfull \hbox (38.02594pt too wide) in paragraph at lines 137--147
+ [][] 
+ []
+
+(./tikz/plot1.tex)
+
+[13] (./tikz/plot2.tex) (./tikz/plot3.tex)
+<images/4_impurezas_cantmax_size10.png, id=207, 1204.5pt x 1204.5pt>
 File: images/4_impurezas_cantmax_size10.png Graphic file (type png)
 <use images/4_impurezas_cantmax_size10.png>
-Package pdftex.def Info: images/4_impurezas_cantmax_size10.png  used on input line 37.
+Package pdftex.def Info: images/4_impurezas_cantmax_size10.png  used on input line 208.
 (pdftex.def)             Requested size: 236.01561pt x 236.00687pt.
 File: images/4_impurezas_cantmax_size10.png Graphic file (type png)
 <use images/4_impurezas_cantmax_size10.png>
-Package pdftex.def Info: images/4_impurezas_cantmax_size10.png  used on input line 40.
+Package pdftex.def Info: images/4_impurezas_cantmax_size10.png  used on input line 211.
 (pdftex.def)             Requested size: 236.01561pt x 236.00687pt.
 
 
-[11])
+[14])
 
-[12 <./images/4_impurezas_cantmax_size10.png>] (./sections/conclusions.tex)
+[15 <./images/4_impurezas_cantmax_size10.png>] (./sections/conclusions.tex)
 
-[13] (./condiciones.tex
+[16] (./condiciones.tex
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 8.
  (c:/texlive/2024/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
@@ -1617,9 +1644,9 @@ Overfull \hbox (5.05753pt too wide) in paragraph at lines 33--34
 
 )
 
-[14{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] (./sections/appendix1.tex)
+[17{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] (./sections/appendix1.tex)
 
-[15] (./tarea_main.aux
+[18] (./tarea_main.aux
 LaTeX Info: Redefining \sptext on input line 16.
 LaTeX Info: Redefining \. on input line 16.
 LaTeX Info: Redefining \% on input line 16.
@@ -1636,18 +1663,18 @@ Package logreq Info: Writing requests to 'tarea_main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 56101 strings out of 473577
- 1271680 string characters out of 5732224
- 2248394 words of memory out of 5000000
- 77999 multiletter control sequences out of 15000+600000
+ 56156 strings out of 473577
+ 1272712 string characters out of 5732224
+ 2249117 words of memory out of 5000000
+ 78042 multiletter control sequences out of 15000+600000
  708716 words of font info for 174 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  107i,24n,110p,7232b,2495s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb><c:/texlive/2024/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on tarea_main.pdf (15 pages, 213195 bytes).
+Output written on tarea_main.pdf (18 pages, 230432 bytes).
 PDF statistics:
- 275 PDF objects out of 1000 (max. 8388607)
- 237 compressed objects within 3 object streams
- 107 named destinations out of 1000 (max. 500000)
- 74 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 303 PDF objects out of 1000 (max. 8388607)
+ 258 compressed objects within 3 object streams
+ 119 named destinations out of 1000 (max. 500000)
+ 84 words of extra memory for PDF output out of 10000 (max. 10000000)
 

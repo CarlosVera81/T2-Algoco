@@ -1,6 +1,177 @@
-\begin{mdframed}
-    \textbf{La extensión máxima para esta sección es de 4 páginas.}
-\end{mdframed}
+
+Los resultados de los casos de prueba se encuentran 
+organizados en un recurso dividido por carpetas, donde 
+se almacenan los archivos de salida de los programas \textbf{bf.cpp},\textbf{dp.cpp} y 
+el dataset correspondiente. Estos archivos contienen las cadenas comparadas, 
+la distancia calculada, la distancia esperada correcta, un indicador con la correctitud
+del resultado, el tiempo de ejecución, y las operaciones que producen 
+la distancia mínima de edición junto con sus costos. Además, al final de cada archivo, 
+se muestra el tiempo promedio de ejecución del dataset procesado.
+
+Para obtener los resultados a continuación, 
+es necesario ejecutar los programas mencionados.
+El tiempo fue medido utilizando
+la biblioteca \textbf{chrono} de C++. También se considera el tiempo promedio de ejecución 
+como medida representativa, salvo que se indique lo contrario.
+
+El uso de memoria RAM se determinó utilizando la herramienta \textbf{Massif} 
+de Valgrind, que toma muestras del uso de memoria durante la ejecución del programa 
+y genera un gráfico con estas métricas.
+
+Las instrucciones detalladas para la ejecución de los programas se encuentran aquí. 
+
+
+\begin{enumerate}
+    \item Transposiciones con matrices de costo estándar y costo modificado
+    
+        \begin{table}[H]
+        \centering
+        \begin{tabular}{|c|c|c|}
+        \hline
+        \textbf{Tipo/Data} & \textbf{Transposiciones costo estándar} & \textbf{Transposiciones costo modificado}\\ \hline
+        Fuerza Bruta (ms) & 188.489 & 193.375\\ \hline
+        Programación Dinámica (ms) & 0.0956651 & 0.0860588 \\ \hline
+        Memoria FB (KB) & 103.2 & 105.5   \\ \hline
+        Memoria PD (KB) & 134.4 & 142.1 \\ \hline
+        
+        \end{tabular}
+        \caption{Tabla con valores de prueba para transposiciones}
+        \label{tab:tabla1}
+        \end{table}
+
+
+    Para las pruebas de transposiciones con costo estándar, podemos observar que 
+    al algoritmo de fuerza bruta le toma mucho mas tiempo en resolver
+    la consulta en comparación al algoritmo de programación dinámica,
+    ademas el uso de memoria es mayor para el algoritmo de programación dinámica, 
+    pero esta diferencia en uso de memoria no es proporcional a la diferencia
+    en tiempo de ejecución.
+
+    Para las pruebas de transposiciones con costo modificado, se sigue la misma tendencia
+    en términos de tiempo de ejecución y uso de memoria que para las transposiciones con
+    costo estándar.
+
+    No obstante, lo que si cambió fueron las operaciones las cuales producen la distancia
+    de edición minima, para las transposiciones con costo estándar, siempre se selecciono
+    la operación de transposición (Esto ocurre para ambos algoritmos). Por otro lado, para las transposiciones con costo modificado, al aumentar
+    el costo de realizar una transposición, el algoritmo determinó que
+    se podia llegar a la distancia de edición minima mediante otras operaciones.
+    Ejemplo:
+
+    \begin{figure}[H]
+        \centering
+      
+        \subfloat[Transposiciones con costo estándar.]{%
+            \includegraphics[width=0.45\textwidth]{images/trans-normal.png}%
+            \label{fig:imagen1}
+        }
+        \hfill
+        % Segunda imagen
+        \subfloat[Transposiciones con costo modificado.]{%
+            \includegraphics[width=0.45\textwidth]{images/trans-modificada.png}%
+            \label{fig:imagen2}
+        }
+        \caption{Ejemplo ejecución de transposiciones.}
+        \label{fig:trans}
+    \end{figure}
+
+    Por lo tanto, al modificar los costos de las operaciones, no
+    se modifica en gran medida el tiempo de ejecución de los algoritmos
+    al igual con el uso de memoria, pero si las operaciones las cuales producen la distancia de edición
+    minima. Por lo tanto,
+    se evidencia que los costos de de las operaciones no afectan a la complejidad
+    temporal y espacial.
+
+    \item Cadenas vacías y caracteres repetidos
+    
+        \begin{table}[H]
+        \centering
+        \begin{tabular}{|c|c|c|}
+        \hline
+        \textbf{Tipo/Data} & \textbf{Cadenas vacías} & \textbf{Caracteres repetidos}\\ \hline
+        Fuerza Bruta (ms) & 0.0033952 & 183.942 \\ \hline
+        Programación Dinámica (ms) & 0.0099436 & 0.0952444 \\ \hline
+        Memoria FB (KB) & 97.15 & 106.5   \\ \hline
+        Memoria PD (KB) & 100.7 & 143.9 \\ \hline
+      
+        \end{tabular}
+        \caption{Tabla con valores de prueba para cadenas vacías y caracteres repetidos}
+        \label{tab:tabla2}
+        \end{table}
+
+    
+    Para el dataset de cadenas vacías podemos observar que al algoritmo
+    de fuerza bruta le toma menos tiempo en resolver la consulta con
+    respecto al de programación dinámica. Por otro lado, el uso de memoria
+    es similar en los dos casos.
+
+    Estos resultados se deben a las complejidades temporales y espaciales
+    de cada algoritmo, para el algoritmo de fuerza bruta, su tiempo de ejecución
+    es exponencial con respecto al tamaño mas pequeño de la entrada, 
+    al tener una entrada con largo 0, el algoritmo resuelve el problema
+    muy eficientemente, podríamos decir que le toma tiempo $4^0=1$.
+
+    Por el lado del algoritmo de programación dinámica, su tiempo de ejecución
+    se modela según los tamaños de las dos entradas mas 1, por lo tanto, podríamos
+    decir que le toma tiempo $1*9=9$, lo cual es mayor que el algoritmo de
+    fuerza bruta.
+
+    Ademas, los usos de memoria son similares ya que el algoritmo de 
+    programación dinámica basa su uso de memoria en los tamaños de las
+    dos entradas, al tener
+    una de las entradas pequeñas, el uso de memoria disminuye.
+
+    Sobre el dataset de caracteres repetidos, podemos observar que
+    el algoritmo de fuerza bruta es mas ineficiente con respecto 
+    al de programación dinámica, no obstante, el uso de memoria
+    es mayor en este ultimo.
+
+    Con esto, podemos evidenciar en la practica que las complejidades
+    temporales y espaciales para cada algoritmo se cumplen.
+
+    
+    \item Palabras aleatorias con matrices de costo estándar y modificado
+    
+        \begin{table}[H]
+        \centering
+        \begin{tabular}{|c|c|c|c|c|}
+        \hline
+        \textbf{Data/Tipo} & \textbf{Fuerza Bruta (ms)} & \textbf{Programación Dinámica (ms)} & \textbf{Memoria FB (KB)} & \textbf{Memoria PD (KB)} \\ \hline
+        Menor a 2 & 0.00890745 & 0.0101063 & 97.55 & 98.02\\ \hline
+        3 a 4 & 0.15021 & 0.0225789 & 99.37 &  104 \\ \hline
+        7 & 33.0569 & 0.0653561 & 105.2 & 131.1 \\ \hline
+        8 & 180.548 & 0.0875144 & 108.2 & 145.6 \\ \hline
+        8 Modificado & 181.627 & 0.0992815 & 105.5 & 145.2\\ \hline
+        12 & 172570 & 0.219571 & No medido & 252.5\\ \hline
+        \end{tabular}
+        \caption{Tabla con valores de prueba para cadenas aleatorias}
+        \label{tab:tabla3}
+        \end{table}
+
+\end{enumerate}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 En esta sección, los resultados obtenidos, como las gráficas o tablas, deben estar respaldados por los datos generados durante la ejecución de sus programas. Es fundamental que, junto con el informe, se adjunten los archivos que contienen dichos datos para permitir su verificación. Además, se debe permitir y especficiar como obtener esos archivos desde una ejecución en otro computador (otra infraestructura para hacer lso experimentos).
@@ -49,3 +220,4 @@ En la \cref{fig:scatterplot_1} se muestra un scatterplot hecho con \href{https:/
 \begin{mdframed}
     Recuerde que es imprescindible que se pueda replicar la generación de las gráficas, por lo que usted debe incluir cómo generó esos datos y  cómo podría generarlos la persona que revisa su entrega y ejecuta sus programas. Por ejemplo, si genera un scatterpolot con Tikz, usted debe explicar cómo obtener la tupla de valores que se usaron para generar la gráfica.
 \end{mdframed}
+
