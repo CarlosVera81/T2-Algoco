@@ -1,269 +1,258 @@
-Strings: maenadic , teaberry
+Strings: horreum , datolite
+Distancia calculada: 19, Distancia esperada: 19
+Resultado correcto
+Tiempo de ejecución: 0.092402 ms
+Operaciones óptimas:
+ - Insertar d (Costo: 2)
+ - Insertar a (Costo: 2)
+ - Sustituir h por t (Costo: 3)
+ - Insertar l (Costo: 2)
+ - Sustituir r por i (Costo: 3)
+ - Sustituir r por t (Costo: 3)
+ - Eliminar u (Costo: 2)
+ - Eliminar m (Costo: 2)
+--------------------------
+Strings: pannum , scoon
+Distancia calculada: 15, Distancia esperada: 15
+Resultado correcto
+Tiempo de ejecución: 0.040966 ms
+Operaciones óptimas:
+ - Insertar s (Costo: 2)
+ - Sustituir p por c (Costo: 3)
+ - Sustituir a por o (Costo: 3)
+ - Sustituir n por o (Costo: 3)
+ - Eliminar u (Costo: 2)
+ - Eliminar m (Costo: 2)
+--------------------------
+Strings: tuts , griffade
 Distancia calculada: 20, Distancia esperada: 20
 Resultado correcto
-Tiempo de ejecución: 27.0924 ms
+Tiempo de ejecución: 0.042039 ms
 Operaciones óptimas:
- - Sustituir m por t (Costo: 3)
- - Transponer a y e (Costo: 2)
- - Sustituir n por b (Costo: 3)
- - Sustituir a por e (Costo: 3)
- - Sustituir d por r (Costo: 3)
- - Sustituir i por r (Costo: 3)
- - Sustituir c por y (Costo: 3)
+ - Insertar g (Costo: 2)
+ - Insertar r (Costo: 2)
+ - Insertar i (Costo: 2)
+ - Insertar f (Costo: 2)
+ - Sustituir t por f (Costo: 3)
+ - Sustituir u por a (Costo: 3)
+ - Sustituir t por d (Costo: 3)
+ - Sustituir s por e (Costo: 3)
 --------------------------
-Strings: octavina , conjurer
-Distancia calculada: 20, Distancia esperada: 20
+Strings: overgrow , unmating
+Distancia calculada: 24, Distancia esperada: 24
 Resultado correcto
-Tiempo de ejecución: 1.00092 ms
+Tiempo de ejecución: 0.082534 ms
 Operaciones óptimas:
- - Transponer o y c (Costo: 2)
- - Sustituir t por n (Costo: 3)
- - Sustituir a por j (Costo: 3)
- - Sustituir v por u (Costo: 3)
- - Sustituir i por r (Costo: 3)
- - Sustituir n por e (Costo: 3)
- - Sustituir a por r (Costo: 3)
+ - Sustituir o por u (Costo: 3)
+ - Sustituir v por n (Costo: 3)
+ - Sustituir e por m (Costo: 3)
+ - Sustituir r por a (Costo: 3)
+ - Sustituir g por t (Costo: 3)
+ - Sustituir r por i (Costo: 3)
+ - Sustituir o por n (Costo: 3)
+ - Sustituir w por g (Costo: 3)
 --------------------------
-Strings: profiler , overling
-Distancia calculada: 19, Distancia esperada: 19
+Strings: merit , snow
+Distancia calculada: 14, Distancia esperada: 14
 Resultado correcto
-Tiempo de ejecución: 0.958995 ms
+Tiempo de ejecución: 0.027651 ms
 Operaciones óptimas:
- - Eliminar p (Costo: 2)
- - Eliminar r (Costo: 2)
- - Insertar v (Costo: 2)
- - Insertar e (Costo: 2)
- - Sustituir f por r (Costo: 3)
- - Transponer i y l (Costo: 2)
- - Sustituir e por n (Costo: 3)
- - Sustituir r por g (Costo: 3)
+ - Eliminar m (Costo: 2)
+ - Sustituir e por s (Costo: 3)
+ - Sustituir r por n (Costo: 3)
+ - Sustituir i por o (Costo: 3)
+ - Sustituir t por w (Costo: 3)
 --------------------------
-Strings: fitchery , onlooker
-Distancia calculada: 19, Distancia esperada: 19
+Strings: cackerel , sero
+Distancia calculada: 14, Distancia esperada: 14
 Resultado correcto
-Tiempo de ejecución: 0.788418 ms
+Tiempo de ejecución: 0.045806 ms
 Operaciones óptimas:
- - Insertar o (Costo: 2)
- - Sustituir f por n (Costo: 3)
- - Sustituir i por l (Costo: 3)
- - Sustituir t por o (Costo: 3)
- - Sustituir c por o (Costo: 3)
- - Sustituir h por k (Costo: 3)
- - Eliminar y (Costo: 2)
---------------------------
-Strings: sealable , outspeak
-Distancia calculada: 19, Distancia esperada: 19
-Resultado correcto
-Tiempo de ejecución: 1.18419 ms
-Operaciones óptimas:
- - Insertar o (Costo: 2)
- - Insertar u (Costo: 2)
- - Insertar t (Costo: 2)
- - Insertar p (Costo: 2)
+ - Eliminar c (Costo: 2)
  - Eliminar a (Costo: 2)
- - Eliminar l (Costo: 2)
- - Eliminar b (Costo: 2)
- - Eliminar l (Costo: 2)
- - Sustituir e por k (Costo: 3)
+ - Eliminar c (Costo: 2)
+ - Sustituir k por s (Costo: 3)
+ - Eliminar e (Costo: 2)
+ - Sustituir l por o (Costo: 3)
 --------------------------
-Strings: pycnosis , chitosan
+Strings: waterdoe , jive
 Distancia calculada: 17, Distancia esperada: 17
 Resultado correcto
-Tiempo de ejecución: 0.928739 ms
+Tiempo de ejecución: 0.043431 ms
 Operaciones óptimas:
- - Eliminar p (Costo: 2)
- - Eliminar y (Costo: 2)
- - Insertar h (Costo: 2)
+ - Eliminar w (Costo: 2)
+ - Eliminar a (Costo: 2)
+ - Eliminar t (Costo: 2)
+ - Eliminar e (Costo: 2)
+ - Sustituir r por j (Costo: 3)
+ - Sustituir d por i (Costo: 3)
+ - Sustituir o por v (Costo: 3)
+--------------------------
+Strings: staglike , sennite
+Distancia calculada: 14, Distancia esperada: 14
+Resultado correcto
+Tiempo de ejecución: 0.079709 ms
+Operaciones óptimas:
+ - Eliminar t (Costo: 2)
+ - Sustituir a por e (Costo: 3)
+ - Sustituir g por n (Costo: 3)
+ - Sustituir l por n (Costo: 3)
+ - Sustituir k por t (Costo: 3)
+--------------------------
+Strings: fresh , bushily
+Distancia calculada: 14, Distancia esperada: 14
+Resultado correcto
+Tiempo de ejecución: 0.049322 ms
+Operaciones óptimas:
+ - Eliminar f (Costo: 2)
+ - Sustituir r por b (Costo: 3)
+ - Sustituir e por u (Costo: 3)
  - Insertar i (Costo: 2)
- - Sustituir n por t (Costo: 3)
- - Sustituir i por a (Costo: 3)
- - Sustituir s por n (Costo: 3)
+ - Insertar l (Costo: 2)
+ - Insertar y (Costo: 2)
 --------------------------
-Strings: waveless , chickwit
-Distancia calculada: 24, Distancia esperada: 24
+Strings: biporose , hame
+Distancia calculada: 17, Distancia esperada: 17
 Resultado correcto
-Tiempo de ejecución: 0.804778 ms
-Operaciones óptimas:
- - Sustituir w por c (Costo: 3)
- - Sustituir a por h (Costo: 3)
- - Sustituir v por i (Costo: 3)
- - Sustituir e por c (Costo: 3)
- - Sustituir l por k (Costo: 3)
- - Sustituir e por w (Costo: 3)
- - Sustituir s por i (Costo: 3)
- - Sustituir s por t (Costo: 3)
---------------------------
-Strings: lungless , cubiform
-Distancia calculada: 21, Distancia esperada: 21
-Resultado correcto
-Tiempo de ejecución: 0.995102 ms
-Operaciones óptimas:
- - Sustituir l por c (Costo: 3)
- - Sustituir n por b (Costo: 3)
- - Sustituir g por i (Costo: 3)
- - Sustituir l por f (Costo: 3)
- - Sustituir e por o (Costo: 3)
- - Sustituir s por r (Costo: 3)
- - Sustituir s por m (Costo: 3)
---------------------------
-Strings: biannual , parergon
-Distancia calculada: 22, Distancia esperada: 22
-Resultado correcto
-Tiempo de ejecución: 0.794439 ms
+Tiempo de ejecución: 0.041858 ms
 Operaciones óptimas:
  - Eliminar b (Costo: 2)
- - Sustituir i por p (Costo: 3)
- - Insertar r (Costo: 2)
- - Sustituir n por e (Costo: 3)
- - Sustituir n por r (Costo: 3)
- - Sustituir u por g (Costo: 3)
- - Sustituir a por o (Costo: 3)
- - Sustituir l por n (Costo: 3)
---------------------------
-Strings: enfolder , nonbasic
-Distancia calculada: 20, Distancia esperada: 20
-Resultado correcto
-Tiempo de ejecución: 1.08724 ms
-Operaciones óptimas:
- - Eliminar e (Costo: 2)
- - Eliminar f (Costo: 2)
- - Insertar n (Costo: 2)
- - Insertar b (Costo: 2)
- - Sustituir l por a (Costo: 3)
- - Sustituir d por s (Costo: 3)
- - Sustituir e por i (Costo: 3)
- - Sustituir r por c (Costo: 3)
---------------------------
-Strings: crossway , fluidify
-Distancia calculada: 21, Distancia esperada: 21
-Resultado correcto
-Tiempo de ejecución: 0.716353 ms
-Operaciones óptimas:
- - Sustituir c por f (Costo: 3)
- - Sustituir r por l (Costo: 3)
- - Sustituir o por u (Costo: 3)
- - Sustituir s por i (Costo: 3)
- - Sustituir s por d (Costo: 3)
- - Sustituir w por i (Costo: 3)
- - Sustituir a por f (Costo: 3)
---------------------------
-Strings: winglike , cistvaen
-Distancia calculada: 19, Distancia esperada: 19
-Resultado correcto
-Tiempo de ejecución: 0.78981 ms
-Operaciones óptimas:
- - Sustituir w por c (Costo: 3)
- - Eliminar n (Costo: 2)
- - Sustituir g por s (Costo: 3)
- - Sustituir l por t (Costo: 3)
- - Sustituir i por v (Costo: 3)
- - Sustituir k por a (Costo: 3)
- - Insertar n (Costo: 2)
---------------------------
-Strings: volitate , fishpool
-Distancia calculada: 23, Distancia esperada: 23
-Resultado correcto
-Tiempo de ejecución: 1.0622 ms
-Operaciones óptimas:
- - Eliminar v (Costo: 2)
+ - Eliminar i (Costo: 2)
+ - Eliminar p (Costo: 2)
  - Eliminar o (Costo: 2)
- - Sustituir l por f (Costo: 3)
- - Insertar s (Costo: 2)
- - Insertar h (Costo: 2)
- - Sustituir t por p (Costo: 3)
- - Sustituir a por o (Costo: 3)
- - Sustituir t por o (Costo: 3)
- - Sustituir e por l (Costo: 3)
+ - Sustituir r por h (Costo: 3)
+ - Sustituir o por a (Costo: 3)
+ - Sustituir s por m (Costo: 3)
 --------------------------
-Strings: rabbonim , thionium
-Distancia calculada: 13, Distancia esperada: 13
-Resultado correcto
-Tiempo de ejecución: 1.11682 ms
-Operaciones óptimas:
- - Eliminar r (Costo: 2)
- - Sustituir a por t (Costo: 3)
- - Sustituir b por h (Costo: 3)
- - Sustituir b por i (Costo: 3)
- - Insertar u (Costo: 2)
---------------------------
-Strings: unbillet , prodigal
-Distancia calculada: 20, Distancia esperada: 20
-Resultado correcto
-Tiempo de ejecución: 0.761397 ms
-Operaciones óptimas:
- - Insertar p (Costo: 2)
- - Sustituir u por r (Costo: 3)
- - Sustituir n por o (Costo: 3)
- - Sustituir b por d (Costo: 3)
- - Insertar g (Costo: 2)
- - Sustituir l por a (Costo: 3)
- - Eliminar e (Costo: 2)
- - Eliminar t (Costo: 2)
---------------------------
-Strings: kennelly , milliary
-Distancia calculada: 18, Distancia esperada: 18
-Resultado correcto
-Tiempo de ejecución: 1.01652 ms
-Operaciones óptimas:
- - Eliminar k (Costo: 2)
- - Eliminar e (Costo: 2)
- - Eliminar n (Costo: 2)
- - Sustituir n por m (Costo: 3)
- - Sustituir e por i (Costo: 3)
- - Insertar i (Costo: 2)
- - Insertar a (Costo: 2)
- - Insertar r (Costo: 2)
---------------------------
-Strings: erosible , duologue
-Distancia calculada: 18, Distancia esperada: 18
-Resultado correcto
-Tiempo de ejecución: 0.779982 ms
-Operaciones óptimas:
- - Sustituir e por d (Costo: 3)
- - Sustituir r por u (Costo: 3)
- - Sustituir s por l (Costo: 3)
- - Sustituir i por o (Costo: 3)
- - Sustituir b por g (Costo: 3)
- - Sustituir l por u (Costo: 3)
---------------------------
-Strings: redactor , overplay
-Distancia calculada: 20, Distancia esperada: 20
-Resultado correcto
-Tiempo de ejecución: 0.855001 ms
-Operaciones óptimas:
- - Insertar o (Costo: 2)
- - Insertar v (Costo: 2)
- - Transponer r y e (Costo: 2)
- - Insertar p (Costo: 2)
- - Sustituir d por l (Costo: 3)
- - Eliminar c (Costo: 2)
- - Eliminar t (Costo: 2)
- - Eliminar o (Costo: 2)
- - Sustituir r por y (Costo: 3)
---------------------------
-Strings: shikimic , purebred
+Strings: appinite , lovelass
 Distancia calculada: 24, Distancia esperada: 24
 Resultado correcto
-Tiempo de ejecución: 1.01588 ms
+Tiempo de ejecución: 0.077925 ms
 Operaciones óptimas:
- - Sustituir s por p (Costo: 3)
- - Sustituir h por u (Costo: 3)
- - Sustituir i por r (Costo: 3)
- - Sustituir k por e (Costo: 3)
- - Sustituir i por b (Costo: 3)
- - Sustituir m por r (Costo: 3)
+ - Sustituir a por l (Costo: 3)
+ - Sustituir p por o (Costo: 3)
+ - Sustituir p por v (Costo: 3)
  - Sustituir i por e (Costo: 3)
- - Sustituir c por d (Costo: 3)
+ - Sustituir n por l (Costo: 3)
+ - Sustituir i por a (Costo: 3)
+ - Sustituir t por s (Costo: 3)
+ - Sustituir e por s (Costo: 3)
 --------------------------
-Strings: impester , composed
-Distancia calculada: 13, Distancia esperada: 13
+Strings: wade , coontie
+Distancia calculada: 15, Distancia esperada: 15
 Resultado correcto
-Tiempo de ejecución: 1.01768 ms
+Tiempo de ejecución: 0.036247 ms
 Operaciones óptimas:
  - Insertar c (Costo: 2)
- - Sustituir i por o (Costo: 3)
- - Sustituir e por o (Costo: 3)
- - Eliminar t (Costo: 2)
- - Sustituir r por d (Costo: 3)
+ - Insertar o (Costo: 2)
+ - Insertar o (Costo: 2)
+ - Sustituir w por n (Costo: 3)
+ - Sustituir a por t (Costo: 3)
+ - Sustituir d por i (Costo: 3)
 --------------------------
-Tiempo promedio de ejecución: 2.23834 ms
+Strings: hexafoil , peccancy
+Distancia calculada: 19, Distancia esperada: 19
+Resultado correcto
+Tiempo de ejecución: 0.082083 ms
+Operaciones óptimas:
+ - Sustituir h por p (Costo: 3)
+ - Insertar c (Costo: 2)
+ - Sustituir x por c (Costo: 3)
+ - Eliminar f (Costo: 2)
+ - Sustituir o por n (Costo: 3)
+ - Sustituir i por c (Costo: 3)
+ - Sustituir l por y (Costo: 3)
+--------------------------
+Strings: hillocky , fleech
+Distancia calculada: 16, Distancia esperada: 16
+Resultado correcto
+Tiempo de ejecución: 0.062176 ms
+Operaciones óptimas:
+ - Eliminar h (Costo: 2)
+ - Sustituir i por f (Costo: 3)
+ - Sustituir l por e (Costo: 3)
+ - Sustituir o por e (Costo: 3)
+ - Eliminar k (Costo: 2)
+ - Sustituir y por h (Costo: 3)
+--------------------------
+Strings: upslope , lambeau
+Distancia calculada: 18, Distancia esperada: 18
+Resultado correcto
+Tiempo de ejecución: 0.061705 ms
+Operaciones óptimas:
+ - Eliminar u (Costo: 2)
+ - Eliminar p (Costo: 2)
+ - Eliminar s (Costo: 2)
+ - Insertar a (Costo: 2)
+ - Sustituir o por m (Costo: 3)
+ - Sustituir p por b (Costo: 3)
+ - Insertar a (Costo: 2)
+ - Insertar u (Costo: 2)
+--------------------------
+Strings: rampager , valyl
+Distancia calculada: 18, Distancia esperada: 18
+Resultado correcto
+Tiempo de ejecución: 0.052317 ms
+Operaciones óptimas:
+ - Eliminar r (Costo: 2)
+ - Eliminar a (Costo: 2)
+ - Eliminar m (Costo: 2)
+ - Sustituir p por v (Costo: 3)
+ - Sustituir g por l (Costo: 3)
+ - Sustituir e por y (Costo: 3)
+ - Sustituir r por l (Costo: 3)
+--------------------------
+Strings: reborn , eyepit
+Distancia calculada: 16, Distancia esperada: 16
+Resultado correcto
+Tiempo de ejecución: 0.047038 ms
+Operaciones óptimas:
+ - Eliminar r (Costo: 2)
+ - Insertar y (Costo: 2)
+ - Sustituir b por e (Costo: 3)
+ - Sustituir o por p (Costo: 3)
+ - Sustituir r por i (Costo: 3)
+ - Sustituir n por t (Costo: 3)
+--------------------------
+Strings: twagger , bendwise
+Distancia calculada: 19, Distancia esperada: 19
+Resultado correcto
+Tiempo de ejecución: 0.06967 ms
+Operaciones óptimas:
+ - Insertar b (Costo: 2)
+ - Insertar e (Costo: 2)
+ - Insertar n (Costo: 2)
+ - Sustituir t por d (Costo: 3)
+ - Eliminar a (Costo: 2)
+ - Sustituir g por i (Costo: 3)
+ - Sustituir g por s (Costo: 3)
+ - Eliminar r (Costo: 2)
+--------------------------
+Strings: ambury , jolthead
+Distancia calculada: 22, Distancia esperada: 22
+Resultado correcto
+Tiempo de ejecución: 0.093605 ms
+Operaciones óptimas:
+ - Insertar j (Costo: 2)
+ - Insertar o (Costo: 2)
+ - Sustituir a por l (Costo: 3)
+ - Sustituir m por t (Costo: 3)
+ - Sustituir b por h (Costo: 3)
+ - Sustituir u por e (Costo: 3)
+ - Sustituir r por a (Costo: 3)
+ - Sustituir y por d (Costo: 3)
+--------------------------
+Strings: paroemia , toze
+Distancia calculada: 15, Distancia esperada: 15
+Resultado correcto
+Tiempo de ejecución: 0.045435 ms
+Operaciones óptimas:
+ - Eliminar p (Costo: 2)
+ - Eliminar a (Costo: 2)
+ - Sustituir r por t (Costo: 3)
+ - Insertar z (Costo: 2)
+ - Eliminar m (Costo: 2)
+ - Eliminar i (Costo: 2)
+ - Eliminar a (Costo: 2)
+--------------------------
+Tiempo promedio de ejecución: 0.058696 ms

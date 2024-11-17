@@ -6,8 +6,6 @@
 #include <sstream>
 #include <chrono>
 #include <sys/resource.h>
-#include "sys/types.h"
-#include "sys/sysinfo.h"
 
 using namespace std;
 
@@ -64,13 +62,13 @@ pair<int, vector<string>> distanciaEdicion(const string &s1, const string &s2) {
     vector<vector<vector<string>>> operaciones(m + 1, vector<vector<string>>(n + 1));
 
     for (int i = 1; i <= m; ++i) {
-        int costo = costo_eliminacion(s1[i - 1]);
+        int costo = cost_deletear(s1[i - 1]);
         dp[i][0] = dp[i - 1][0] + costo;
         operaciones[i][0] = operaciones[i - 1][0];
         operaciones[i][0].push_back("Eliminar " + string(1, s1[i - 1]) + " (Costo: " + to_string(costo) + ")");
     }
     for (int j = 1; j <= n; ++j) {
-        int costo = costo_insercion(s2[j - 1]);
+        int costo = cost_insertar(s2[j - 1]);
         dp[0][j] = dp[0][j - 1] + costo;
         operaciones[0][j] = operaciones[0][j - 1];
         operaciones[0][j].push_back("Insertar " + string(1, s2[j - 1]) + " (Costo: " + to_string(costo) + ")");
@@ -78,9 +76,9 @@ pair<int, vector<string>> distanciaEdicion(const string &s1, const string &s2) {
 
     for (int i = 1; i <= m; ++i) {
         for (int j = 1; j <= n; ++j) {
-            int costoIns = costo_insercion(s2[j - 1]);
-            int costoDel = costo_eliminacion(s1[i - 1]);
-            int costoSub = costo_sustitucion(s1[i - 1], s2[j - 1]);
+            int costoIns = cost_insertar(s2[j - 1]);
+            int costoDel = cost_deletear(s1[i - 1]);
+            int costoSub = cost_remplazar(s1[i - 1], s2[j - 1]);
 
             dp[i][j] = dp[i - 1][j - 1] + costoSub;
             operaciones[i][j] = operaciones[i - 1][j - 1];
@@ -98,7 +96,7 @@ pair<int, vector<string>> distanciaEdicion(const string &s1, const string &s2) {
             }
 
             if (i > 1 && j > 1 && s1[i - 1] == s2[j - 2] && s1[i - 2] == s2[j - 1]) {
-                int costoTrans = costo_transposicion(s1[i - 2], s1[i - 1]);
+                int costoTrans = cost_trans(s1[i - 2], s1[i - 1]);
                 if (dp[i - 2][j - 2] + costoTrans < dp[i][j]) {
                     dp[i][j] = dp[i - 2][j - 2] + costoTrans;
                     operaciones[i][j] = operaciones[i - 2][j - 2];
@@ -114,14 +112,6 @@ pair<int, vector<string>> distanciaEdicion(const string &s1, const string &s2) {
 void procesarDataset(const string &filename) {
     ifstream file(filename);
     ofstream outfile("output_dp.txt"); 
-    if (!file.is_open()) {
-        cerr << "Error al abrir el archivo " << filename << endl;
-        exit(1);
-    }
-    if (!outfile.is_open()) {
-        cerr << "Error al abrir el archivo de salida" << endl;
-        exit(1);
-    }
 
     string line;
     
