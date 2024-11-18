@@ -91,6 +91,58 @@
       \field{title}{Optimización con programación dinámica}
       \field{year}{2022}
     \endentry
+    \entry{CodigoAlgoritmos}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=e7aac0ff74cb006e3d027e08e111d52f}{%
+           family={Vera},
+           familyi={V\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{e7aac0ff74cb006e3d027e08e111d52f}
+      \strng{fullhash}{e7aac0ff74cb006e3d027e08e111d52f}
+      \strng{fullhashraw}{e7aac0ff74cb006e3d027e08e111d52f}
+      \strng{bibnamehash}{e7aac0ff74cb006e3d027e08e111d52f}
+      \strng{authorbibnamehash}{e7aac0ff74cb006e3d027e08e111d52f}
+      \strng{authornamehash}{e7aac0ff74cb006e3d027e08e111d52f}
+      \strng{authorfullhash}{e7aac0ff74cb006e3d027e08e111d52f}
+      \strng{authorfullhashraw}{e7aac0ff74cb006e3d027e08e111d52f}
+      \field{extraname}{1}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://github.com/CarlosVera81/T2-Algoco-Publica.git}}
+      \field{month}{11}
+      \field{title}{Codigo T2-3 Algoco}
+      \field{year}{2024}
+    \endentry
+    \entry{Experimentos}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=e7aac0ff74cb006e3d027e08e111d52f}{%
+           family={Vera},
+           familyi={V\bibinitperiod},
+           given={Carlos},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{e7aac0ff74cb006e3d027e08e111d52f}
+      \strng{fullhash}{e7aac0ff74cb006e3d027e08e111d52f}
+      \strng{fullhashraw}{e7aac0ff74cb006e3d027e08e111d52f}
+      \strng{bibnamehash}{e7aac0ff74cb006e3d027e08e111d52f}
+      \strng{authorbibnamehash}{e7aac0ff74cb006e3d027e08e111d52f}
+      \strng{authornamehash}{e7aac0ff74cb006e3d027e08e111d52f}
+      \strng{authorfullhash}{e7aac0ff74cb006e3d027e08e111d52f}
+      \strng{authorfullhashraw}{e7aac0ff74cb006e3d027e08e111d52f}
+      \field{extraname}{2}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://usmcl-my.sharepoint.com/:f:/g/personal/carlos_veraq_usm_cl/EoUgQtSM7dpDvg1B_GbtYCkB6hYjxI-DCROw1d7Fv1ixEA?e=S9Wqq6}}
+      \field{month}{11}
+      \field{title}{Experimentos T2-3 Algoco}
+      \field{year}{2024}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

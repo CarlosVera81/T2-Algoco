@@ -1,11 +1,12 @@
 
 Los resultados de los casos de prueba se encuentran 
 organizados en un recurso dividido por carpetas, donde 
-se almacenan los archivos de salida de los programas \textbf{bf.cpp},\textbf{dp.cpp} y 
-el dataset correspondiente. Estos archivos contienen las cadenas comparadas, 
+se almacenan los archivos de salida de los programas \textbf{bf.cpp}, \textbf{dp.cpp}, las matrices
+de costo y  el dataset correspondiente. Estos archivos contienen las 
+cadenas comparadas, 
 la distancia calculada, la distancia esperada correcta, un indicador con la correctitud
-del resultado, el tiempo de ejecución, y las operaciones que producen 
-la distancia mínima de edición junto con sus costos. Además, al final de cada archivo, 
+del resultado, el tiempo de ejecución y las operaciones que producen 
+la distancia mínima de edición junto con sus costos. además, al final de cada archivo, 
 se muestra el tiempo promedio de ejecución del dataset procesado.
 
 Para obtener los resultados a continuación, 
@@ -18,7 +19,7 @@ El uso de memoria RAM se determinó utilizando la herramienta \textbf{Massif}
 de Valgrind, que toma muestras del uso de memoria durante la ejecución del programa 
 y genera un gráfico con estas métricas.
 
-Las instrucciones detalladas para la ejecución de los programas se encuentran aquí. 
+Las instrucciones detalladas para la ejecución de los programas se encuentran aquí.\cite{CodigoAlgoritmos}
 
 
 \begin{enumerate}
@@ -43,7 +44,7 @@ Las instrucciones detalladas para la ejecución de los programas se encuentran a
     Para las pruebas de transposiciones con costo estándar, podemos observar que 
     al algoritmo de fuerza bruta le toma mucho mas tiempo en resolver
     la consulta en comparación al algoritmo de programación dinámica,
-    ademas el uso de memoria es mayor para el algoritmo de programación dinámica, 
+    Además el uso de memoria es mayor para el algoritmo de programación dinámica, 
     pero esta diferencia en uso de memoria no es proporcional a la diferencia
     en tiempo de ejecución.
 
@@ -52,10 +53,10 @@ Las instrucciones detalladas para la ejecución de los programas se encuentran a
     costo estándar.
 
     No obstante, lo que si cambió fueron las operaciones las cuales producen la distancia
-    de edición minima, para las transposiciones con costo estándar, siempre se selecciono
+    de edición mínima, para las transposiciones con costo estándar, siempre se seleccionó
     la operación de transposición (Esto ocurre para ambos algoritmos). Por otro lado, para las transposiciones con costo modificado, al aumentar
     el costo de realizar una transposición, el algoritmo determinó que
-    se podia llegar a la distancia de edición minima mediante otras operaciones.
+    se podia llegar a la distancia de edición mínima mediante otras operaciones.
     Ejemplo:
 
     \begin{figure}[H]
@@ -77,8 +78,8 @@ Las instrucciones detalladas para la ejecución de los programas se encuentran a
 
     Por lo tanto, al modificar los costos de las operaciones, no
     se modifica en gran medida el tiempo de ejecución de los algoritmos
-    al igual con el uso de memoria, pero si las operaciones las cuales producen la distancia de edición
-    minima. Por lo tanto,
+    al igual que con el uso de memoria, pero si las operaciones las cuales producen la distancia de edición
+    mínima. Por lo tanto,
     se evidencia que los costos de de las operaciones no afectan a la complejidad
     temporal y espacial.
 
@@ -107,16 +108,16 @@ Las instrucciones detalladas para la ejecución de los programas se encuentran a
 
     Estos resultados se deben a las complejidades temporales y espaciales
     de cada algoritmo, para el algoritmo de fuerza bruta, su tiempo de ejecución
-    es exponencial con respecto al tamaño mas pequeño de la entrada, 
+    es exponencial con respecto al tamaño más pequeño de la entrada, 
     al tener una entrada con largo 0, el algoritmo resuelve el problema
     muy eficientemente, podríamos decir que le toma tiempo $4^0=1$.
 
     Por el lado del algoritmo de programación dinámica, su tiempo de ejecución
-    se modela según los tamaños de las dos entradas mas 1, por lo tanto, podríamos
-    decir que le toma tiempo $1*9=9$, lo cual es mayor que el algoritmo de
+    se modela según los tamaños de las dos entradas más 1, por lo tanto, podríamos
+    decir que le toma tiempo $1*9=9$, valor mayor con respecto al algoritmo de
     fuerza bruta.
 
-    Ademas, los usos de memoria son similares ya que el algoritmo de 
+    Además, los usos de memoria son similares ya que el algoritmo de 
     programación dinámica basa su uso de memoria en los tamaños de las
     dos entradas, al tener
     una de las entradas pequeñas, el uso de memoria disminuye.
@@ -157,7 +158,7 @@ Las instrucciones detalladas para la ejecución de los programas se encuentran a
     Para los datasets de palabras aleatorias podemos ver que nuevamente,
     el algoritmo de fuerza bruta es mas ineficiente frente al algoritmo
     de programación dinámica, exceptuando cuando la entrada es muy pequeña.
-    Ademas podemos ver mas claramente el comportamiento a medida que crece el 
+    Además podemos ver mas claramente el comportamiento a medida que crece el 
     tamaño de la entrada:
 
 
@@ -192,7 +193,7 @@ Las instrucciones detalladas para la ejecución de los programas se encuentran a
     \end{figure}
 
     Los gráficos representan el tiempo de ejecución de los algoritmos
-    a medida que crece la entrada, al igual que el uso de memoria, ademas
+    a medida que crece la entrada, al igual que el uso de memoria, además
     se les agrego una linea de tendencia en conjunto con la ecuación del
     gráfico.
 
@@ -205,7 +206,7 @@ Las instrucciones detalladas para la ejecución de los programas se encuentran a
     dinámica se comporta de manera cuadrática, al igual que su uso de 
     memoria.
 
-    Ademas, con el dataset con costos modificados, no se observo mayores
+    Además, con el dataset con costos modificados, no se observó mayores
     diferencias con respecto al resto de las pruebas, exceptuando la secuencia
     de operaciones que producen la distancia de edición optima, la cual
     cambio con respecto a las matrices de costo estándar.

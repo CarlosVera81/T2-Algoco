@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber tarea_main"] 1731879388.27935 "tarea_main.bcf" "tarea_main.bbl" "tarea_main" 1731882444.30111 0
-  "references.bib" 1731786077 3167 3f40f3a9f10da563cb6857b01b63c00d ""
-  "tarea_main.bcf" 1731882443 109052 e717f2bb7bcd5d022da7a5aaa7100c20 "pdflatex"
+["biber tarea_main"] 1731888642.9714 "tarea_main.bcf" "tarea_main.bbl" "tarea_main" 1731889368.56206 0
+  "references.bib" 1731886630 1112 d216c89dc74544c6718f4d484704b6ff ""
+  "tarea_main.bcf" 1731889368 109403 0fb11aded2b881629ba6a8c031a63192 "pdflatex"
   (generated)
   "tarea_main.bbl"
   "tarea_main.blg"
   (rewritten before read)
-["pdflatex"] 1731882441.34142 "c:/Users/carlo/Desktop/Universidad/2024-2/Algoco/T2-Algoco/tarea_main.tex" "tarea_main.pdf" "tarea_main" 1731882444.30187 0
+["pdflatex"] 1731889365.58132 "c:/Users/carlo/Desktop/Universidad/2024-2/Algoco/T2-Algoco/tarea_main.tex" "tarea_main.pdf" "tarea_main" 1731889368.56281 0
   "author.tex" 1730416246 410 2e3c6886ff43889d950957a36249beb3 ""
   "c:/Users/carlo/Desktop/Universidad/2024-2/Algoco/T2-Algoco/tarea_main.tex" 1730416068 1841 173144734cafaa4caf15a034e8937701 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1730412112 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -326,23 +326,23 @@
   "images/usomem-bf.png" 1731874704 28996 3257a3a00c195d0ce89c1aef911df269 ""
   "images/usomem-dp.png" 1731874763 29822 2487a1e1e8413316e1e02f56b3b40bcb ""
   "preamble.tex" 1730685266 2273 d798d4260232c979e0e184b5244dc119 ""
-  "sections/abstract.tex" 1731880511 961 543c9a990d3f0673323105b4eb519833 ""
-  "sections/appendix1.tex" 1730416068 651 5bd1e43d77c49cbe70e610bf2cbf6026 ""
+  "sections/abstract.tex" 1731888095 962 0fadb74b948a0a0bf2b4f78f7f3e8a4e ""
+  "sections/appendix1.tex" 1731888644 94 6efc3ef689be4c122c5b8aabf39e0bcf ""
   "sections/conclusions.tex" 1731878894 3278 c2b216c95cf632f8246c84c64fd000c7 ""
   "sections/design_analysis.tex" 1731770020 2592 563cfb2a587ae8c0f5f8accbd7f91c51 ""
-  "sections/design_analysis_brute_force.tex" 1731881738 5644 a33378a05b0813049ec6620eb2c14588 ""
-  "sections/design_analysis_dynamic_programming.tex" 1731882144 9029 d56e5b12523affe4f037918c7715962e ""
-  "sections/experiment_dataset.tex" 1731864151 2464 97598ca1d98899595d3174b672987ec0 ""
+  "sections/design_analysis_brute_force.tex" 1731888089 5650 d67fc6bf3b1572797dbe499c73fda548 ""
+  "sections/design_analysis_dynamic_programming.tex" 1731888077 9036 07403b70170932e1a04a3e11aa9d92a4 ""
+  "sections/experiment_dataset.tex" 1731889365 2441 c6b44c7bf2f67e58fb18602a5f15cbb4 ""
   "sections/experiment_intro.tex" 1731806361 703 f447575e06602ab947409b7cf3175a15 ""
-  "sections/experiment_results.tex" 1731878167 12432 a457c620ae0edae70b011366c1e28611 ""
-  "sections/implementations.tex" 1731882440 1425 b4f68f342c0d4ca92db1b5b677c05c8f ""
-  "sections/introduction.tex" 1731881194 3345 94ecff5e5bfafbf66377cea69460047d ""
-  "tarea_main.aux" 1731882443 6896 ad587aff1f832457ca88bb118919fd86 "pdflatex"
-  "tarea_main.bbl" 1731879390 3895 a7ab37e7e30da2d99fac47d83463c978 "biber tarea_main"
-  "tarea_main.out" 1731882443 914 f9f8b60de6284405ddc8af7482a432c4 "pdflatex"
-  "tarea_main.run.xml" 1731882443 2347 3a149f2168a09cc18164f684ae49c28d "pdflatex"
+  "sections/experiment_results.tex" 1731888227 12499 1baccce1dca36119f1ec28c867e7986a ""
+  "sections/implementations.tex" 1731888062 1475 ebbef6f4ecba055e57ef4a0b3ac92c72 ""
+  "sections/introduction.tex" 1731888049 3346 531508f42642d5e54eece39088ed5fb9 ""
+  "tarea_main.aux" 1731889368 7405 0220404a56d15f159657023239117fe0 "pdflatex"
+  "tarea_main.bbl" 1731888644 6274 dc0acec948c844c8bdb1ea76d7a23a55 "biber tarea_main"
+  "tarea_main.out" 1731889368 914 f9f8b60de6284405ddc8af7482a432c4 "pdflatex"
+  "tarea_main.run.xml" 1731889368 2347 3a149f2168a09cc18164f684ae49c28d "pdflatex"
   "tarea_main.tex" 1730416068 1841 173144734cafaa4caf15a034e8937701 ""
-  "tarea_main.toc" 1731882443 1320 1da4a00fa3e734f94f4f68260ebec4d7 "pdflatex"
+  "tarea_main.toc" 1731889368 1320 1da4a00fa3e734f94f4f68260ebec4d7 "pdflatex"
   (generated)
   "tarea_main.aux"
   "tarea_main.bcf"

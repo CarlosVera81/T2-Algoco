@@ -7,7 +7,7 @@ Como solución diseñada, se opto por implementar un algoritmo de programación
 dinámica que utiliza el método iterativo bottom up, el cual va construyendo la
 solución a medida que resuelve los subproblemas que lo componen. En este caso, el
 algoritmo recibe como entrada las cadenas $S_1$ y $S_2$ a comparar y devuelve el costo de edición
-mínimo, ademas se implemento una matriz auxiliar la cual va almacenando las operaciones
+mínimo, además se implemento una matriz auxiliar la cual va almacenando las operaciones
 que producen el costo mínimo.
 
 Para calcular la distancia de edición, el algoritmo calcula todos los subproblemas posibles
@@ -67,7 +67,7 @@ de operaciones optimas.
 \item Ejecución del algoritmo
 
 Para ejemplificar el funcionamiento del algoritmo, usaremos las cadenas
-abba y baba, ademas, todos los valores de las operaciones serán 1, excepto
+abba y baba, además, todos los valores de las operaciones serán 1, excepto
 por la operación de transposición que tendrá valor 2, los pasos son los siguientes:
 
 \begin{enumerate}[1)]
@@ -84,7 +84,7 @@ se realizaran las comparaciones para determinar cual de todas las operaciones pr
 costo, modificando el valor en la matriz dp.
 
 \item Para el ejemplo propuesto, una vez llenada la matriz dp, se retornara la distancia
-de edición minima, la cual corresponde a transponer los primeros dos caracteres y su costo es 1. En el caso que el valor de transponer fuera 3, el coste mínimo de edición
+de edición mínima, la cual corresponde a transponer los primeros dos caracteres y su costo es 1. En el caso que el valor de transponer fuera 3, el coste mínimo de edición
 pasaría a ser producido por la combinación de inserciones y eliminaciones.
 
 \end{enumerate}
@@ -97,7 +97,7 @@ pasaría a ser producido por la combinación de inserciones y eliminaciones.
     el algoritmo propuesto posee una complejidad temporal 
     perteneciente a $O\left(m*n\right)$, esto
     se debe a que el algoritmo realiza m x n operaciones con costo constante, lo que corresponde
-    a cada combinación de caracteres de las cadenas de entrada, ademas, por su naturaleza
+    a cada combinación de caracteres de las cadenas de entrada, además, por su naturaleza
     de programación dinámica, aprovecha los cálculos previos almacenados en la matriz para 
     evitar recalcular algunos costos.
     
@@ -106,8 +106,8 @@ pasaría a ser producido por la combinación de inserciones y eliminaciones.
     ya que tiene que almacenar m+1 x n+1 resultados, esto ocurre en todos los casos
     ya que siempre se llenara la matriz al completo.
     
-    Ademas, se podría considerar la memoria que se usa para almacenar las operaciones
-    que producen la distancia de edición minima, la cual funciona igual a la matriz dp,
+    Además, se podría considerar la memoria que se usa para almacenar las operaciones
+    que producen la distancia de edición mínima, la cual funciona igual a la matriz dp,
     por lo tanto se necesaria $O\left(m*n\right)$ espacio adicional, por lo cual
     la complejidad espacial del algoritmo se mantiene igual.
 
@@ -186,7 +186,7 @@ de optimizar el algoritmo evitando recalcular ciertos resultados.
 \subsubsection{Estructura de datos y orden de cálculo}
 
 Como estructura de datos se utilizo una matriz para almacenar los resultados
-parciales óptimos, los cuales compondrán el resultado final, ademas esta matriz 
+parciales óptimos, los cuales compondrán el resultado final, además esta matriz 
 es llenada desde izquierda a derecha y arriba hacia abajo, esto, ya que como definimos
 en los subproblemas, se necesitan los resultados anteriores o con menor indice para componer
 la solución general.

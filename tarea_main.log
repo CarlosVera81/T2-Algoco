@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.31)  17 NOV 2024 19:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.31)  17 NOV 2024 21:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1626,59 +1626,59 @@ $[]$
 [8] (./sections/experiment_intro.tex) (./sections/experiment_dataset.tex
 
 [9]) (./sections/experiment_results.tex
-Overfull \hbox (5.97702pt too wide) in paragraph at lines 29--38
+Overfull \hbox (5.97702pt too wide) in paragraph at lines 30--39
  [][] 
  []
 
 
 
 [10]
-<images/trans-normal.png, id=174, 296.60812pt x 127.97812pt>
+<images/trans-normal.png, id=180, 296.60812pt x 127.97812pt>
 File: images/trans-normal.png Graphic file (type png)
 <use images/trans-normal.png>
-Package pdftex.def Info: images/trans-normal.png  used on input line 67.
+Package pdftex.def Info: images/trans-normal.png  used on input line 68.
 (pdftex.def)             Requested size: 212.41261pt x 91.654pt.
-<images/trans-modificada.png, id=176, 296.60812pt x 181.42781pt>
+<images/trans-modificada.png, id=182, 296.60812pt x 181.42781pt>
 File: images/trans-modificada.png Graphic file (type png)
 <use images/trans-modificada.png>
-Package pdftex.def Info: images/trans-modificada.png  used on input line 73.
+Package pdftex.def Info: images/trans-modificada.png  used on input line 74.
 (pdftex.def)             Requested size: 212.41261pt x 129.93306pt.
 
 
 [11]
 
 [12 <./images/trans-normal.png> <./images/trans-modificada.png>]
-Overfull \hbox (38.02594pt too wide) in paragraph at lines 137--147
+Overfull \hbox (38.02594pt too wide) in paragraph at lines 138--148
  [][] 
  []
 
-<images/tiempo-ejecucion-bf.png, id=195, 664.73344pt x 400.49625pt>
+<images/tiempo-ejecucion-bf.png, id=201, 664.73344pt x 400.49625pt>
 File: images/tiempo-ejecucion-bf.png Graphic file (type png)
 <use images/tiempo-ejecucion-bf.png>
-Package pdftex.def Info: images/tiempo-ejecucion-bf.png  used on input line 170.
+Package pdftex.def Info: images/tiempo-ejecucion-bf.png  used on input line 171.
 (pdftex.def)             Requested size: 236.01561pt x 142.19855pt.
-<images/tiempo-ejecucion-dp.png, id=196, 672.26157pt x 403.5075pt>
+<images/tiempo-ejecucion-dp.png, id=202, 672.26157pt x 403.5075pt>
 File: images/tiempo-ejecucion-dp.png Graphic file (type png)
 <use images/tiempo-ejecucion-dp.png>
-Package pdftex.def Info: images/tiempo-ejecucion-dp.png  used on input line 175.
+Package pdftex.def Info: images/tiempo-ejecucion-dp.png  used on input line 176.
 (pdftex.def)             Requested size: 236.01561pt x 141.66072pt.
 
-Overfull \hbox (13.59978pt too wide) in paragraph at lines 170--176
+Overfull \hbox (13.59978pt too wide) in paragraph at lines 171--177
  [][][][] 
  []
 
-<images/usomem-bf.png, id=197, 666.99188pt x 411.03563pt>
+<images/usomem-bf.png, id=203, 666.99188pt x 411.03563pt>
 File: images/usomem-bf.png Graphic file (type png)
 <use images/usomem-bf.png>
-Package pdftex.def Info: images/usomem-bf.png  used on input line 185.
+Package pdftex.def Info: images/usomem-bf.png  used on input line 186.
 (pdftex.def)             Requested size: 236.01561pt x 145.44513pt.
-<images/usomem-dp.png, id=198, 681.29532pt x 398.99063pt>
+<images/usomem-dp.png, id=204, 681.29532pt x 398.99063pt>
 File: images/usomem-dp.png Graphic file (type png)
 <use images/usomem-dp.png>
-Package pdftex.def Info: images/usomem-dp.png  used on input line 190.
+Package pdftex.def Info: images/usomem-dp.png  used on input line 191.
 (pdftex.def)             Requested size: 236.01561pt x 138.21811pt.
 
-Overfull \hbox (13.59978pt too wide) in paragraph at lines 185--191
+Overfull \hbox (13.59978pt too wide) in paragraph at lines 186--192
  [][][][] 
  []
 
@@ -1722,18 +1722,18 @@ Package logreq Info: Writing requests to 'tarea_main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 55562 strings out of 473577
- 1256916 string characters out of 5732224
- 2223721 words of memory out of 5000000
- 77461 multiletter control sequences out of 15000+600000
+ 55570 strings out of 473577
+ 1257250 string characters out of 5732224
+ 2223849 words of memory out of 5000000
+ 77467 multiletter control sequences out of 15000+600000
  697180 words of font info for 168 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  107i,24n,110p,7232b,2191s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb><c:/texlive/2024/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on tarea_main.pdf (17 pages, 249611 bytes).
+Output written on tarea_main.pdf (17 pages, 256155 bytes).
 PDF statistics:
- 302 PDF objects out of 1000 (max. 8388607)
- 252 compressed objects within 3 object streams
- 120 named destinations out of 1000 (max. 500000)
+ 313 PDF objects out of 1000 (max. 8388607)
+ 263 compressed objects within 3 object streams
+ 122 named destinations out of 1000 (max. 500000)
  99 words of extra memory for PDF output out of 10000 (max. 10000000)
 

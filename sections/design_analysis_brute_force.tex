@@ -70,12 +70,12 @@
 \item Ejecución del algoritmo
 
 Para ejemplificar el funcionamiento del algoritmo, usaremos las cadenas
-abba y baba, ademas, todos los valores de las operaciones serán 1, excepto
+abba y baba, además, todos los valores de las operaciones serán 1, excepto
 por la operación de transposición que tendrá valor 2, los pasos son los siguientes:
 
 
 \begin{enumerate}[1)]
-    \item Como primer paso, se definen los valores de m y n, ademas se comprueba si alguno de los 
+    \item Como primer paso, se definen los valores de m y n, además se comprueba si alguno de los 
 indices ha llegado al final, como no es el caso se sigue la ejecución.
 
 \item Luego, se comparan S1[0]='a' y S2[0]='b', al ser distintos estos ingresan al bloque ELSE 
@@ -103,17 +103,17 @@ el algoritmo propuesto posee una complejidad temporal
 perteneciente a $O\left(4^{\min(n, m)}\right)$, esto
 se debe a que el algoritmo tiene que calcular todas las posibles
 combinaciones, donde por cada carácter de alguna de las cadenas, existen
-4 opciones factibles, ademas, se usa el mínimo entre los dos tamaños ya que
+4 opciones factibles, además, se usa el mínimo entre los dos tamaños ya que
 al llegar al final de una de las cadenas, se sigue completando los caracteres
 restantes con operaciones de inserción o eliminación, 
 lo cual nos lleva a tiempo lineal.
 
-Al ser un algoritmo que utiliza recursion y ademas solo almacena variables
+Al ser un algoritmo que utiliza recursion y además solo almacena variables
 de manera constante, la complejidad espacial del algoritmo pertenece a $O\left({\min(n, m)}\right)$ 
 donde este mínimo corresponde a la altura del árbol de recursion.
 
-Ademas, se podría considerar la memoria que se usa para almacenar las operaciones
-que producen la distancia de edición minima, donde el máximo de operaciones
+Además, se podría considerar la memoria que se usa para almacenar las operaciones
+que producen la distancia de edición mínima, donde el máximo de operaciones
 por cada par de cadenas se define como m+n, por lo tanto la memoria necesaria
 para almacenar las operaciones en el peor caso pertenece a $O\left({m+n}\right)$
 
